@@ -14,7 +14,17 @@ supplied_on: 2026-11-10
 source_file: Dad and Snoopy.jpg (2019 x 2226 digital copy of the print; no file metadata). Where the original print is is unknown.
 publish: approved     # undecided | approved | private (Andy, 2026-11-10)
 caption: "Man’s Best Friends"   # along the lines Andy suggested; wording open to change
-web_copy: site/static/photos/P002-dad-and-snoopy.jpg   # 1270 x 1400, metadata stripped, not retouched; on the homepage
+web_copy: site/static/photos/P002-dad-and-snoopy.jpg   # digitally restored (see restoration), 1270 x 1400, metadata stripped; on the homepage
+web_copy_original: site/static/photos/P002-dad-and-snoopy-original.jpg   # the supplied copy, unretouched, linked from the caption
+restoration:
+  requested_by: Andy (2026-11-10)
+  done_by: Claude (AI-assisted), 2026-11-10
+  steps:
+    - "Fold across the upper half: located along its length, then filled in from the surrounding image (OpenCV FSR inpainting), with film grain carried over from just above or below."
+    - "Faded lower half (where the print surface is worn, with a blue cast): black point, white point and contrast adjusted to match the undamaged upper half; the jagged edge between the two areas blended."
+    - "Whole image converted to monochrome with a light warm tone; overall levels set."
+  not_done: "No features, faces or objects were redrawn, added or removed, and no generative AI was used."
+  full_size_copy: "Dad and Snoopy (restored).jpg, saved beside the original in the family's Letters From Home Media folder"
 related_letters: ["002"]   # Letter 002: "I have Snoopy out here with me."
 notes:
   - "The second dog (right) is not named."
