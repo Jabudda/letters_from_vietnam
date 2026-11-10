@@ -30,3 +30,11 @@
     });
   });
 })();
+
+// Map: on narrow screens, start the sideways-scrolling map centred on Ben Het and Dak To.
+(function () {
+  var box = document.querySelector('.map-scroll');
+  if (!box) return;
+  function centre() { if (box.scrollWidth > box.clientWidth) box.scrollLeft = (box.scrollWidth - box.clientWidth) * 0.45; }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', centre); else centre();
+})();

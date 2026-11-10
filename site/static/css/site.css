@@ -374,3 +374,38 @@ details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
   .feedback-intro { position: static; }
   .feedback-form iframe { height: 2650px; }
 }
+
+/* Map: where the letters were written */
+.map-figure { margin: 2rem 0 0; }
+.letters-map { display: block; width: 100%; height: auto; border: 1px solid var(--rule); background: #efe7d6; }
+.letters-map text { paint-order: stroke; stroke: #f7f1e5; stroke-width: 4px; stroke-linejoin: round; }
+.letters-map .map-num { stroke: none; }
+.letters-map .map-inset text { stroke-width: 2.5px; }
+.map-country { font: 600 15px var(--mono); letter-spacing: .3em; fill: #8a8170; }
+.map-vn { fill: var(--olive); }
+.map-trail { font: italic 15px var(--serif); fill: var(--sepia); }
+.map-tri path { fill: var(--ink-soft); }
+.map-tri text { font: 13px var(--mono); fill: var(--ink-soft); }
+.map-dist line { stroke: var(--sepia); stroke-width: 1.3; stroke-dasharray: 4 4; }
+.map-dist text { font: italic 15px var(--serif); fill: var(--sepia); }
+.map-place circle { fill: var(--air-red); stroke: #f7f1e5; stroke-width: 2.5; }
+.map-num { font: 700 13px var(--mono); fill: #fff; }
+.map-name { font: 600 22px var(--serif); fill: var(--ink); }
+.map-note { font: italic 15px var(--serif); fill: var(--ink-soft); }
+.map-letters { font: 12px var(--mono); fill: var(--sepia); letter-spacing: .04em; }
+.map-town circle { fill: #f7f1e5; stroke: var(--ink); stroke-width: 1.5; }
+.map-town text { font: 16px var(--serif); fill: var(--ink-soft); }
+.map-scale line { stroke: var(--ink); stroke-width: 1.5; }
+.map-scale text, .map-north text { font: 12px var(--mono); fill: var(--ink); }
+.map-north path { fill: var(--ink); }
+.map-inset-label { font: 11px var(--mono); fill: var(--ink); }
+.map-inset-country { font: 9px var(--mono); letter-spacing: .2em; fill: #8a8170; }
+.map-inset-dmz { font: 9px var(--mono); fill: var(--air-red); }
+.map-figure figcaption { margin-top: 1rem; color: var(--ink-soft); max-width: var(--wide); }
+.map-sources { font-size: .9rem; }
+.map-hint { display: none; margin: 0 0 .5rem; font: 12px var(--mono); color: var(--sepia); }
+@media (max-width: 700px) {
+  .map-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .letters-map { min-width: 760px; }
+  .map-hint { display: block; }
+}
