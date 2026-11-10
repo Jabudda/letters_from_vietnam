@@ -8,14 +8,10 @@ place: null           # not known
 photographer: null
 supplied_by: Andy
 supplied_on: 2026-11-10
-source_file: "Medals and Records/IMG_0755.HEIC: a new, sharper iPhone photo of the print supplied by Andy on 2026-11-10 (replaces IMG_0740, which was sideways and out of focus)."
+source_file: "rev_Dad_Beach.jpg, supplied by Andy on 2026-11-10 (1786 x 2576): the version to use, sent directly because macOS reduced the size when emailing or AirDropping. Earlier copies: Medals and Records/IMG_0755.HEIC and IMG_0740.HEIC (phone photos of the print)."
 publish: approved     # Andy, 2026-11-10: on the homepage, "Father and son. Two wars."
 caption: "SP4 Tom, 6th Artillery"   # chosen by Andy, 2026-11-10; photo title "The First Days Over Here"
-web_copy: site/static/photos/P006-dad-beach-2.jpg    # light touch-up, 1050 x 1400, metadata stripped
-web_copy_original: site/static/photos/P006-dad-beach-2-original.jpg   # the supplied photo, reduced only
+web_copy: site/static/photos/P006-dad-beach-3.jpg    # the family's version, reduced to 1400 x 2019, metadata stripped; no further edits
+web_copy_original: site/static/photos/P006-dad-beach-2-original.jpg   # IMG_0755, a plain phone photo of the print, reduced only
 restoration:
-  requested_by: Andy (2026-11-10)
-  done_by: Claude (AI-assisted), 2026-11-10
-  steps:
-    - "Reduced in size; overall levels and a gentle contrast curve applied to all colors alike; light sharpening."
-  not_done: "No features, faces or objects were redrawn, added or removed, and no generative AI was used."
+  note: "The published copy is the version Andy supplied (rev_Dad_Beach.jpg); it appears sharpened and brightened before it reached us. How it was edited is not recorded here."
