@@ -6,3 +6,4 @@ Format: Author or organization. *Title*. Publisher or archive, date. URL or cata
 
 - The Planetary Society. *Apollo 11*. Mission page with timeline (touchdown 20:17:39 UTC, 20 July 1969; splashdown 24 July 1969). https://planetary.org/space-missions/apollo-11. Accessed 2026-11-10. (Cited in: 001)
 - Encyclopaedia Britannica. *Apollo 11*. https://www.britannica.com/explore/space/apollo-11/. Accessed 2026-11-10. (Cited in: 001)
+- United Press International. *Workers strike at Schlitz brewery*. 1 June 1981. Mentions "a 37-day strike hit Schlitz, Pabst and Miller in 1969". https://www.upi.com/Archives/1981/06/01/Workers-strike-at-Schlitz-brewery/4436360216000/. Accessed 2026-11-10. Found by Andy. (Cited in: 001)
