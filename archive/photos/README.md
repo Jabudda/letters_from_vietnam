@@ -12,3 +12,4 @@ Each photo gets a folder `archive/photos/PNNN/` holding `photo.yml`: what it sho
 | P004 | Bodies in a railway freight car; not captioned, kept with P003 and very likely the same train at Dachau. | Andy, 2026-11-10 | Yes: as P003, behind a content warning |
 | P005 | Grandpa as a young soldier, smiling, in front of army tents. | Andy, 2026-11-10 | Yes: on the homepage, "Father and son. Two wars.", captioned "T/4 Pete, Signal Corps"; lightly restored (original linked) |
 | P006 | Dad in swim trunks on a beach in front of a sandbagged bunker with barbed wire, soon after he arrived in Vietnam (family). | Andy, 2026-11-10 | Yes: on the homepage, captioned "SP4 Tom, 6th Artillery" / "The First Days Over Here"; light touch-up (original linked) |
+| P007 | Grandpa beneath a sign reading "WELLCOME TO OUR LIBERATORS"; worn, creased print. | Andy, 2026-11-10 | Yes: in Grandpa's journey on the homepage; lightly touched up (original linked) |

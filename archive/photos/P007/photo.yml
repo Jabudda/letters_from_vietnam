@@ -1,0 +1,24 @@
+id: P007
+subject: "Grandpa, Peter F. Jafuta, beneath a sign reading WELLCOME TO OUR LIBERATORS (Andy, 2026-11-10: it is Grandpa)"
+description: >-
+  Small, worn black-and-white print in a plastic sleeve, heavily creased, on textured photo paper.
+  A young soldier in light khaki shirt and trousers, hands at his belt, stands against a wall;
+  above and to his right a hand-lettered sign reads "WELLCOME to our LIBERATORS".
+date: null
+place: null
+photographer: null
+supplied_by: Andy
+supplied_on: 2026-11-10
+source_file: "Medals and Records/IMG_0739.HEIC (iPhone photo of the print; re-taken by Andy on 2026-11-10)."
+publish: approved     # Andy, 2026-11-10: add to Grandpa's journey on the homepage
+web_copy: site/static/photos/P007-grandpa-liberators.jpg   # cropped to the print, touched up, 1140 x 1890, metadata stripped
+web_copy_original: site/static/photos/P007-grandpa-liberators-original.jpg   # cropped and reduced only
+restoration:
+  requested_by: Andy (2026-11-10)
+  done_by: Claude (AI-assisted), 2026-11-10
+  steps:
+    - "Cropped to the print; converted to monochrome (removing the yellow cast of the plastic sleeve)."
+    - "Paper texture softened (non-local-means noise reduction); levels and gentle local contrast; warm tone; light sharpening."
+  not_done: "Creases were not filled in. No features, faces or objects were redrawn, added or removed, and no generative AI was used."
+notes:
+  - "The sign misspells WELCOME as WELLCOME; LIBERATORS is spelled correctly."
