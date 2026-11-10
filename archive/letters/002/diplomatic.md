@@ -142,7 +142,7 @@ don't follow my footsteps when
 I was younger. I just got too
 wild at times and don't know
 when to quit.
-    I hope Jim ([possible reading: Bradler]) is making
+    I hope Jim ([possible reading: Theilke]) is making
 out O.K.? He's been in the hospital
 for a long enough time hay. I
 know he hated it cause he was

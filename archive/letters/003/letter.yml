@@ -11,7 +11,7 @@ status:
 details:
   author: Tom Jafuta
   recipient: "Dad, Mom + Kids"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: 1969-05-11    # Andy, 2026-11-10 ("pretty confident"); second part written the next day
   date_as_written: "May 11th"       # exactly as he wrote it; year not written. Second part headed "Next Day"
   place: null                 # as written
   unit: null                  # as written (e.g. from the envelope)

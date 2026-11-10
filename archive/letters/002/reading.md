@@ -24,7 +24,7 @@ I too am glad to hear Pat got a car. After all, he's through with Bev and has to
 
 I'm also glad to hear that Steve's Folks are finally starting to straighten out - for Steve's sake. I just thank God that you never brought me up in no other way than you have. If you would of brought me up as Steve's folks I doubt if I would have been as easy going as Steve. Mainly cause *I* know it would have been wrong. See what I mean. Also Im glad you didn't spoil me cause I don't know where I would be now - nowhere for the better - thats for sure. Thats why Im so thankful that you brought me up as you did - even though I got "out of hand" at times. But at least thats how I learnt - the hard way. But I did learn and thats the main thing I guess. I just hope ol' Mike + Petey don't follow my footsteps when I was younger. I just got too wild at times and don't know when to quit.
 
-I hope Jim ([possible reading: Bradler]) is making out O.K.? He's been in the hospital for a long enough time hay. I know he hated it cause he was pretty active. It would do more harm than good if they stuck me in the hospital when Im a civilian. I hate em! Such is life hay?
+I hope Jim ([possible reading: Theilke]) is making out O.K.? He's been in the hospital for a long enough time hay. I know he hated it cause he was pretty active. It would do more harm than good if they stuck me in the hospital when Im a civilian. I hate em! Such is life hay?
 
 Glad to hear your blood pressure is down dad. Now all you have to do is get rid of your cough and you'll be ready for another 49 (or 50) years hay? Of course Im right. Real happy to hear that the birthday card came on time also. What kind of cake did you have Dad. Nothing but the best if Mom makes it hay.
 

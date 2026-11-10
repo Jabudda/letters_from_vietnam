@@ -25,6 +25,7 @@ Ten scans are in the folder. Two of them are second captures of the same sheet (
 
 | Date | Who | Change |
 | --- | --- | --- |
+| 2026-11-10 | Andy | Identified Jim as **Jim Theilke** (named in Letter 003). The name in brackets after "Jim" on the back of page 6, first read as "Bradler", is now "[possible reading: Theilke]"; the handwriting there is hurried. |
 | 2026-11-10 | Andy | Chose the title "Out at the Oasis \| Red Dust, Snoopy and a BIG WORD". |
 | 2026-11-10 | Andy | Family note on the spelling: possibly an inside joke, since Grandma was always correcting the family's spelling and punctuation. |
 | 2026-11-10 | Andy | **Approved the transcription.** On the spellings: "Dad was not at the top of his class when it came to spelling." "socialyze" and "I'v" are kept as his own spellings and no longer listed as uncertain. Published to the website the same day. |
@@ -73,7 +74,7 @@ The earlier draft was made from a PDF. It also placed the "Yawn…" page at the 
 | 6 | "nowhere for the O.K.R." | "nowhere for the OVER", then on the back: "better - thats for sure" |
 | back of 6 | "These days I'm so thankful" | "Thats why Im so thankful" |
 | back of 6 | "little Mikey & Petey … didn't know when to quit" | "ol' Mike + Petey … don't know when to quit" |
-| back of 6 | "Jim [or Charlie]" | "Jim ([possible reading: Bradler])" |
+| back of 6 | "Jim [or Charlie]" | "Jim ([possible reading: Theilke])" (Jim Theilke, per Andy) |
 | back of 6 | "He's been in the hospital long enough, this boy." | "He's been in the hospital for a long enough time hay." |
 | 7 | "Nothing but the best if Tom makes it, hey?" | "Nothing but the best if Mom makes it hay." |
 | all | "hey" | "hay" (his spelling, every time) |
@@ -96,7 +97,7 @@ The transcription is approved (Andy, 2026-11-10). These questions can be answere
 1. ~~The date~~ Answered: **22 January 1969**, confirmed by Andy (2026-11-10).
 2. **"pictures of when I was home" and "since I got back".** He had been home and come back. When was that visit (leave, or between tours)? Letter 001 also mentions "last year before I left".
 3. **Page 3, "keeping Petey away from Danny"** (name confirmed by Andy; the draft read "Penny"). Who is Danny, and what was the "strange" brother joke about?
-4. **"Jim ([Bradler?])", in the hospital.** Can anyone read or recognize the name in brackets? The draft guessed "Charlie". *Privacy:* cleared for publication as written (Andy, 2026-11-10).
+4. ~~"Jim ([Bradler?])"~~ Answered: Jim Theilke (Andy, 2026-11-10; see Letter 003). *Privacy:* cleared for publication as written (Andy, 2026-11-10).
 5. **Who are Pat, Bev and Steve?** (Kathy is Dad's sister, per Andy, 2026-11-10; Letter 15's folder in Drive is named "Letter 15_Kathy".) *Privacy:* the passage about Pat (and Bev) is cleared for publication as written (Andy, 2026-11-10). The passage about Steve's parents is also cleared as written (Andy, 2026-11-10). Who Pat, Bev and Steve were is still open.
 6. ~~"ol' Mike + Petey"~~ Answered: Mike (Michael) and Petey are Dad's younger brothers (Andy, 2026-11-10).
 7. ~~Snoopy~~ Answered: Snoopy was Dad's dog in Vietnam; he is the dog on the left in photo P002, which Andy approved for the website (Andy, 2026-11-10).
@@ -127,7 +128,7 @@ The transcription is approved (Andy, 2026-11-10). These questions can be answere
 ## Terms and names for `research/` (added 2026-11-10)
 
 - Glossary: *the Oasis*; *hay* (already listed); *BIG WORD*: printed above "oppertunity"; he was impressing the family by using a big word, which he misspelled (explained by Andy, 2026-11-10).
-- People: Kathy (his sister, per Andy), Snoopy (his dog in Vietnam, per Andy; photo P002), Petey (younger brother, per Andy), Danny, Mike (Michael; younger brother, per Andy), Jim ([Bradler?]), Pat, Bev, Steve and "Steve's folks".
+- People: Kathy (his sister, per Andy), Snoopy (his dog in Vietnam, per Andy; photo P002), Petey (younger brother, per Andy), Danny, Mike (Michael; younger brother, per Andy), Jim Theilke (per Andy), Pat, Bev, Steve and "Steve's folks".
 - Places: the Oasis (LZ Oasis, southwest of Pleiku; identification not confirmed).
 - Source: Wikipedia, "Landing Zone Oasis", https://en.wikipedia.org/wiki/Landing_Zone_Oasis.
 - Source: Local Vietnam, "Pleiku – Travel Guide & Things To Do", https://localvietnam.com/?p=93626 (climate).
