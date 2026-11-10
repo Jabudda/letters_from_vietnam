@@ -7,4 +7,4 @@ Dated events from the letters (marked *Letter*) alongside sourced historical eve
 | 1969-07-20 | Context | Apollo 11 lands on the Moon (20:17 UTC). | Planetary Society, Apollo 11 timeline |
 | 1969-07-21 (interpretation) | Letter | Letter 001 dated "July 21st": back in Pleiku with his unit; asks for the family's last letter around Aug 10–12. Year inferred from the moon landing. | 001 |
 | 1969-07-24 | Context | Apollo 11 splashes down in the Pacific. | Planetary Society; Britannica |
-| 1969 (months not yet established) | Context | 37-day strike at the Schlitz, Pabst and Miller breweries, Milwaukee. Likely the "beer strike" in Letter 001. | UPI, 1 June 1981 |
+| 1969-06 to 1969-07 (approx.) | Context | Strike of about five weeks (36–37 days) at the Schlitz, Pabst and Miller breweries, Milwaukee; pickets photographed 17 June 1969. Likely the "beer strike" in Letter 001. | UPI 1981, 1983; Milwaukee Public Library photo |
