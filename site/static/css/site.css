@@ -168,8 +168,13 @@ h1 em, h2 em { font-style: italic; color: var(--sepia); font-weight: 400; }
 section { scroll-margin-top: 1rem; }
 .section { max-width: var(--wide); margin: 0 auto; padding: 5.5rem 1.5rem; }
 .section h2 { font-size: clamp(2.2rem, 4.4vw, 3.4rem); margin-bottom: 1.8rem; }
-.story { display: grid; grid-template-columns: 14rem 1fr; gap: 3rem; }
+.story { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 27rem); gap: 4.5rem; align-items: center; }
 .story .body { max-width: var(--measure); }
+.family-photo { margin: 0; transform: rotate(1.6deg); }
+.family-photo img { width: 100%; box-shadow: 0 2px 3px rgba(43, 41, 37, 0.18), 0 26px 50px -26px rgba(43, 41, 37, 0.65); }
+.family-photo figcaption { margin-top: 1.4rem; transform: rotate(-1.6deg); }
+.family-photo .dedication { display: block; font-family: var(--hand); font-size: 2.05rem; line-height: 1.15; color: var(--sepia); }
+.family-photo .provenance { display: block; margin-top: 0.6rem; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em; line-height: 1.6; color: var(--ink-soft); }
 .story p { margin: 0 0 1.2rem; }
 .signature { font-family: var(--hand); font-size: 2rem; color: var(--sepia); margin-top: 2rem !important; }
 
@@ -260,7 +265,8 @@ details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
   body { font-size: 1.125rem; }
   .hero { grid-template-columns: 1fr; padding-top: 1.5rem; gap: 3rem; }
   .paper-scene { min-height: 22rem; margin-bottom: 2rem; }
-  .story { grid-template-columns: 1fr; gap: 0; }
+  .story { grid-template-columns: 1fr; gap: 3rem; }
+  .family-photo { max-width: 30rem; }
   .principles { grid-template-columns: 1fr; gap: 2rem; }
   .letter-layout { grid-template-columns: 1fr; gap: 2.5rem; }
   .letter-text { padding: 1.6rem 1.4rem; }

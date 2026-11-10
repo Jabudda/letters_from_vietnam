@@ -4,16 +4,16 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom + Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
+  date_as_written: "July 21st"  # exactly as he wrote it; year not written (1969 is an interpretation, see notes.md)
+  place: "Pleiku"             # as written ("back in Pleiku with my unit")
   unit: null                  # as written (e.g. from the envelope)
 
 source:
@@ -21,18 +21,18 @@ source:
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0001_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 48652098
       sha256: accc3704a27c2ffcf3986e63a12a2ab2cc6738d6ae4e5614a8bbc39c82ec4bfc
     - file: "Dads_Vietnam_Letters_0002_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 48107335
       sha256: 9eb2c2e20fb9e0b2abdedb252d6e5c2ae9e8f73d77382f9e68843f8eee696894
     - file: "Dads_Vietnam_Letters_0003_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 48077357
       sha256: 972a650643755b7a0899de1a8c17e41f6ed840d8207bdf8eb5d184805a550bf3
     - file: "Dads_Vietnam_Letters_0004_b copy.pdf"
@@ -41,13 +41,13 @@ source:
       bytes: 54642159
       sha256: d5cbdca4a4e04a3cf9fbe2b0eaf2dba1addc194845273583571c55a88f40fb1a
     - file: "Dads_Vietnam_Letters_0004_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 54638116
       sha256: ec0da6f79949404bdba71fd45c5f1fd8c30514f1553bd2b8ec76c07b667a006e
     - file: "Dads_Vietnam_Letters_0005_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 47904625
       sha256: 9ee466c7d77dfcba7e47a2a0d8c5467cec291ae5049ca3c436773a53f9c32c8a
 
@@ -60,9 +60,10 @@ prior_draft:
   notes: "Reads cleanly. Mentions the moon landing."
 
 privacy:
-  reviewed: false
+  reviewed: true   # 2026-11-10: nothing to redact on pages 1-5
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
 notes:
+  - "Transcribed from the scans 2026-11-10. Transcription files are with the family for review (kept out of the public repo until verified)."
   - "Folder also holds a PDF copy of page 0004."
   - "Interpretation: the moon-landing reference suggests 21 July 1969. Unverified until the transcription is checked."

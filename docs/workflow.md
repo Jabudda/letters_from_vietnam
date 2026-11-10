@@ -16,6 +16,10 @@ Each letter moves through the same steps. Its folder is `archive/letters/NNN/`.
 8. **Chapter.** Draft the book chapter: letter identification, historical introduction (100–200 words), reading edition, manuscript images, historical notes, an illustration only if the letter offers a real scene, a labeled editorial reflection (100–200 words), and research notes.
 9. **Publish.** Generate web images, update the timeline and the people-and-places index, rebuild `archive/inventory.csv`, and publish once the family approves the chapter (`status.chapter: approved`).
 
+## Where unapproved transcriptions live
+
+Until the family verifies a letter, its `diplomatic.md`, `reading.md` and `notes.md` are kept in `private/letters/NNN/` (ignored by git, so they are never public) and shared with the family for review. When the family approves them, they move into `archive/letters/NNN/` and are committed.
+
 ## Adding a newly found letter
 
 Give it the next free number, add its scans to the master folders without renaming existing files, add their fingerprints to `archive/checksums-sha256.txt`, create its `letter.yml`, and start at step 1. Nothing that exists is renumbered.

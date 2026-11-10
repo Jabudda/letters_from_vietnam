@@ -16,7 +16,7 @@ Every letter gets two transcriptions, kept in its folder under `archive/letters/
 | `[possible reading: Theilke]` | The best reading, when it isn't certain. |
 | `[crossed out: word]` | Words he struck through. |
 | `[inserted: word]` | Words he added above the line or in a margin. |
-| `[page 2]` | The start of each new page or side. Give the scan file in `notes.md`. |
+| `[page 2]` | The start of each new page or side (diplomatic text only). Give the scan file in `notes.md`. |
 | `[envelope front]`, `[envelope back]` | Envelope text, transcribed like the letter, with private details handled per `docs/privacy.md`. |
 | `[drawing: description]` | A sketch, doodle or symbol. |
 
@@ -30,6 +30,8 @@ Only these, and only where they help a reader:
 2. **Obvious slips of the pen**, such as a doubled word ("the the"). Log each one.
 3. **Spelling that would confuse a reader** may get a bracketed correction after the original, e.g. `alot [a lot]`. His spelling stays.
 4. **Uncertainty marks** stay. They may be shortened in the book's layout, but never dropped.
+5. **Layout marks** (`[page 2]`, `[drawing: …]`) and line breaks stay in the diplomatic text only; the reading edition runs as paragraphs, following his own paragraph starts.
+6. **Editorial brackets** may supply a missing letter or stop, e.g. `on[e]`, `future[.]`, so the change is visible. Log each one.
 
 It must **not**:
 

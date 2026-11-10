@@ -26,7 +26,7 @@ LETTERS = ROOT / "archive" / "letters"
 REPO_URL = "https://github.com/Jabudda/letters_from_vietnam"
 
 MARK = re.compile(
-    r"\[(unclear|illegible[^\]]*|possible reading:[^\]]*|crossed out:[^\]]*|inserted:[^\]]*|"
+    r"\[(unclear[^\]]*|illegible[^\]]*|possible reading:[^\]]*|crossed out:[^\]]*|inserted:[^\]]*|"
     r"withheld for privacy|page \d+[^\]]*|envelope (?:front|back)|drawing:[^\]]*)\]"
 )
 
@@ -88,8 +88,10 @@ def card(rec):
         return (f'          <li><a class="letter-card" href="letters/{lid}/">'
                 f'<span class="no">Letter</span><span class="num">{lid}</span>'
                 f'<span class="meta">{meta}</span><span class="status">Read the letter</span></a></li>')
+    status = {"needs-family-review": "In family review", "in-progress": "Being transcribed"}.get(
+        rec["status"]["transcription"], "Being prepared")
     return (f'          <li><div class="letter-card"><span class="no">Letter</span><span class="num">{lid}</span>'
-            f'<span class="meta">{scans}</span><span class="status">Being prepared</span></div></li>')
+            f'<span class="meta">{scans}</span><span class="status">{status}</span></div></li>')
 
 
 def letter_page(rec, template):

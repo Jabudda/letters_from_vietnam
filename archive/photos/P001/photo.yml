@@ -11,5 +11,7 @@ photographer: null    # unknown
 supplied_by: Andy
 supplied_on: 2026-11-10
 source_file: Dad.jpeg (848 x 683 digital copy; file metadata shows it was created in 2012). Where the original print is, and whether a higher-resolution scan exists, is unknown.
-publish: undecided    # undecided | approved | private
+publish: approved     # undecided | approved | private (Andy, 2026-11-10)
+caption: "My inspiration. My mentor. My father."  # chosen by Andy
+web_copy: site/static/photos/P001-dad.jpg   # metadata stripped; same size as the supplied copy
 notes: []

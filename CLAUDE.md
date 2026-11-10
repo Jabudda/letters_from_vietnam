@@ -17,7 +17,7 @@ This is a family archive of Vietnam War letters, being turned into a free commem
 ## Layout
 
 - `archive/letters/NNN/letter.yml`: metadata and status for letter NNN (always three digits).
-- `archive/letters/NNN/diplomatic.md`, `reading.md`, `notes.md`: created as each letter is worked on (see `docs/workflow.md`).
+- `archive/letters/NNN/diplomatic.md`, `reading.md`, `notes.md`: committed only once the family has verified the letter. Until then they live in `private/letters/NNN/` (git-ignored); see `docs/workflow.md`.
 - `archive/inventory.csv`: one row per letter; regenerate with `python3 scripts/build_inventory.py` after editing any `letter.yml`.
 - `research/`: shared sources, glossary, timeline, people and places.
 - `book/`, `site/`: built from verified archive content only.
