@@ -8,16 +8,14 @@ place: null           # not known
 photographer: null
 supplied_by: Andy
 supplied_on: 2026-11-10
-source_file: "Medals and Records/IMG_0740.HEIC (an iPhone photo of the print, taken sideways and out of focus). Andy may supply a sharper photo of the print."
+source_file: "Medals and Records/IMG_0755.HEIC: a new, sharper iPhone photo of the print supplied by Andy on 2026-11-10 (replaces IMG_0740, which was sideways and out of focus)."
 publish: approved     # Andy, 2026-11-10: on the homepage, "Father and son. Two wars."
 caption: "SP4 Tom, 6th Artillery"   # chosen by Andy, 2026-11-10; photo title "The First Days Over Here"
-web_copy: site/static/photos/P006-dad-beach.jpg    # cleaned up, 992 x 1172, metadata stripped
-web_copy_original: site/static/photos/P006-dad-beach-original.jpg   # straightened only
+web_copy: site/static/photos/P006-dad-beach.jpg    # light touch-up, 1050 x 1400, metadata stripped
+web_copy_original: site/static/photos/P006-dad-beach-original.jpg   # the supplied photo, reduced only
 restoration:
   requested_by: Andy (2026-11-10)
   done_by: Claude (AI-assisted), 2026-11-10
   steps:
-    - "Turned upright and straightened (perspective correction) to the edges of the print."
-    - "Blue-purple color cast corrected, using the white sand as the reference; levels and a gentle contrast curve."
-    - "Focus gently sharpened (Richardson-Lucy deconvolution, blended with the original), light noise reduction."
+    - "Reduced in size; overall levels and a gentle contrast curve applied to all colors alike; light sharpening."
   not_done: "No features, faces or objects were redrawn, added or removed, and no generative AI was used."
