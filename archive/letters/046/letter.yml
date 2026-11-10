@@ -1,0 +1,47 @@
+# Letter 046: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "046"
+folder_label: "Early Out Request"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 43 - 47/Letter_046_Early_Out_Request"
+  capture: phone photo
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Letter_004_Page_01.HEIC"
+      role: null
+      order: null
+      bytes: 2703942
+      sha256: 362b13139ff45bdeb39e1ce1f10e23038a8c9af159c47a2d2b82d1b86d610298
+    - file: "Letter_004_Page_02.HEIC"
+      role: null
+      order: null
+      bytes: 2421457
+      sha256: 5fc2cdad6774138d6aa6a2a3f7d37e28ae0671985af2518190aaba69b490f097
+
+# An earlier transcription kept in Google Drive ("Dads Letters Transcribed"). Not checked against the scans.
+prior_draft:
+  file: "Letter 046 Transcription.docx"
+  recipient: "Mom"
+  date_as_written: null
+  places: []
+  notes: "Early-out request; mentions June 25th. Awkward wording; compare the whole letter."
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Phone photos named Letter_004_Page_NN (earlier batch numbering)."

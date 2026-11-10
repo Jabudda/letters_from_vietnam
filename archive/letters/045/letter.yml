@@ -1,0 +1,47 @@
+# Letter 045: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "045"
+folder_label: "Date, Location, Dad, Day After Thanksgiving"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 43 - 47/Letter_045_Date_Location_Dad_Day After Thanksgiving"
+  capture: phone photo
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Letter_003_Page_01.JPG"
+      role: null
+      order: null
+      bytes: 958438
+      sha256: 5cd5350d8952da1252e8cb54616611ceccbcfa7a28a5d4324b06c9ea26f3933d
+    - file: "Letter_003_Page_02.HEIC"
+      role: null
+      order: null
+      bytes: 3869709
+      sha256: d64bd95bd9768cfd67d5c4d7aa094e2395e7593e54507a9140af96970878ba1b
+
+# An earlier transcription kept in Google Drive ("Dads Letters Transcribed"). Not checked against the scans.
+prior_draft:
+  file: "Letter 045 Transcription.docx"
+  recipient: "Dad"
+  date_as_written: "the day after Thanksgiving"
+  places: []
+  notes: "Equipment phrases (\"E.O.C.\", \"exchange malfunction\") uncertain."
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Phone photos named Letter_003_Page_NN (earlier batch numbering); one JPG, one HEIC."

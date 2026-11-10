@@ -1,0 +1,66 @@
+# Letter 015: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "015"
+folder_label: "Kathy"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 11 - 19/Letter 15"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0072_a.jpg"
+      role: null
+      order: null
+      bytes: 20559910
+      sha256: 40f593e5006e3df3a2b0a9334c9914294968e3237443a83162f97726389b5c8e
+    - file: "Dads_Vietnam_Letters_0072_b.jpg"
+      role: null
+      order: null
+      bytes: 17393804
+      sha256: 9cf91679599adcc12a31286e894fe55106ad4b40f3f658c4fd5494c732e25ffe
+    - file: "Dads_Vietnam_Letters_0073_b.jpg"
+      role: null
+      order: null
+      bytes: 30559515
+      sha256: 95cc99f40a1240cb2e865268df0b4c243f2d6311637321f78ce21c55035b2d98
+    - file: "Dads_Vietnam_Letters_0074_a.jpg"
+      role: null
+      order: null
+      bytes: 42679571
+      sha256: b7f097a099f6ea9f71aae330eb9da1ce776b785f27e0d69094cf252ec06bb045
+    - file: "Dads_Vietnam_Letters_0074_b.jpg"
+      role: null
+      order: null
+      bytes: 32827931
+      sha256: 08c422bc801ca52273a2aa5201da79e50e74f3b8194a5a3377d6f6ed892b796a
+    - file: "Dads_Vietnam_Letters_0075_a.jpg"
+      role: null
+      order: null
+      bytes: 42850353
+      sha256: d500f0496b482d577106d6d21b826901ba5f123a2c4fc15414680efd5625fe78
+    - file: "Dads_Vietnam_Letters_0075_b.jpg"
+      role: null
+      order: null
+      bytes: 34735858
+      sha256: 80d6678996d89fc7ebca3bf23570a86b3016464d01ef7f675bf012c754e60506
+
+prior_draft: null
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Folder is \"Letter 15_Kathy\" in Google Drive and \"Letter 15\" on the disk copy."

@@ -1,0 +1,60 @@
+# Letter 013: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "013"
+folder_label: null   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 11 - 19/Letter 13"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0065_b.jpg"
+      role: null
+      order: null
+      bytes: 20083338
+      sha256: 9bb11b5a9827ba63d31febe7d987c4487cb72b363c009f8b9581280609aa0290
+    - file: "Dads_Vietnam_Letters_0066_b.jpg"
+      role: null
+      order: null
+      bytes: 41603426
+      sha256: 465ef96be9d40569efee89d22d8d309137471daa0787c2661c2007f4bbb517e8
+    - file: "Dads_Vietnam_Letters_0067_b.jpg"
+      role: null
+      order: null
+      bytes: 44998418
+      sha256: a10d2102840d61a343acf130b5c2a9e5208740cbdb3110236ddcbe4f7ae9ca85
+    - file: "Dads_Vietnam_Letters_0068_b.jpg"
+      role: null
+      order: null
+      bytes: 40301431
+      sha256: b197ae4f43b5d75fef5275554135fffb298ef1576ac08b4a32176fe2c41bcdcb
+    - file: "Dads_Vietnam_Letters_0069_b.jpg"
+      role: null
+      order: null
+      bytes: 39740704
+      sha256: f21c9a86c771ee5eacc626945ea9e7f1827a5f79f8791892124bacb18a634171
+    - file: "Dads_Vietnam_Letters_0070_b.jpg"
+      role: null
+      order: null
+      bytes: 40452220
+      sha256: 8995f44ee610402ed5433c3d8119b6bbba7a2675cbd549cd0fde1a90327cbc58
+
+prior_draft: null
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes: []

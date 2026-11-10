@@ -1,0 +1,77 @@
+# Letter 044: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "044"
+folder_label: "June 20, Da Nang, Mom"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 43 - 47/Letter_044_June20_DaNang_Mom"
+  capture: phone photo
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Letter_002_Page_01.HEIC"
+      role: null
+      order: null
+      bytes: 3091558
+      sha256: 0cbe7f46e4829f65242b3f790bc86aa49f8e80ac8823f50ef5bf9a7d89dec5ac
+    - file: "Letter_002_Page_02.HEIC"
+      role: null
+      order: null
+      bytes: 2992034
+      sha256: 90e617c1bbb98fd635fed8f95a509cd30a0edf3b8b0b4670d301315dd16d9377
+    - file: "Letter_002_Page_03.HEIC"
+      role: null
+      order: null
+      bytes: 2942528
+      sha256: 01083a743361ad753436aa57a6cb1fd6a6bfe345a2946ca7bd2b409b46c7299f
+    - file: "Letter_002_Page_04.HEIC"
+      role: null
+      order: null
+      bytes: 2788764
+      sha256: 53737e8ea63cb23ee179cc81dfe0fafde1ca1abb4c7ff9283a666f09b41616b7
+    - file: "Letter_002_Page_05.HEIC"
+      role: null
+      order: null
+      bytes: 2968366
+      sha256: b83c04a7f2e31ce4c3bb55e61f2458eb86f958eab48a05674cf7d405a33a8d64
+    - file: "Letter_002_Page_06.HEIC"
+      role: null
+      order: null
+      bytes: 2885688
+      sha256: 00c42b263731e71be27345f02abdc90642a91ea56b90aee8a5b5734266e85874
+    - file: "Letter_002_Page_07.HEIC"
+      role: null
+      order: null
+      bytes: 2686733
+      sha256: 8c6967d8eb6b693654e3448622121963167723540f386deccbcece38ffc745af
+    - file: "Letter_002_Page_08.HEIC"
+      role: null
+      order: null
+      bytes: 2771170
+      sha256: 21d54799561ac79f098ba19aeaae475262c28bd41c3d9d3e2c1b9b9dfe6a9ad1
+
+# An earlier transcription kept in Google Drive ("Dads Letters Transcribed"). Not checked against the scans.
+prior_draft:
+  file: "Letter 044 Transcription.docx"
+  recipient: "Mom"
+  date_as_written: null
+  places: ["Da Nang", "Saigon"]
+  notes: "Replies to a letter dated June 20. Check \"Especially since we live up in [unclear]\"."
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Phone photos named Letter_002_Page_NN (earlier batch numbering)."

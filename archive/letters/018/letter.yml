@@ -1,0 +1,82 @@
+# Letter 018: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "018"
+folder_label: "Petey"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 11 - 19/Letter 18_Petey"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0088_a.jpg"
+      role: null
+      order: null
+      bytes: 20268189
+      sha256: 50767b913f58e6ea6c9a7f5087465dd7471a3b9858058f11a65f065557de5049
+    - file: "Dads_Vietnam_Letters_0088_b.jpg"
+      role: null
+      order: null
+      bytes: 17023284
+      sha256: 771137aa49dc04ce8bc2cc318f7846304e24514e62146f34fa4e23864080650c
+    - file: "Dads_Vietnam_Letters_0089_a_Petey.jpg"
+      role: null
+      order: null
+      bytes: 41575804
+      sha256: 8b21286aaaf4f3534360ded951e08b852ccbef4f9373b6a2b5f9f015ebfa02b1
+    - file: "Dads_Vietnam_Letters_0089_b_Petey.jpg"
+      role: null
+      order: null
+      bytes: 29047813
+      sha256: 26f79e6d8d8b4e8b006484e6c28fc8bcae465f6e7acf446a18163bfe9ddbf5f9
+    - file: "Dads_Vietnam_Letters_0090_b.jpg"
+      role: null
+      order: null
+      bytes: 43423450
+      sha256: 19570d8fe7ab813adea291b4be40c98ab17e4868c9cd65f683eb2d402fdf11fa
+    - file: "Dads_Vietnam_Letters_0091_b.jpg"
+      role: null
+      order: null
+      bytes: 39038777
+      sha256: f6bb0c1bc2e41c56af01e957bf7ce35aed9e83463c7a778004eb2ab1c3fce19e
+    - file: "Dads_Vietnam_Letters_0092_b.jpg"
+      role: null
+      order: null
+      bytes: 38810818
+      sha256: d4c77bd037c8f271b4db674427dcf604f416e314723ffa4810b99bf935cee54e
+    - file: "Dads_Vietnam_Letters_0093_a.jpg"
+      role: null
+      order: null
+      bytes: 53013963
+      sha256: e3eba7719c76d351fa4986b50affb0b7db5eeabc8bb41ff7b08fd53aa513d683
+    - file: "Dads_Vietnam_Letters_0093_b.jpg"
+      role: null
+      order: null
+      bytes: 39794852
+      sha256: 3545d4fffeba07a40f874678119c6cc1a1df6879ff2e6691b04b41e77d01f549
+
+# An earlier transcription kept in Google Drive ("Dads Letters Transcribed"). Not checked against the scans.
+prior_draft:
+  file: "Letter 018_Petey - Transcription.docx"
+  recipient: "Petey; then Dad, Mom & Kids"
+  date_as_written: "July 9th"
+  places: ["Pleiku", "Dak To", "Ben Het"]
+  notes: "Check \"Eddie Duffy\" surname, \"war/conflict\", \"VCs\" and the final phrase. Envelope transcribed in the draft includes the home street address: withhold."
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Envelope front shows the family home street address: redact before publishing."

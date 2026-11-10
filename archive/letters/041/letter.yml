@@ -1,0 +1,55 @@
+# Letter 041: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "041"
+folder_label: null   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 36 - 42/Letter 41"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0216_b.jpg"
+      role: null
+      order: null
+      bytes: 20225667
+      sha256: 7cb5a7b456ad2d06502171a56f994448f439fb4915de0a8ca5e9760b45c170d4
+    - file: "Dads_Vietnam_Letters_0217_b.jpg"
+      role: null
+      order: null
+      bytes: 48400075
+      sha256: 8c67e8095da051de8a75357d08db02812c110622cf962d968a57e54f27f20531
+    - file: "Dads_Vietnam_Letters_0218_b.jpg"
+      role: null
+      order: null
+      bytes: 54550028
+      sha256: d89fe380e8b7ff20c45a4c66bbe6b19d2d188f201d9d4a75e1303a6b7bff36d5
+    - file: "Dads_Vietnam_Letters_0219_b.jpg"
+      role: null
+      order: null
+      bytes: 49036355
+      sha256: ee631e4dfcd139f2ae72407808f7fd4e907f0dc9d00d2843f73cb314afcd3b08
+    - file: "Dads_Vietnam_Letters_0220_b.jpg"
+      role: null
+      order: null
+      bytes: 46774060
+      sha256: a9649e137abe7b9fc2ac702a5603e169095cbf3c3fe8ed597977fad33ae43df2
+
+prior_draft: null
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes: []

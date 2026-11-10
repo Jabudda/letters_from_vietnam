@@ -1,0 +1,63 @@
+# Letter 047: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "047"
+folder_label: "1968, Central Highlands, Dad, 54 Days Left"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 43 - 47/Letter_047_1968_Central Highlands_Dad_54 Days Left"
+  capture: phone photo
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Letter_005_Page_01.HEIC"
+      role: null
+      order: null
+      bytes: 2647401
+      sha256: f77fa6e8cf9a7e3e71bc54f2efcc174dad56c0b4d7b92be5cd4558dc0f0a319c
+    - file: "Letter_005_Page_02.HEIC"
+      role: null
+      order: null
+      bytes: 2629367
+      sha256: 37f084651cb5ad7898e68959cd97ca400bfe928e0fb2a6fd03a27c8396fa73a0
+    - file: "Letter_005_Page_03.HEIC"
+      role: null
+      order: null
+      bytes: 2742879
+      sha256: b88ba3ccaf5d21f4f70afa7676198d0301449e935ec907f0ae92802809694e10
+    - file: "Letter_005_Page_04.HEIC"
+      role: null
+      order: null
+      bytes: 2611586
+      sha256: cbbee14cb844b6fef671c76db9d0ec16accf774795f819d9817a3cb97380d759
+    - file: "Letter_005_Page_05.HEIC"
+      role: null
+      order: null
+      bytes: 2628587
+      sha256: 2b6aba99b1441bbe05f7fcaed91dba00bdf295cf0fd714d2428e4a0ba56a3078
+
+# An earlier transcription kept in Google Drive ("Dads Letters Transcribed"). Not checked against the scans.
+prior_draft:
+  file: "Letter 047 Transcription.docx"
+  recipient: "Dad"
+  date_as_written: "54 days before Aug. 21st"
+  places: ["Dak To", "Pleiku"]
+  notes: "Check \"Just can't warm up there\", \"75's\", \"my one used to be in '66\"."
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Phone photos named Letter_005_Page_NN (earlier batch numbering)."
+  - "The folder name says 1968, but Letter 1 (July 1969) also expects an August departure. Year to confirm."

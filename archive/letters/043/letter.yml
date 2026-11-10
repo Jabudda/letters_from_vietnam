@@ -1,0 +1,57 @@
+# Letter 043: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "043"
+folder_label: "Date, Location, Mom, Thanksgiving, Return Home, Hawaii"   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 43 - 47/Letter_043_Date_Location_Mom_Thanksgiving_Return_Home_Hawaii"
+  capture: phone photo
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Letter_001_Page_01.HEIC"
+      role: null
+      order: null
+      bytes: 2313170
+      sha256: 617f2036587bd759121dd83e1aab085cf870ccfbfaf052a7efa846c4c26f2736
+    - file: "Letter_001_Page_02.HEIC"
+      role: null
+      order: null
+      bytes: 2672474
+      sha256: dcafbaa30b73928005659896a0225c3ee0fd444ce441702c6aa60ec558493a5d
+    - file: "Letter_001_Page_03.HEIC"
+      role: null
+      order: null
+      bytes: 2763657
+      sha256: a6383712c61a049d1a11bac37f547a8a40759624a4cc920c2a86420d91fcc0e0
+    - file: "Letter_001_Page_04.HEIC"
+      role: null
+      order: null
+      bytes: 2756936
+      sha256: 158f2f316cba29ed60b1bf711f7bd9a5a39c34999916b79b66abb5b0526cf221
+
+# An earlier transcription kept in Google Drive ("Dads Letters Transcribed"). Not checked against the scans.
+prior_draft:
+  file: "Letter 043 Transcription.docx"
+  recipient: "Family (folder name says Mom)"
+  date_as_written: "Thanksgiving Day"
+  places: ["Hawaii"]
+  notes: "Some uncertain wording; compare the whole letter."
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Phone photos named Letter_001_Page_NN (earlier batch numbering)."

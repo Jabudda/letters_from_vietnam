@@ -1,0 +1,50 @@
+# Letter 028: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "028"
+folder_label: null   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 20 - 29/Letter 28"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0147_b.jpg"
+      role: null
+      order: null
+      bytes: 17321367
+      sha256: 38401572e10dcfd530d801f6ea9f4ddfece7883915e49d9eebc3dd3cb8087ba6
+    - file: "Dads_Vietnam_Letters_0148_b.jpg"
+      role: null
+      order: null
+      bytes: 39168574
+      sha256: a14531efdc342229e066e16c7996e9237a912049fac8220b5cef19f42eab0aaf
+    - file: "Dads_Vietnam_Letters_0149_b.jpg"
+      role: null
+      order: null
+      bytes: 39596528
+      sha256: c43aa4258527e20a06e5d54f2fee5d3094a79b9bf912c5d4b094ffdae6e59098
+    - file: "Dads_Vietnam_Letters_0150_b.jpg"
+      role: null
+      order: null
+      bytes: 38792924
+      sha256: 5903edf9f1f6c1ffe2092adc94296d9aab58facaf3ac884c6031c08eb89c2435
+
+prior_draft: null
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes: []

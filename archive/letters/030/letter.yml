@@ -1,0 +1,46 @@
+# Letter 030: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "030"
+folder_label: null   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 30 - 35/Letter 30"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0157_b.jpg"
+      role: null
+      order: null
+      bytes: 37799975
+      sha256: e1354e7341d1d790ae82f9b7cba75227a7f846b8d5888d0eb9767fdf725d1736
+    - file: "Dads_Vietnam_Letters_0158_b.jpg"
+      role: null
+      order: null
+      bytes: 37473493
+      sha256: 5e34a7dc66c7f3c9abdb8dc247e461848c96042ae1b7f1b99c54d953f5f866b1
+    - file: "Dads_Vietnam_Letters_0161_b.jpg"
+      role: null
+      order: null
+      bytes: 35710028
+      sha256: 3db4f2b359ec76a83b6c1512377c802f447cf36e6ed872fdfeda5fb5239fe0a7
+
+prior_draft: null
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes:
+  - "Scan numbers interleave with Letter 31 (this letter: 0157, 0158, 0161). Scan 0162 is missing from the sequence. Confirm page order."

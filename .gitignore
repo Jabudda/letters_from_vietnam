@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Master scans and other originals never belong in this repo
+masters/
+*.tif
+*.tiff
+*.heic
+*.HEIC
+*.pdf
+
+# Private working material (drafts not yet approved, family notes)
+private/
+local/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build output
+site/_build/
+book/_build/

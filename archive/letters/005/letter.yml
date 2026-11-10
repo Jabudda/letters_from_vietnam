@@ -1,0 +1,75 @@
+# Letter 005: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
+id: "005"
+folder_label: null   # words in the master folder name, if any
+title: null                  # short descriptive title, set once transcribed
+
+status:
+  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  chapter: not-started        # not-started | drafted | approved
+
+# Facts established from this letter. Leave null until confirmed against the scans.
+details:
+  author: Tom Jafuta
+  recipient: null
+  date_written: null          # YYYY-MM-DD once established
+  date_as_written: null       # exactly as he wrote it
+  place: null                 # as written
+  unit: null                  # as written (e.g. from the envelope)
+
+source:
+  master_folder: "Letter 1 - 10/Letter 5"
+  capture: flatbed scan, 1200 dpi
+  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+    - file: "Dads_Vietnam_Letters_0024_a.jpg"
+      role: null
+      order: null
+      bytes: 24375025
+      sha256: 4fb0eb8f936a341909a2d3458a94760b889f643bd6cbca1adb691692144f718d
+    - file: "Dads_Vietnam_Letters_0024_b.jpg"
+      role: null
+      order: null
+      bytes: 19364898
+      sha256: 50dc4db72e475faeefa42a8f991eec6ded847c3722f59ae06a1d787e3f382f91
+    - file: "Dads_Vietnam_Letters_0025_a.jpg"
+      role: null
+      order: null
+      bytes: 33055126
+      sha256: ebfd8c19ec844e83be026a95f51406e7196a2d2a45afa3a94e035d227d2736c5
+    - file: "Dads_Vietnam_Letters_0025_b.jpg"
+      role: null
+      order: null
+      bytes: 26580300
+      sha256: 643a7b7b1ecd152dbff1c135b7a1040a52942bf04f0840c8c34851dd2b4a10df
+    - file: "Dads_Vietnam_Letters_0026_a.jpg"
+      role: null
+      order: null
+      bytes: 47903721
+      sha256: b22c04bafef84e631e941373d00a2253ebe3229eb0dfec1d116b3d514e3cb5ad
+    - file: "Dads_Vietnam_Letters_0026_b.jpg"
+      role: null
+      order: null
+      bytes: 28338039
+      sha256: 890be94af25f48adbd4208585d260a56c6909d60279d241bc1339e28b1f94894
+    - file: "Dads_Vietnam_Letters_0027_b.jpg"
+      role: null
+      order: null
+      bytes: 32484434
+      sha256: 57adeaa81f7175c91fe0e2bfcf9c63f2c1c9bab600525bc62d8909dc0f1b9db0
+    - file: "Dads_Vietnam_Letters_0028_a.jpg"
+      role: null
+      order: null
+      bytes: 47325268
+      sha256: 4b20573898a345c5b98e1a4503d11a29258e5354a6547bdccd0bd3365157a74a
+    - file: "Dads_Vietnam_Letters_0028_b.jpg"
+      role: null
+      order: null
+      bytes: 28147535
+      sha256: 5e51b388a6968c762b87dd68a8d1fe3ac49774f54c3310ad81516bea62cbe588
+
+prior_draft: null
+
+privacy:
+  reviewed: false
+  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+
+notes: []
