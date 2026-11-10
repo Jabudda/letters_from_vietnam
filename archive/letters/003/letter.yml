@@ -1,10 +1,11 @@
 # Letter 003: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
 id: "003"
 folder_label: null   # words in the master folder name, if any
-title: null                  # short descriptive title, set once transcribed
+title: "The Day Will Come"      # chosen by Andy, 2026-11-10
+subtitle: "After the Oasis, May 1969"
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved by Andy, 2026-11-10; none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
@@ -13,7 +14,7 @@ details:
   recipient: "Dad, Mom + Kids"
   date_written: 1969-05-11    # Andy, 2026-11-10 ("pretty confident"); second part written the next day
   date_as_written: "May 11th"       # exactly as he wrote it; year not written. Second part headed "Next Day"
-  place: null                 # as written
+  place: null                 # not written; he mentions going to "the Oasis" the day before
   unit: null                  # as written (e.g. from the envelope)
 
 source:

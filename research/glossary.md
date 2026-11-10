@@ -10,3 +10,7 @@ Terms, abbreviations and slang from the letters, with the letters they appear in
 | under strength | A unit with fewer people than it is authorized. His word is read as "under strengthed" (uncertain). | 001 | Needs a source |
 | BIG WORD | Printed in capitals above "oppertunity": he was impressing the family by using a big word, which he misspelled. Possibly also an inside joke: Grandma was always correcting the family's spelling and punctuation. | 002 | Andy (family) |
 | the Oasis | Where he had been "for the last 3 or 4 days", with red dust "about ankle deep". Very likely LZ Oasis, southwest of Pleiku. | 002 | Wikipedia, "Landing Zone Oasis" |
+| 2½ truck | A two-and-a-half-ton Army cargo truck; he was driving one in May 1969. | 003 | General military usage |
+| reup | Re-enlist ("I guess I'll reup for sure now! Like hell!"). | 003 | Letter text |
+| Plumb. appren. | Plumbing apprenticeship, which he hoped to switch his college plan to. He did become a plumber (Andy). | 003 | Letter text; Andy |
+| stay awake pills | Something the family had sent before and he asked for again; what exactly is not known. | 003 | Letter text |
