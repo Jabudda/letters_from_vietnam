@@ -268,8 +268,9 @@ a.letter-card .status { color: var(--paper); background: var(--olive); border-co
 .scans figcaption { font-family: var(--mono); font-size: 0.66rem; color: var(--ink-soft); margin-top: 0.4rem; letter-spacing: 0.04em; }
 .note-box { margin-top: 2rem; border-left: 3px solid var(--olive); padding: 0.2rem 0 0.2rem 1.2rem; color: var(--ink-soft); font-size: 1rem; }
 details.diplomatic { margin-top: 2.5rem; }
-.jump { margin: 1.4rem 0 0; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; }
-.jump a { color: var(--sepia); text-decoration: none; border-bottom: 1px solid currentColor; }
+.jump { margin: 1.8rem 0 0; }
+.jump a { display: inline-block; font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--paper); background: var(--olive); padding: 0.6rem 1.1rem; text-decoration: none; border-radius: 2px; }
+.jump a:hover, .jump a:focus { background: var(--sepia); }
 .context { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
 .context-key { font-size: 0.95rem; color: var(--ink-soft); margin: 0 0 1.6rem; }
 .context-notes ul { padding-left: 1.2rem; margin: 0; }

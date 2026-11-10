@@ -186,7 +186,7 @@ def letter_page(rec, template):
     heading = html.escape(title) + (f"<br><em>{html.escape(sub)}</em>" if sub else "")
     page_title = html.escape(title + (f" | {sub}" if sub else ""))
     context = context_section(rec)
-    jump = ('      <p class="jump"><a href="#history">Historical notes and sources ↓</a></p>' if context else "")
+    jump = ('      <p class="jump"><a href="#history">Read the historical notes and sources ↓</a></p>' if context else "")
     return fill(template, ROOT="../../", TITLE=page_title, HEADING=heading, DESCRIPTION=html.escape(desc), ID=lid,
                 META=meta, READING=reading, DIPLOMATIC=diplomatic, SCANS="\n".join(items),
                 CONTEXT=context, JUMP=jump)
