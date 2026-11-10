@@ -25,7 +25,7 @@ Ten scans are in the folder. Two of them are second captures of the same sheet (
 
 | Date | Who | Change |
 | --- | --- | --- |
-| 2026-11-10 | Andy | Chose the title "Out at the Oasis | Red Dust, Snoopy and a BIG WORD". |
+| 2026-11-10 | Andy | Chose the title "Out at the Oasis \| Red Dust, Snoopy and a BIG WORD". |
 | 2026-11-10 | Andy | Family note on the spelling: possibly an inside joke, since Grandma was always correcting the family's spelling and punctuation. |
 | 2026-11-10 | Andy | **Approved the transcription.** On the spellings: "Dad was not at the top of his class when it came to spelling." "socialyze" and "I'v" are kept as his own spellings and no longer listed as uncertain. Published to the website the same day. |
 | 2026-11-10 | Andy | **Confirmed the date: 22 January 1969.** Cleared the passage about Steve's parents for publication as written; all passages are now cleared (`privacy.reviewed: true`). |

@@ -16,7 +16,7 @@ Five handwritten pages in ink on blue-tinted ruled airmail stationery. A map of 
 
 | Date | Who | Change |
 | --- | --- | --- |
-| 2026-11-10 | Andy | Chose the title "Back in Pleiku | Moon Landings and Beer Strikes in Milwaukee, WI". |
+| 2026-11-10 | Andy | Chose the title "Back in Pleiku \| Moon Landings and Beer Strikes in Milwaukee, WI". |
 | 2026-11-10 | Andy | **Approved the transcription** and the date 21 July 1969. On the star above "21st": not sure what it represents; it could have been Dad's way of jazzing up the letter. |
 | 2026-11-10 | Andy | Supplied the Wikipedia Apollo 11 article as a source for the moon landing. |
 | 2026-11-10 | Claude | Added sources placing the 1969 brewery strike in June–July 1969 (Milwaukee Public Library photo, 17 June 1969). |
