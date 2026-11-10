@@ -1,7 +1,8 @@
 # Letter 002: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
 id: "002"
 folder_label: null   # words in the master folder name, if any
-title: null                  # short descriptive title, set once transcribed
+title: "Out at the Oasis"      # chosen by Andy, 2026-11-10
+subtitle: "Red Dust, Snoopy and a BIG WORD"
 
 status:
   transcription: verified   # approved by Andy, 2026-11-10; none | prior-draft | in-progress | needs-family-review | verified
