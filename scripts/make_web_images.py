@@ -56,6 +56,8 @@ def export_letter(letter_id, masters, out_root, force):
         src = folder / f["file"]
         if f["file"].lower().endswith(".pdf"):
             continue  # duplicate PDF copy; the JPEG is used instead
+        if f.get("role") == "duplicate":
+            continue  # second capture of a page already exported
         if sha256(src) != f["sha256"]:
             sys.exit(f"{letter_id}: {f['file']} does not match its checksum; stopping. Check the master copy.")
         with Image.open(src) as im:

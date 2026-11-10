@@ -2,7 +2,7 @@
 
 Each letter moves through the same steps. Its folder is `archive/letters/NNN/`.
 
-1. **Gather.** Check `letter.yml` lists every scan. Note what each one is (`role`: page, envelope front, envelope back, enclosure) and its page order.
+1. **Gather.** Check `letter.yml` lists every scan. Note what each one is (`role`: page, envelope front, envelope back, enclosure, or duplicate for a second capture of a side already listed; duplicates are kept in the record but not published) and its page order.
 2. **Transcribe.** Write `diplomatic.md` from the scans at full resolution, following `docs/transcription-guide.md`. If a prior draft exists, use it as a second reader: it helps with hard words, but the scan decides.
 3. **Reading edition.** Write `reading.md` from `diplomatic.md`, with only the allowed changes, logged.
 4. **Notes.** In `notes.md`, record:

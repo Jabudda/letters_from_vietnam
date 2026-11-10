@@ -18,7 +18,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 TRANSCRIPTION = {"none", "prior-draft", "in-progress", "needs-family-review", "verified"}
 CHAPTER = {"not-started", "drafted", "approved"}
-ROLES = {None, "page", "envelope-front", "envelope-back", "enclosure"}
+ROLES = {None, "page", "envelope-front", "envelope-back", "enclosure", "duplicate"}
 MAX_BYTES = 5 * 1024 * 1024
 BLOCKED_EXT = {".tif", ".tiff", ".heic", ".pdf"}
 PHONE = re.compile(r"(?<!\d)(\(?\d{3}\)?[ .-])?\d{3}-\d{4}(?!\d)")

@@ -29,6 +29,8 @@ Every line should end in `OK`. Run this after copying the masters anywhere new, 
 | `_b` | The front of the item (letter page, or envelope front). Most pages have only `_b`. |
 | `_a` | The back of the same item. Checked on Letter 11, where `_b` is the envelope front and `_a` the envelope back. |
 | `_a1`, `_a2` | One side scanned in two parts (Letter 7, item 0035). |
+
+Some sheets were scanned twice. In Letter 2, `0010_a` and `0010_b` repeat the two sides of the `0009` sheet, with the `_a`/`_b` labels swapped. Such files get `role: duplicate` in `letter.yml`.
 | no ending | An item scanned once (0036, 0037, 0159). |
 | `_Petey` | Added to the Letter 18 item addressed to Petey. |
 

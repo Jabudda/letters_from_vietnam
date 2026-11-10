@@ -54,7 +54,9 @@ def mark_up(rendered):
 
 
 def scan_files(rec):
-    files = [f for f in rec["source"]["files"] if not f["file"].lower().endswith(".pdf")]
+    # PDF copies and second captures (role: duplicate) are not shown; the primary JPEG is.
+    files = [f for f in rec["source"]["files"]
+             if not f["file"].lower().endswith(".pdf") and f.get("role") != "duplicate"]
     def key(f):
         num = m.group(1) if (m := re.search(r"_(\d{4})", f["file"])) else f["file"]
         back = 1 if re.search(r"_a\d?(?:_|\.|$)", f["file"]) else 0  # front (_b) before back (_a)

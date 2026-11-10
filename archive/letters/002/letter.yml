@@ -4,70 +4,70 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom, + Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
+  date_as_written: "the 22nd (I think)"       # exactly as he wrote it; month and year not written
+  place: "the Oasis"                 # as written
   unit: null                  # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 1 - 10/Letter 2"
   capture: flatbed scan, 1200 dpi
-  files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
+  files:   # role: page | envelope-front | envelope-back | enclosure | duplicate; order: reading order
     - file: "Dads_Vietnam_Letters_0006_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 28482983
       sha256: 042e572536c59d9c7061fba703eea323f80c71da4a02e7e7ea8058ddf1713ed6
     - file: "Dads_Vietnam_Letters_0007_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 28181619
       sha256: d483d13fc9b598a29e56d6028728ad81e41416ca65ef1dbbea41a7b401429a44
     - file: "Dads_Vietnam_Letters_0008_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 27839165
       sha256: c0f1ca6f3dc6338a477b1379fe475540f2f38d11d3def5d9a65a71006b0639cb
     - file: "Dads_Vietnam_Letters_0009_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 7
       bytes: 43299349
       sha256: a883709df29079fd0aecd244202db5f378bd7ecfbaf18be0d4ada0222009dffa
     - file: "Dads_Vietnam_Letters_0009_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 28745351
       sha256: 48e203644829210871822248204eb22a32cc2acc00b870c4f66e7ca5484493c2
     - file: "Dads_Vietnam_Letters_0010_a.jpg"
-      role: null
+      role: duplicate
       order: null
       bytes: 42220016
       sha256: b4f16002cc679cb2283ac139b266b1bb17ca7c08cb6aa064fc4bbc4d71630143
     - file: "Dads_Vietnam_Letters_0010_b.jpg"
-      role: null
+      role: duplicate
       order: null
       bytes: 29386343
       sha256: f0066486df86f4f4b4cb793281a17d7f1240f94a6e76aa347ac7ed84f67be5c4
     - file: "Dads_Vietnam_Letters_0011_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 28377157
       sha256: 74f5b6ebe24e345bd46430bdefe39a9a8e8e5d776fe467d51e5310bc5d0dac6d
     - file: "Dads_Vietnam_Letters_0012_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 8
       bytes: 28626329
       sha256: e63f8a59d2fbdd816f4df637c9730ec97970979268ef8165f19d576fdf2df6aa
     - file: "Dads_Vietnam_Letters_0013_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 28078134
       sha256: 8c93a172365dc766956a7ff197570a1035a20d2064c094573fdd19647c66c92d
 
@@ -83,4 +83,7 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "Reading order: pages 1-3 (0006_b-0008_b), page 4 (0013_b), page 5 (0011_b), page 6 (0009_b), back of page 6 (0009_a), page 7 (0012_b)."
+  - "0010_a and 0010_b are a second capture of the 0009 sheet (page 6 and its back), with the _a/_b labels swapped."
+  - "Privacy: scans checked 2026-11-10, nothing to redact. Two passages about living people await a family decision; see notes.md."
