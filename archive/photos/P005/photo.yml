@@ -1,0 +1,25 @@
+id: P005
+subject: "Grandpa, Peter F. Jafuta, as a young soldier in World War II (Andy, 2026-11-10: 100% Grandpa)"
+description: >-
+  Small sepia print, cracked and creased. A smiling young soldier in a khaki shirt and trousers,
+  with stripes on his sleeve, stands on grass in front of army tents.
+date: null
+place: null
+photographer: null
+supplied_by: Andy
+supplied_on: 2026-11-10
+source_file: "FB_IMG_1699026946776.jpg in Letters From Home Media/Grandpa WWII (571 x 604; a copy saved from Facebook in 2023; also saved as Medals and Records/Grandpa.jpg). Where the original print is is unknown."
+publish: approved     # Andy, 2026-11-10: on the homepage, "Father and son. Two wars."
+caption: "T/4 Pete, Signal Corps"   # chosen by Andy, 2026-11-10
+web_copy: site/static/photos/P005-grandpa-t4-pete.jpg   # restored, 1090 x 1208, metadata stripped
+web_copy_original: site/static/photos/P005-grandpa-t4-pete-original.jpg
+restoration:
+  requested_by: Andy (2026-11-10)
+  done_by: Claude (AI-assisted), 2026-11-10
+  steps:
+    - "Thin crack lines and dark specks in the sky above and around him (not on him) were located and filled in from the surrounding image (OpenCV Telea inpainting)."
+    - "Blotchy staining in the sky was evened, with the film grain kept."
+    - "White print border trimmed; contrast and tones evened; warm monochrome tone; enlarged 2x with light sharpening."
+  not_done: "No features, faces or objects were redrawn, added or removed, and no generative AI was used."
+notes:
+  - "The rank stripes on his sleeve cannot be counted at this size. His pay book and the VA record give Technician Fourth Grade."
