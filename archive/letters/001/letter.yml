@@ -4,14 +4,14 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved by Andy, 2026-11-10; none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
   recipient: "Dad, Mom + Kids"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: 1969-07-21    # confirmed by Andy on approval; year inferred from the moon landing and the 1969 brewery strike (see notes.md)
   date_as_written: "July 21st"  # exactly as he wrote it; year not written (1969 is an interpretation, see notes.md)
   place: "Pleiku"             # as written ("back in Pleiku with my unit")
   unit: null                  # as written (e.g. from the envelope)
@@ -64,6 +64,6 @@ privacy:
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
 notes:
-  - "Transcribed from the scans 2026-11-10. Transcription files are with the family for review (kept out of the public repo until verified)."
+  - "Transcribed from the scans and approved by Andy, 2026-11-10."
   - "Folder also holds a PDF copy of page 0004."
   - "Interpretation: the moon-landing reference suggests 21 July 1969. Unverified until the transcription is checked."

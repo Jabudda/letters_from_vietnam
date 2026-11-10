@@ -96,8 +96,9 @@ def card(rec):
 
 def letter_page(rec, template):
     lid, d = rec["id"], rec.get("details") or {}
-    title = rec.get("title") or f"Letter {lid}"
-    meta_items = [("Written", nice_date(d.get("date_written")) or d.get("date_as_written")),
+    title = rec.get("title") or nice_date(d.get("date_written")) or f"Letter {lid}"
+    written = nice_date(d.get("date_written")) or d.get("date_as_written")
+    meta_items = [("Written", None if written == title else written),
                   ("To", d.get("recipient")), ("From", d.get("place")), ("Unit", d.get("unit"))]
     meta = "\n".join(f'        <div><dt>{k}</dt><dd>{html.escape(str(v))}</dd></div>' for k, v in meta_items if v)
     md = markdown.Markdown(extensions=["sane_lists"])
