@@ -8,6 +8,9 @@ Dated events from the letters (marked *Letter*) alongside sourced historical eve
 | 1969-01-22 | Letter | Letter 002 dated "the 22nd (I think)": out at the Oasis for 3 or 4 days; red dust; Snoopy; Grandpa's birthday just passed. Month and year confirmed by Andy. | 002 |
 | 1969-05-10/11 | Context | LZ Oasis, southwest of Pleiku, attacked overnight by an estimated 600 PAVN troops ("Mother's Day attack"); 11 Americans killed, 3 captured. | Wikipedia; The Mighty Ninth; War-Stories.com |
 | 1969-05-11 | Letter | Letter 003: "We had to go to the Oasis yesterday and some bad thing happened"; Steve's unit didn't know where he was. Continued the next day (12 May). Date confirmed by Andy. | 003 |
+| 1969-06-13 to 06-18 | Context | Cpl Harold F. Hawkins, A Btry 3/6 Arty, wounded 13 June; died 18 June 1969. Very likely the Hawkins of Letter 005 (interpretation). | Virtual Wall |
+| mid-June to early July 1969 | Context | Ben Het completely surrounded by NVA regiments; the siege lifted in early July. | Time; Stars and Stripes, 26 June 1969 |
+| 1969-06-19 or 20 | Letter | Letter 005 dated "June 19th or 20th": up at Dak To since "yesterday by chopper" from Ben Het; CBS filming; "Fire Base Hawkins"; Cambodians; tear gas; "I left alot back there"; about 1,440 hours (60 days) to go. Year confirmed by Andy. | 005 |
 | 1969-07-20 | Context | Apollo 11 lands on the Moon (20:17 UTC). | Planetary Society, Apollo 11 timeline |
 | 1969-07-21 (interpretation) | Letter | Letter 001 dated "July 21st": back in Pleiku with his unit; asks for the family's last letter around Aug 10–12. Year inferred from the moon landing. | 001 |
 | 1969-07-24 | Context | Apollo 11 splashes down in the Pacific. | Planetary Society; Britannica |

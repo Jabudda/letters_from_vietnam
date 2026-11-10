@@ -18,3 +18,10 @@ Terms, abbreviations and slang from the letters, with the letters they appear in
 | bunker line | A line he fixed that had "some short in it"; very likely a field telephone wire between bunkers (interpretation). | 004 | Letter text |
 | humped sand bags | Carried and filled sandbags ("got rid of my baby fat ya know"). | 004 | Letter text |
 | Free | Written on the envelope where a stamp would go. | 004 | Envelope |
+| ARVN | Army of the Republic of (South) Vietnam ("the ARVN's"). | 005 | Letter text |
+| NVA | North Vietnamese Army. | 005 | Letter text |
+| Cam. | His short form for a Cambodian soldier. | 005 | Letter text |
+| CIDG | Civilian Irregular Defense Group: local, often Montagnard, soldiers trained by US Special Forces; at Ben Het they lived in the camp with their families. | 005 | Stars and Stripes 1969; ARSOF History |
+| Montagnards | "Mountain people": the Central Highlands' indigenous tribes; Dad described them as warriors who brought their whole families (Andy). | 005 | ARSOF History; Andy (family) |
+| newsreels | Film taken by a news crew; he says CBS was filming on their hill. | 005 | Letter text |
+| THE DAY | The day he would go home, about 1,440 hours (60 days) away. | 005 | Letter text |

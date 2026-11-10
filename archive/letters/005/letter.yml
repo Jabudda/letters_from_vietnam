@@ -1,75 +1,83 @@
 # Letter 005: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
 id: "005"
 folder_label: null   # words in the master folder name, if any
-title: null                  # short descriptive title, set once transcribed
+title: "I Left Alot Back There"   # chosen by Andy, 2026-11-10; his spelling kept
+subtitle: "Fire Base Hawkins, Dak To and 1,440 Hours to Go"
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved by Andy, 2026-11-10; none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
-  date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  recipient: "Dad, Mom + Kids"
+  date_written: "June 19 or 20, 1969"   # he was unsure of the day; year confirmed by the family (Andy, 2026-11-10). Envelope "6/19" in his hand (family)
+  date_as_written: "June 19th or 20th"       # exactly as he wrote it; year not written. Envelope has "6/19"
+  place: "Dak To"             # as written: "We're up here in Dak To right now"
+  unit: "HHB 3/6 ARTY"        # as written on the envelope return address
 
 source:
   master_folder: "Letter 1 - 10/Letter 5"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0024_a.jpg"
-      role: null
-      order: null
+      role: envelope-back
+      rotate: 90   # scanned sideways; web copy is turned upright
+      order: 2
       bytes: 24375025
       sha256: 4fb0eb8f936a341909a2d3458a94760b889f643bd6cbca1adb691692144f718d
     - file: "Dads_Vietnam_Letters_0024_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      rotate: 90   # scanned sideways; web copy is turned upright
+      order: 1
       bytes: 19364898
       sha256: 50dc4db72e475faeefa42a8f991eec6ded847c3722f59ae06a1d787e3f382f91
     - file: "Dads_Vietnam_Letters_0025_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 7   # back of page 3: printed writing-tablet cover, no writing
       bytes: 33055126
       sha256: ebfd8c19ec844e83be026a95f51406e7196a2d2a45afa3a94e035d227d2736c5
     - file: "Dads_Vietnam_Letters_0025_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 26580300
       sha256: 643a7b7b1ecd152dbff1c135b7a1040a52942bf04f0840c8c34851dd2b4a10df
     - file: "Dads_Vietnam_Letters_0026_a.jpg"
-      role: null
-      order: null
+      role: page
+      rotate: 180   # orientation tag says upside down; pixels are upright
+      order: 9
       bytes: 47903721
       sha256: b22c04bafef84e631e941373d00a2253ebe3229eb0dfec1d116b3d514e3cb5ad
     - file: "Dads_Vietnam_Letters_0026_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 8
       bytes: 28338039
       sha256: 890be94af25f48adbd4208585d260a56c6909d60279d241bc1339e28b1f94894
     - file: "Dads_Vietnam_Letters_0027_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 32484434
       sha256: 57adeaa81f7175c91fe0e2bfcf9c63f2c1c9bab600525bc62d8909dc0f1b9db0
     - file: "Dads_Vietnam_Letters_0028_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 47325268
       sha256: 4b20573898a345c5b98e1a4503d11a29258e5354a6547bdccd0bd3365157a74a
     - file: "Dads_Vietnam_Letters_0028_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 28147535
       sha256: 5e51b388a6968c762b87dd68a8d1fe3ac49774f54c3310ad81516bea62cbe588
 
 prior_draft: null
 
 privacy:
-  reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  reviewed: true   # Andy approved publishing Cpl Hawkins's name, 2026-11-10; envelope address and ZIP redacted
+  redact:
+    - {file: "Dads_Vietnam_Letters_0024_b.jpg", box: [1300, 2480, 1750, 5850], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0024_b.jpg", box: [670, 5020, 1040, 6180], reason: home ZIP code}   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
 
-notes: []
+notes:
+  - "Envelope (0024_b) is stored sideways; it carries the family's home address, which is covered in the web image and withheld in the transcription."
+  - "0026_a carries an EXIF orientation tag of 3 (upside down) although its pixels are upright; rotate: 180 turns the web copy back upright."

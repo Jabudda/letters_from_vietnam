@@ -205,7 +205,8 @@ def letter_page(rec, template):
     dip_path = rec["_dir"] / "diplomatic.md"
     diplomatic = ""
     if dip_path.exists():
-        dip = mark_up(html.escape(dip_path.read_text()))
+        dip_text = re.sub(r"\A\s*<!--.*?-->\s*", "", dip_path.read_text(), flags=re.S)  # drop the editors' header comment
+        dip = mark_up(html.escape(dip_text))
         diplomatic = ('        <details class="diplomatic"><summary>Exact transcription, as written</summary>\n'
                       f'          <div class="letter-text">{dip}</div>\n        </details>')
     items = []
