@@ -1,20 +1,21 @@
 # Letter 004: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
 id: "004"
 folder_label: null   # words in the master folder name, if any
-title: null                  # short descriptive title, set once transcribed
+title: "A Civilian Someday Again"   # chosen by Andy, 2026-11-10
+subtitle: "A Bunker Line, a Shock and a Hard Day"
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved by Andy, 2026-11-10; none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
   recipient: "Dad, Mom + Kids"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: 1969-01-15    # confirmed by the family (Andy, 2026-11-10)
   date_as_written: "Jan 15th"       # exactly as he wrote it; year not written
   place: null                 # as written
-  unit: "HHB 3/6 ARTY"        # as written on the envelope return address
+  unit: "HHB 3/6 ARTY"        # as written on the envelope; confirmed by the family (Andy, 2026-11-10)
 
 source:
   master_folder: "Letter 1 - 10/Letter 4"
@@ -45,11 +46,11 @@ source:
 prior_draft: null
 
 privacy:
-  reviewed: false
+  reviewed: true   # Andy cleared the Jim, Kathy and low-spirits passages, 2026-11-10; envelope address and ZIP redacted
   redact:
     - {file: "Dads_Vietnam_Letters_0020_a.jpg", box: [1393, 905, 5316, 1447], reason: home street address}
     - {file: "Dads_Vietnam_Letters_0020_a.jpg", box: [877, 208, 2012, 647], reason: home ZIP code}   # boxes in pixels of the full-size scan as stored (upright per EXIF)
 
 notes:
   - "Envelope (0020_a) is stored upside down; it carries the family's home address, which is covered in the web image and withheld in the transcription."
-  - "Privacy review: envelope redactions set 2026-11-10; awaiting family confirmation before privacy.reviewed is set."
+  - "Privacy review: envelope redactions set 2026-11-10; family cleared the letter text for publication 2026-11-10."

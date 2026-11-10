@@ -14,3 +14,7 @@ Terms, abbreviations and slang from the letters, with the letters they appear in
 | reup | Re-enlist ("I guess I'll reup for sure now! Like hell!"). | 003 | Letter text |
 | Plumb. appren. | Plumbing apprenticeship, which he hoped to switch his college plan to. He did become a plumber (Andy). | 003 | Letter text; Andy |
 | stay awake pills | Something the family had sent before and he asked for again; what exactly is not known. | 003 | Letter text |
+| HHB 3/6 ARTY | Headquarters and Headquarters Battery, 3rd Battalion, 6th Artillery: his unit, from his return address. | 004 | Envelope; Andy (family); DTIC AD0387394 |
+| bunker line | A line he fixed that had "some short in it"; very likely a field telephone wire between bunkers (interpretation). | 004 | Letter text |
+| humped sand bags | Carried and filled sandbags ("got rid of my baby fat ya know"). | 004 | Letter text |
+| Free | Written on the envelope where a stamp would go. | 004 | Envelope |
