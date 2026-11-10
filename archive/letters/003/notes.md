@@ -17,6 +17,7 @@ Six pages, handwritten in blue ink on white lined writing paper with blue rules,
 
 | Date | Who | Change |
 | --- | --- | --- |
+| 2026-11-10 | Andy | Confirmed the "2½ truck" was a 2½-ton truck. His words stay as written ("2½ truck"). |
 | 2026-11-10 | Andy | Chose the title "The Day Will Come \| After the Oasis, May 1969". |
 | 2026-11-10 | Andy | **Approved the transcription.** Published to the website the same day. |
 | 2026-11-10 | Andy | **Privacy:** cleared the passages about Steve, John and Jim Theilke for publication as written: "We want this to be accurate and a reminder to people in the future that war has long reaching and lasting impacts on both family and the individual going to war." |
@@ -85,7 +86,7 @@ The transcription is approved (Andy, 2026-11-10). These questions can be answere
 - **Historical context:** Veterans of B Company, 704th Maintenance Battalion, describe being at LZ Oasis during that attack. *Sources:* War-Stories.com, "LZ Oasis: Mother's Day POWs"; The Mighty Ninth, "Happy Mother's Day" (account by a B Company, 704th Maintenance veteran).
 - **Interpretation:** With the date 11 May 1969 (Andy), Tom wrote this on the day after the attack began: he went to the Oasis on the 10th, helped clean up on the morning of the 11th and left that evening. The year is not written on the letter; the family dates it to 1969. The letter does not say he took part in the fighting, and nothing here should be read as placing him in it.
 - **Interpretation:** If the uncertain "704th" reading is right, his mention of that unit being "out there" fits the veterans' accounts above. It does not by itself tell us his own unit.
-- **Interpretation:** A "2½ truck" is a two-and-a-half-ton Army truck; he was driving one the next day.
+- **Verified fact (family):** The "2½ truck" he was driving was a two-and-a-half-ton truck (Andy, 2026-11-10).
 - **Unknown:** His unit, which pay raise he means, and what happened to Steve.
 
 ## Family notes for the chapter
