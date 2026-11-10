@@ -1,6 +1,6 @@
 <!-- Letter 004: diplomatic transcription. Line breaks follow the page. Spelling, punctuation and capitalization as written.
      Transcribed from the master scans 0020_a (envelope) and 0021_b to 0023_b (pages 1-3), 2026-11-10.
-     Notebook paper (blue rules, red margin, three punched holes). Status: needs family review. -->
+     Notebook paper (blue rules, red margin, three punched holes). Status: verified by the family (Andy, 2026-11-10). -->
 
 [envelope front; the scan is stored upside down]
 T. Jafuta
