@@ -17,6 +17,7 @@ The folder also holds an envelope, scanned address side up but stored upside dow
 
 | Date | Who | Change |
 | --- | --- | --- |
+| 2026-11-10 | Andy | Added context for "Dad knows what I mean": "Grandpa liberated Dachau in WWII." Andy also added Grandpa's wartime photographs to the family media folder; one is captioned "Dachau, Germany 4/30/45". |
 | 2026-11-10 | Andy | **Transcription approved for publication.** The crossed-out word before "Dad knows what I mean" can't be read and stays marked. Andy asked for the PTSD correction to be included, with linked sources and examples. |
 | 2026-11-10 | Andy | Birth date in the family note: November 18 only; the year stays private. |
 | 2026-11-10 | Andy | The word at the edge of page 2 beginning "Wa" remains unknown and stays marked unclear. Added Andy's interpretation of "Dad knows what I mean" (see Family notes). |
@@ -62,12 +63,17 @@ The folder also holds an envelope, scanned address side up but stored upside dow
     - **"Shell shock"** (World War I): first blamed on hidden damage from exploding shells, though men far from any explosion had it too. "War neurosis" was also used.
     - **"Battle fatigue"**, or combat stress reaction (World War II, Grandpa's war).
 - **Historical context:** The American Psychiatric Association's diagnostic manual listed "gross stress reaction" from 1952, but dropped it in 1968, the year before this letter. Between 1968 and 1980 American psychiatrists had no official diagnosis for trauma. "Post-traumatic stress disorder" was added in 1980 (DSM-III), based on research with returning Vietnam veterans, Holocaust survivors, sexual trauma victims and others. Vietnam veterans pushed hard for it to be recognized. *Sources:* [VA National Center for PTSD](https://www.ptsd.va.gov/understand/what/history_ptsd.asp); [BrainFacts.org (Society for Neuroscience), "The Changing Face of Posttraumatic Stress Disorder", 2019](https://www.brainfacts.org/diseases-and-disorders/mental-health/2019/the-changing-face-of-posttraumatic-stress-disorder-062019).
+- **Historical context:** US Army troops liberated the Dachau concentration camp on 29 April 1945. Three divisions are recognized as its liberators: the 42nd Infantry Division, the 45th Infantry Division and the 20th Armored Division. Outside the camp they found a train of about 40 freight cars filled with the bodies of prisoners. *Sources:* [The National WWII Museum, "The Last Days of Dachau Concentration Camp"](https://www.nationalww2museum.org/war/articles/last-days-dachau-concentration-camp); [US Holocaust Memorial Museum, "The 45th Infantry Division"](https://encyclopedia.ushmm.org/content/en/article/the-45th-infantry-division).
+- **Historical context:** The US Army Center of Military History and the US Holocaust Memorial Museum recognize liberating units by division, based on unit records, and include divisions that arrived within 48 hours of the first. *Source:* [US Holocaust Memorial Museum, "Honoring US Army Divisions as Liberators of Nazi Camps"](https://encyclopedia.ushmm.org/content/en/article/us-army-units).
+- **Verified fact (family photograph):** Among Grandpa's wartime photographs is one of a railway freight car with bodies inside, captioned by hand "Dachau, Germany 4/30/45": the day after the camp was liberated.
+- **Unknown:** Which unit Grandpa was serving with in April 1945 is not yet documented. His service record would show it.
 - **Unknown:** The letter does not say what Tom meant by "Dad knows what I mean". The family's reading is given under Family notes.
 
 ## Family notes for the chapter
 
 - **"Dad's birthday (I think)"** (page 1), in Andy's words: "Dad would usually get the birthday dates wrong, even me, his own son. The only reason he knew my birthday was in November and approximate date is because it aligned with deer hunting season." (Andy, 2026-11-10)
 - **"Dad knows what I mean"** (page 2), Andy's interpretation: "I speculate the Dad knows what I mean is a reference to the impact of war. The Vietnam veterans were the PTSD pioneers, prior to Vietnam it did not have a name." His own father had served in the Army in World War II (see Historical notes). (Andy, 2026-11-10)
+    - Andy added: "Grandpa liberated Dachau in WWII." (Andy, 2026-11-10)
     - *Editor's note:* Earlier wars did have names for it, such as "shell shock" in World War I and "battle fatigue" in World War II, but it was not a medical diagnosis. "PTSD" was named in 1980, and Vietnam veterans were central to that. See Historical notes for examples and sources.
 - Andy added: "My birth date is November 18. Dad usually thought my birthday was on November 17 as that is when I was supposed to be born and the year I was born is the only year he missed deer hunting season." (Andy, 2026-11-10)
 
