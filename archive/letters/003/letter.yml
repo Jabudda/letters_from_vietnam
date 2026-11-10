@@ -4,15 +4,15 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom + Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
+  date_as_written: "May 11th"       # exactly as he wrote it; year not written. Second part headed "Next Day"
   place: null                 # as written
   unit: null                  # as written (e.g. from the envelope)
 
@@ -21,33 +21,33 @@ source:
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0014_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 40304594
       sha256: 07c3817f0c1e4aeaabaad31a91190802c474c67b82cc3f493022a51b8d4460f0
     - file: "Dads_Vietnam_Letters_0015_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 39069364
       sha256: e82cc0a47b31da8073668642fc05eea676f6f5bd9efa3300d07609e0954e95ba
     - file: "Dads_Vietnam_Letters_0016_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 39884819
       sha256: c5e6697d529341c47da6158ee93d4ab92edab8f8a4d92959bfb075fcb6b70c76
     - file: "Dads_Vietnam_Letters_0017_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 40425567
       sha256: 3d9a22108f3e3e0c5ec1624161a3b449722627e76fbed53005fd25f28da38704
     - file: "Dads_Vietnam_Letters_0018_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 39229836
       sha256: b3090a7327bbe9b6a3cae64250ff87ddcb74616fa44210ed3a95a15c11089dfd
     - file: "Dads_Vietnam_Letters_0019_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 37597618
       sha256: 7d6448791a962c7c6b03f928ddb2dfbae72226b4710991a61ddc852de246f12d
 
@@ -63,4 +63,6 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "Reading order: 0014_b to 0019_b. Written over two days (May 11th and the \"Next Day\")."
+  - "Privacy review pending: passages about Steve, John and Jim Theilke need a family decision (see notes.md)."
