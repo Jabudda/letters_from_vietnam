@@ -5,7 +5,7 @@ This is a family archive of Vietnam War letters, being turned into a free commem
 ## Non-negotiable rules
 
 1. **Never invent.** No missing words, dates, places, names, units, events or later-life details. If it is not on the page or in a cited source, it is unknown.
-2. **Never silently change his words.** The diplomatic transcription (`diplomatic.md`) keeps original spelling, punctuation, capitalization, slang and humor exactly. The reading edition (`reading.md`) allows only the minimal changes listed in `docs/transcription-guide.md`, and every change is logged. Keep his contractions and expressions ("I'm", "hey?", "gang", "Ha").
+2. **Never silently change his words.** The diplomatic transcription (`diplomatic.md`) keeps original spelling, punctuation, capitalization, slang and humor exactly. The reading edition (`reading.md`) allows only the minimal changes listed in `docs/transcription-guide.md`, and every change is logged. Keep his spellings, contractions and expressions exactly ("Im", "hay", "nite", "gang", "HA").
 3. **Flag uncertainty** with `[unclear]`, `[illegible]` or `[possible reading: …]`. Do not guess silently.
 4. **Family corrections are authoritative.** Record them in the letter's `notes.md` revision log, with who gave them and when. Change them only if new evidence appears, and then raise it with the family rather than overwriting.
 5. **Label every historical claim** as Verified fact, Historical context, Interpretation or Unknown, with a source. Never place the writer at a battle or operation just because the date or place is close.

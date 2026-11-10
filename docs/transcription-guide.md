@@ -35,7 +35,7 @@ Only these, and only where they help a reader:
 
 It must **not**:
 
-- Expand contractions ("I'm" stays "I'm") or remove his expressions ("hey?", "gang", "Ha", "burp").
+- Expand or "fix" contractions ("Im" stays "Im") or remove his expressions ("hay", "gang", "HA", "burp").
 - Add, remove or reorder sentences, or "improve" wording.
 - Fix grammar, slang or period terms.
 - Remove anything for tone. Hard passages stay. Privacy redactions are the only removals, and they are marked `[withheld for privacy]`.
