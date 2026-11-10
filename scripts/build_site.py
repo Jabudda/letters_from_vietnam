@@ -107,7 +107,7 @@ def context_section(rec):
         parts.append('        <h3 class="context-sub">Sources</h3>\n        <ul class="context-sources">')
         for title, url, publisher in sources:
             t = html.escape(title)
-            link = f'<a href="{html.escape(url)}" rel="noopener">{t}</a>' if url else t
+            link = f'<a href="{html.escape(url)}" target="_blank" rel="noopener">{t}</a>' if url else t
             pub = f" <span>({html.escape(publisher)})</span>" if publisher and publisher != title else ""
             parts.append(f"          <li>{link}{pub}</li>")
         parts.append("        </ul>")
@@ -190,10 +190,17 @@ def letter_page(rec, template):
     heading = html.escape(title) + (f"<br><em>{html.escape(sub)}</em>" if sub else "")
     page_title = html.escape(title + (f" | {sub}" if sub else ""))
     context = context_section(rec)
-    jump = ('      <p class="jump"><a href="#history">Read the historical notes and sources ↓</a></p>' if context else "")
-    return fill(template, ROOT="../../", TITLE=page_title, HEADING=heading, DESCRIPTION=html.escape(desc), ID=lid,
-                META=meta, READING=reading, DIPLOMATIC=diplomatic, SCANS="\n".join(items),
-                CONTEXT=context, JUMP=jump)
+    jump = ('      <p class="jump"><a href="notes/" target="_blank" rel="noopener">'
+            'Read the historical notes and sources ↗</a></p>' if context else "")
+    page = fill(template, ROOT="../../", TITLE=page_title, HEADING=heading, DESCRIPTION=html.escape(desc), ID=lid,
+                META=meta, READING=reading, DIPLOMATIC=diplomatic, SCANS="\n".join(items), JUMP=jump)
+    notes_page = None
+    if context:
+        notes_page = fill((SITE / "templates" / "notes.html").read_text(), ROOT="../../../",
+                          TITLE="Historical notes: " + page_title, HEADING=heading, ID=lid,
+                          DESCRIPTION=html.escape(f"Historical notes and sources for Letter {lid} from Dad’s Vietnam letter archive."),
+                          CONTEXT=context)
+    return page, notes_page
 
 
 def main():
@@ -218,7 +225,11 @@ def main():
         lid = rec["id"]
         page_dir = OUT / "letters" / lid
         page_dir.mkdir(parents=True)
-        (page_dir / "index.html").write_text(letter_page(rec, template))
+        page, notes_page = letter_page(rec, template)
+        (page_dir / "index.html").write_text(page)
+        if notes_page:
+            (page_dir / "notes").mkdir()
+            (page_dir / "notes" / "index.html").write_text(notes_page)
         shutil.copytree(SITE / "scans" / lid, OUT / "scans" / lid)
 
     not_found = index.split('<main id="main">')[0] + (

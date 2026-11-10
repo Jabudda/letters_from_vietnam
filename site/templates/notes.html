@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}: Letters From Vietnam</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="theme-color" content="#3b4129">
+  <link rel="icon" href="{{ROOT}}static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ROOT}}static/css/site.css?v={{ASSET_V}}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ROOT}}">DAD’S LETTERS<span>A FAMILY ARCHIVE</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="{{ROOT}}#collection">The collection</a>
+      <a href="{{ROOT}}#story">Our story</a>
+      <a href="{{ROOT}}#preservation">Preserving the letters</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="letter-head">
+      <p class="back"><a href="{{ROOT}}letters/{{ID}}/">← Back to the letter</a></p>
+      <p class="eyebrow">Letter {{ID}} · Historical notes</p>
+      <h1>{{HEADING}}</h1>
+    </div>
+    <div class="divider"><div class="airmail-rule" role="presentation"></div></div>
+    <div class="notes-layout">
+{{CONTEXT}}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <a class="brand" href="{{ROOT}}">DAD’S LETTERS<span>THE VIETNAM LETTER ARCHIVE</span></a>
+      <p>Preserving words. Remembering a life.</p>
+      <small>Letters, scans and photographs © the family. Shared freely for remembrance; please ask before reusing.</small>
+    </div>
+  </footer>
+</body>
+</html>
