@@ -176,6 +176,12 @@ section { scroll-margin-top: 1rem; }
 .family-photo .dedication { display: block; font-family: var(--hand); font-size: 2.05rem; line-height: 1.15; color: var(--sepia); }
 .family-photo .provenance { display: block; margin-top: 0.6rem; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em; line-height: 1.6; color: var(--ink-soft); }
 .story p { margin: 0 0 1.2rem; }
+.album { display: grid; grid-template-columns: minmax(0, 24rem) minmax(0, 1fr); gap: 4.5rem; align-items: center; padding-top: 0; }
+.album-photo { transform: rotate(-1.4deg); }
+.album-text { max-width: var(--measure); }
+.album-text .dedication { font-family: var(--hand); font-weight: 500; font-size: 2.6rem; line-height: 1.1; color: var(--sepia); margin: 0 0 1rem; }
+.album-text p { margin: 0 0 1rem; }
+.album-text .provenance { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em; line-height: 1.6; color: var(--ink-soft); }
 .signature { font-family: var(--hand); font-size: 2rem; color: var(--sepia); margin-top: 2rem !important; }
 
 .divider { max-width: var(--wide); margin: 0 auto; padding: 0 1.5rem; }
@@ -270,6 +276,8 @@ details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
   .hero { grid-template-columns: 1fr; padding-top: 1.5rem; gap: 3rem; }
   .paper-scene { min-height: 22rem; margin-bottom: 2rem; }
   .story { grid-template-columns: 1fr; gap: 3rem; }
+  .album { grid-template-columns: 1fr; gap: 2.5rem; }
+  .album-photo { max-width: 24rem; }
   .family-photo { max-width: 30rem; }
   .principles { grid-template-columns: 1fr; gap: 2rem; }
   .letter-layout { grid-template-columns: 1fr; gap: 2.5rem; }

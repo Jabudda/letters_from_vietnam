@@ -1,5 +1,5 @@
 id: P002
-subject: Dad with two dogs; the family identifies one of them as Snoopy, his dog in Vietnam (Andy, 2026-11-10)
+subject: Dad with two dogs; the dog on the left is Snoopy, his dog in Vietnam (Andy, 2026-11-10)
 description: >-
   Black-and-white print. A young man with short hair and dark sunglasses, in a short-sleeved
   shirt, sits on sandy ground with an arm around each of two dogs: a dark, short-haired dog on
@@ -12,9 +12,9 @@ photographer: null    # unknown
 supplied_by: Andy
 supplied_on: 2026-11-10
 source_file: Dad and Snoopy.jpg (2019 x 2226 digital copy of the print; no file metadata). Where the original print is is unknown.
-publish: undecided    # undecided | approved | private
-caption: null
-web_copy: null
+publish: approved     # undecided | approved | private (Andy, 2026-11-10)
+caption: "Man’s Best Friends"   # along the lines Andy suggested; wording open to change
+web_copy: site/static/photos/P002-dad-and-snoopy.jpg   # 1270 x 1400, metadata stripped, not retouched; on the homepage
 related_letters: ["002"]   # Letter 002: "I have Snoopy out here with me."
 notes:
-  - "Which of the two dogs is Snoopy has not been stated."
+  - "The second dog (right) is not named."
