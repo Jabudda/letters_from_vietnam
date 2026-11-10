@@ -7,3 +7,4 @@ Each photo gets a folder `archive/photos/PNNN/` holding `photo.yml`: what it sho
 | ID | Description | Supplied by | Publish? |
 | --- | --- | --- | --- |
 | P001 | Young man, shirtless, seated on the ground against a wall of sandbags. Family identifies him as Dad. Print with a white border and some water staining. | Andy, 2026-11-10 | Yes: on the homepage, captioned “My inspiration. My mentor. My father.” |
+| P002 | Young man in sunglasses seated on sandy ground with two dogs, one dark and one light with dark spots. Family identifies him as Dad and one dog as Snoopy, his dog in Vietnam (Letter 002). Print creased and partly damaged. | Andy, 2026-11-10 | Not yet decided |
