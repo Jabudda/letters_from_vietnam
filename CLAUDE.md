@@ -26,6 +26,10 @@ This is a family archive of Vietnam War letters, being turned into a free commem
 
 `python3 scripts/make_web_images.py --masters <master folder> NNN` writes reduced copies to `site/scans/NNN/`. It checks each master against its checksum first.
 
+## Website
+
+`python3 scripts/build_site.py` builds `site/_build/`; GitHub Actions publishes it on every push to `main`. Letters appear only when verified and privacy-reviewed (see `site/README.md`).
+
 ## Before committing
 
 Run `python3 scripts/validate.py`. It checks every `letter.yml`, the checksum list and the inventory, and fails if anything private-looking is staged.
