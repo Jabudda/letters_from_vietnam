@@ -24,6 +24,9 @@ SITE = ROOT / "site"
 OUT = SITE / "_build"
 LETTERS = ROOT / "archive" / "letters"
 REPO_URL = "https://github.com/Jabudda/letters_from_vietnam"
+# Changes whenever the stylesheet or script changes, so browsers fetch the new version.
+import hashlib as _hashlib
+ASSET_V = _hashlib.sha256(b"".join(p.read_bytes() for p in sorted((SITE / "static").glob("*/site.*")))).hexdigest()[:10]
 
 MARK = re.compile(
     r"\[(unclear[^\]]*|illegible[^\]]*|possible reading:[^\]]*|crossed out:[^\]]*|inserted:[^\]]*|"
@@ -33,6 +36,7 @@ MARK = re.compile(
 
 
 def fill(template, **values):
+    values.setdefault("ASSET_V", ASSET_V)
     for k, v in values.items():
         template = template.replace("{{" + k + "}}", str(v))
     if left := re.findall(r"\{\{[A-Z_]+\}\}", template):
