@@ -60,9 +60,9 @@ prior_draft:
   notes: "Several lines read as garbled; first page and truck/engine section need checking. Contains family corrections (signed Tom; \"I'd be a fool not to\"; \"Stay Awake\" pills; Jim Theilke) to keep."
 
 privacy:
-  reviewed: false
+  reviewed: true    # all passages cleared by Andy, 2026-11-10
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
 notes:
   - "Reading order: 0014_b to 0019_b. Written over two days (May 11th and the \"Next Day\")."
-  - "Privacy review pending: passages about Steve, John and Jim Theilke need a family decision (see notes.md)."
+  - "Privacy: scans checked 2026-11-10, nothing to redact. Passages about Steve, John and Jim Theilke cleared for publication as written by Andy (2026-11-10)."

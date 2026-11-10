@@ -1,7 +1,7 @@
 id,title,folder_label,date_written,recipient,transcription,chapter,privacy_reviewed,files,capture,scan_numbers,master_folder,prior_draft
 001,Back in Pleiku,,1969-07-21,"Dad, Mom + Kids",verified,not-started,True,6,"flatbed scan, 1200 dpi",0001-0005,Letter 1 - 10/Letter 1,Letter 001 Transcription.docx
 002,Out at the Oasis,,1969-01-22,"Dad, Mom, + Kids",verified,not-started,True,10,"flatbed scan, 1200 dpi",0006-0013,Letter 1 - 10/Letter 2,Letter 002 Transcription.docx
-003,,,1969-05-11,"Dad, Mom + Kids",needs-family-review,not-started,False,6,"flatbed scan, 1200 dpi",0014-0019,Letter 1 - 10/Letter 3,Letter 003 Transcription.docx
+003,,,1969-05-11,"Dad, Mom + Kids",needs-family-review,not-started,True,6,"flatbed scan, 1200 dpi",0014-0019,Letter 1 - 10/Letter 3,Letter 003 Transcription.docx
 004,,,,,none,not-started,False,4,"flatbed scan, 1200 dpi",0020-0023,Letter 1 - 10/Letter 4,
 005,,,,,none,not-started,False,9,"flatbed scan, 1200 dpi",0024-0028,Letter 1 - 10/Letter 5,
 006,,,,,none,not-started,False,6,"flatbed scan, 1200 dpi",0029-0033,Letter 1 - 10/Letter 6,
