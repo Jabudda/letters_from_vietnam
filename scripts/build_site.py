@@ -83,7 +83,7 @@ def card(rec):
     scans = f"{n} scan{'s' if n != 1 else ''}"
     if rec["_published"]:
         d = rec.get("details") or {}
-        bits = [b for b in (nice_date(d.get("date_written")), d.get("recipient") and f"To {d['recipient']}") if b]
+        bits = [b for b in (rec.get("title"), nice_date(d.get("date_written"))) if b]
         meta = html.escape(" · ".join(bits) or scans)
         return (f'          <li><a class="letter-card" href="letters/{lid}/">'
                 f'<span class="no">Letter</span><span class="num">{lid}</span>'
@@ -122,7 +122,10 @@ def letter_page(rec, template):
                      f'<img src="../../scans/{lid}/{stem}-thumb.jpg" alt="{html.escape(alt)}" loading="lazy"></a>'
                      f'<figcaption>{html.escape(cap)}</figcaption></figure></li>')
     desc = f"Letter {lid} from Dad’s Vietnam letter archive: the reading edition beside scans of the original pages."
-    return fill(template, ROOT="../../", TITLE=html.escape(title), DESCRIPTION=html.escape(desc), ID=lid,
+    sub = rec.get("subtitle")
+    heading = html.escape(title) + (f"<br><em>{html.escape(sub)}</em>" if sub else "")
+    page_title = html.escape(title + (f" | {sub}" if sub else ""))
+    return fill(template, ROOT="../../", TITLE=page_title, HEADING=heading, DESCRIPTION=html.escape(desc), ID=lid,
                 META=meta, READING=reading, DIPLOMATIC=diplomatic, SCANS="\n".join(items))
 
 
