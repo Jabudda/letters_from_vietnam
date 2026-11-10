@@ -66,6 +66,8 @@ def export_letter(letter_id, masters, out_root, force):
             for r in redact:
                 if r["file"] == f["file"]:
                     draw.rectangle(r["box"], fill=COVER)
+            if f.get("rotate"):  # e.g. an envelope scanned upside down; boxes above use the stored orientation
+                im = im.rotate(f["rotate"], expand=True)
             stem = Path(f["file"]).stem.replace(" ", "_")
             for suffix, edge in SIZES.items():
                 copy = im.copy()

@@ -268,6 +268,19 @@ a.letter-card .status { color: var(--paper); background: var(--olive); border-co
 .scans figcaption { font-family: var(--mono); font-size: 0.66rem; color: var(--ink-soft); margin-top: 0.4rem; letter-spacing: 0.04em; }
 .note-box { margin-top: 2rem; border-left: 3px solid var(--olive); padding: 0.2rem 0 0.2rem 1.2rem; color: var(--ink-soft); font-size: 1rem; }
 details.diplomatic { margin-top: 2.5rem; }
+.jump { margin: 1.4rem 0 0; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; }
+.jump a { color: var(--sepia); text-decoration: none; border-bottom: 1px solid currentColor; }
+.context { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+.context-key { font-size: 0.95rem; color: var(--ink-soft); margin: 0 0 1.6rem; }
+.context-notes ul { padding-left: 1.2rem; margin: 0; }
+.context-notes li { margin: 0 0 1rem; line-height: 1.6; }
+.context-notes strong { color: var(--olive); font-weight: 600; }
+.context-notes.family li { font-style: italic; }
+.context-sub { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sepia); font-weight: 500; margin: 2.2rem 0 1rem; }
+.context-sources { padding-left: 1.2rem; margin: 0; font-size: 0.98rem; }
+.context-sources li { margin: 0 0 0.6rem; }
+.context-sources a { color: var(--ink); }
+.context-sources span { color: var(--ink-soft); }
 details.diplomatic summary { cursor: pointer; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sepia); }
 details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
 

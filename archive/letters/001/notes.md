@@ -74,6 +74,9 @@ The transcription is approved. These questions remain open and can be answered a
 - **Historical context:** A 37-day strike hit the Schlitz, Pabst and Miller breweries in Milwaukee in 1969. *Source:* United Press International, "Workers strike at Schlitz brewery", 1 June 1981 (found by Andy, 2026-11-10). The article gives the length but not the months.
 - **Historical context:** The 1969 strike was under way in mid-June: a Milwaukee Public Library photograph dated 17 June 1969 shows Brewery Workers Local 9 pickets at the Schlitz brewery, and its description notes that Miller and Pabst were also on strike and that the strike lasted five weeks. *Source:* Milwaukee Public Library Digital Collections, "Police observe Schlitz brewery strikers". A brewing-history article also places it in a hot summer (giving 36 days rather than 37). *Source:* Good Beer Hunting, "More Than Just Free Beer", 2021.
 - **Interpretation:** A five-week strike already under way on 17 June would have ended around mid to late July 1969. That fits his writing on July 21st that he is "glad to hear that the beer strike is finally off", and supports dating the letter to 21 July 1969. The exact end date is still to be found (the *Milwaukee Journal* or *Milwaukee Sentinel* for July 1969 would have it).
+
+## Research leads (not shown on the website)
+
 - **Note on the newspaper image found 2026-11-10:** The *Milwaukee Journal* front page Andy found is dated Monday, February 10, 1969. Its lead headline, "Agreement Reached at Technical College", appears to concern a different dispute, probably the Milwaukee Area Technical College faculty strike that winter (see Wisconsin Examiner, "Milwaukee's 1969 strike offers lessons…", 10 Feb 2021), not the brewery strike. Kept as a research lead only. It is a newspaper page under copyright, so it isn't for publication without permission.
 
 ## Terms and names for `research/`

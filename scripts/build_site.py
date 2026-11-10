@@ -27,7 +27,8 @@ REPO_URL = "https://github.com/Jabudda/letters_from_vietnam"
 
 MARK = re.compile(
     r"\[(unclear[^\]]*|illegible[^\]]*|possible reading:[^\]]*|crossed out:[^\]]*|inserted:[^\]]*|"
-    r"withheld for privacy|page \d+[^\]]*|envelope (?:front|back)|drawing:[^\]]*)\]"
+    r"withheld for privacy|page \d+[^\]]*|back of page[^\]]*|envelope (?:front|back)[^\]]*|drawing:[^\]]*|"
+    r"underlined[^\]]*|written above[^\]]*)\]"
 )
 
 
@@ -51,6 +52,63 @@ def nice_date(value):
 
 def mark_up(rendered):
     return MARK.sub(lambda m: f'<span class="mark">{m.group(0)}</span>', rendered)
+
+
+def notes_section(text, name):
+    """Return the body of a '## name' section of a notes.md file, or ''."""
+    m = re.search(rf"^## {re.escape(name)}[^\n]*\n(.*?)(?=^## |\Z)", text, flags=re.S | re.M)
+    return m.group(1).strip() if m else ""
+
+
+def sources_for(lid):
+    """Entries in research/sources.md that say they are cited in this letter, as (title, url, publisher)."""
+    out = []
+    for line in (ROOT / "research" / "sources.md").read_text().splitlines():
+        cited = re.search(r"\(Cited in: ([^)]*)\)", line)
+        if not line.startswith("- ") or not cited or lid not in re.findall(r"\d{3}", cited.group(1)):
+            continue
+        title = re.search(r"\*([^*]+)\*", line)
+        url = re.search(r"https?://\S+?(?=\.?\s|\.?$)", line)
+        publisher = line[2:].split(". *")[0]
+        out.append((title.group(1) if title else publisher, url.group(0) if url else None, publisher))
+    return out
+
+
+LABELS = ("Verified fact", "Historical context", "Interpretation", "Unknown")
+
+
+def context_section(rec):
+    notes_path = rec["_dir"] / "notes.md"
+    if not notes_path.exists():
+        return ""
+    text = notes_path.read_text()
+    history = notes_section(text, "Historical notes")
+    family = notes_section(text, "Family notes for the chapter")
+    sources = sources_for(rec["id"])
+    if not (history or family or sources):
+        return ""
+    md = markdown.Markdown(extensions=["sane_lists"])
+    parts = ['      <section class="context" id="history" aria-labelledby="history-title">',
+             '        <h2 class="label" id="history-title">Historical notes</h2>',
+             '        <p class="context-key">Each note is labeled: <strong>Verified fact</strong> (from the letter, the family or a record), '
+             '<strong>Historical context</strong> (from a cited source), <strong>Interpretation</strong> (our reading, open to correction) '
+             'or <strong>Unknown</strong>. A letter is never placed at an event just because the date or place is close.</p>']
+    if history:
+        parts.append('        <div class="context-notes">' + mark_up(md.convert(history)) + "</div>")
+    if family:
+        md.reset()
+        parts.append('        <h3 class="context-sub">From the family</h3>')
+        parts.append('        <div class="context-notes family">' + mark_up(md.convert(family)) + "</div>")
+    if sources:
+        parts.append('        <h3 class="context-sub">Sources</h3>\n        <ul class="context-sources">')
+        for title, url, publisher in sources:
+            t = html.escape(title)
+            link = f'<a href="{html.escape(url)}" rel="noopener">{t}</a>' if url else t
+            pub = f" <span>({html.escape(publisher)})</span>" if publisher and publisher != title else ""
+            parts.append(f"          <li>{link}{pub}</li>")
+        parts.append("        </ul>")
+    parts.append("      </section>")
+    return "\n".join(parts)
 
 
 def scan_files(rec):
@@ -127,8 +185,11 @@ def letter_page(rec, template):
     sub = rec.get("subtitle")
     heading = html.escape(title) + (f"<br><em>{html.escape(sub)}</em>" if sub else "")
     page_title = html.escape(title + (f" | {sub}" if sub else ""))
+    context = context_section(rec)
+    jump = ('      <p class="jump"><a href="#history">Historical notes and sources ↓</a></p>' if context else "")
     return fill(template, ROOT="../../", TITLE=page_title, HEADING=heading, DESCRIPTION=html.escape(desc), ID=lid,
-                META=meta, READING=reading, DIPLOMATIC=diplomatic, SCANS="\n".join(items))
+                META=meta, READING=reading, DIPLOMATIC=diplomatic, SCANS="\n".join(items),
+                CONTEXT=context, JUMP=jump)
 
 
 def main():

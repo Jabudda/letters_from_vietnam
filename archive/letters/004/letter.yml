@@ -22,6 +22,7 @@ source:
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0020_a.jpg"
       role: envelope-front
+      rotate: 180   # scanned upside down; web copy is turned upright
       order: 1
       bytes: 24238678
       sha256: 5e577ab6523e8cb8f81fbc60af5bfaa70c409a74bee3969cda5bf0e56808f317
