@@ -1,0 +1,18 @@
+id: P004
+subject: Bodies in a railway freight car; from the same set of Grandpa's wartime photographs as P003 (family)
+description: >-
+  Sepia print, worn at the edges. Looking into an open-sided railway freight car, with several
+  bodies lying across its floor and one hanging over the edge. Not captioned.
+date: null            # not written on the print
+place: null           # not written; very likely Dachau (see notes)
+photographer: null    # unknown
+supplied_by: Andy
+supplied_on: 2026-11-10
+source_file: "FB_IMG_1699026879781.jpg in Letters From Home Media/Grandpa WWII (397 x 604; a copy saved from Facebook in 2023). Where the original print is is unknown."
+publish: approved     # Andy, 2026-11-10: behind a click-to-view content warning
+sensitive: true
+caption: "Bodies in a railway freight car. Not captioned; kept with the Dachau photograph P003 and very likely taken at the same train."
+web_copy: site/static/photos/P004-dachau-freight-car.jpg
+related_letters: ["004"]
+notes:
+  - "Interpretation: the place is not written on the print. It is kept with P003, which is captioned Dachau, 4/30/45, and shows a similar car."

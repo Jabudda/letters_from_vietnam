@@ -78,6 +78,38 @@ def sources_for(lid):
     return out
 
 
+def photos_for(lid):
+    """Family photographs approved for publishing and linked to this letter (archive/photos/PNNN/photo.yml)."""
+    out = []
+    for path in sorted((ROOT / "archive" / "photos").glob("P*/photo.yml")):
+        p = yaml.safe_load(path.read_text())
+        if p.get("publish") == "approved" and lid in [str(x) for x in p.get("related_letters") or []] and p.get("web_copy"):
+            out.append(p)
+    return out
+
+
+def photos_section(lid, root="../../../"):
+    photos = photos_for(lid)
+    if not photos:
+        return ""
+    def fig(p):
+        src = root + p["web_copy"].removeprefix("site/")
+        cap = html.escape(p.get("caption") or "")
+        return (f'          <figure class="context-photo"><a href="{src}"><img src="{src}" alt="{html.escape(p.get("subject") or "")}" loading="lazy"></a>'
+                f'<figcaption>{cap} <span>({html.escape(p["id"])}, family photograph)</span></figcaption></figure>')
+    plain = [fig(p) for p in photos if not p.get("sensitive")]
+    hard = [fig(p) for p in photos if p.get("sensitive")]
+    parts = ['        <h3 class="context-sub" id="photographs">Photographs</h3>']
+    if plain:
+        parts.append('        <div class="context-photos">\n' + "\n".join(plain) + "\n        </div>")
+    if hard:
+        parts.append('        <details class="sensitive">\n'
+                     '          <summary><strong>Content warning.</strong> These photographs, from Grandpa’s wartime pictures, '
+                     'show the bodies of prisoners at the Dachau concentration camp in 1945. Select to view.</summary>\n'
+                     '          <div class="context-photos">\n' + "\n".join(hard) + "\n          </div>\n        </details>")
+    return "\n".join(parts)
+
+
 LABELS = ("Verified fact", "Historical context", "Interpretation", "Unknown")
 
 
@@ -89,7 +121,8 @@ def context_section(rec):
     history = notes_section(text, "Historical notes")
     family = notes_section(text, "Family notes for the chapter")
     sources = sources_for(rec["id"])
-    if not (history or family or sources):
+    photos = photos_section(rec["id"])
+    if not (history or family or sources or photos):
         return ""
     md = markdown.Markdown(extensions=["sane_lists"])
     parts = ['      <section class="context" id="history" aria-labelledby="history-title">',
@@ -103,6 +136,8 @@ def context_section(rec):
         md.reset()
         parts.append('        <h3 class="context-sub">From the family</h3>')
         parts.append('        <div class="context-notes family">' + mark_up(md.convert(family)) + "</div>")
+    if photos:
+        parts.append(photos)
     if sources:
         parts.append('        <h3 class="context-sub">Sources</h3>\n        <ul class="context-sources">')
         for title, url, publisher in sources:

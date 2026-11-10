@@ -1,0 +1,20 @@
+id: P003
+subject: A railway freight car with bodies inside, at Dachau; from Grandpa Peter F. Jafuta's wartime photographs (family)
+description: >-
+  Small sepia print with a white border. An open freight car on rails, with bodies lying on its
+  floor, seen at an angle; bright sky behind. Handwritten in the lower border:
+  "Dachau, Germany 4/30/45".
+date: 1945-04-30      # as written on the print
+place: Dachau, Germany   # as written on the print
+photographer: null    # unknown; one of Grandpa's photographs (family)
+supplied_by: Andy
+supplied_on: 2026-11-10
+source_file: "FB_IMG_1699026874886.jpg in Letters From Home Media/Grandpa WWII (604 x 435; a copy saved from Facebook in 2023). Where the original print is is unknown."
+publish: approved     # Andy, 2026-11-10: behind a click-to-view content warning
+sensitive: true       # shows the dead; shown only behind a content warning
+caption: "Dachau, Germany, 30 April 1945, the day after the camp was liberated. Bodies of prisoners in a railway freight car. The date and place are handwritten on the print."
+web_copy: site/static/photos/P003-dachau-1945-04-30.jpg   # same size as the supplied copy; metadata stripped
+related_letters: ["004"]
+notes:
+  - "Interpretation: very likely one of the roughly 40 cars of the train found outside the camp at liberation (National WWII Museum)."
+  - "Family (Andy, 2026-11-10): \"Grandpa wanted to make sure that history was shared as he did not want these atrocities repeated.\""

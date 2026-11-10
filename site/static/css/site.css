@@ -284,6 +284,15 @@ details.diplomatic { margin-top: 2.5rem; }
 .context-sources li { margin: 0 0 0.6rem; }
 .context-sources a { color: var(--ink); }
 .context-sources span { color: var(--ink-soft); }
+.context-photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 1.6rem; margin: 1rem 0 0; }
+.context-photo { margin: 0; }
+.context-photo img { width: 100%; height: auto; display: block; box-shadow: 0 2px 3px rgba(43, 41, 37, 0.18); }
+.context-photo figcaption { font-size: 0.9rem; line-height: 1.5; color: var(--ink); margin-top: 0.6rem; }
+.context-photo figcaption span { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.04em; color: var(--ink-soft); }
+details.sensitive { border: 1px solid var(--sepia); padding: 1rem 1.2rem; margin-top: 1rem; background: rgba(140, 110, 70, 0.06); }
+details.sensitive summary { cursor: pointer; line-height: 1.55; }
+details.sensitive summary strong { color: var(--sepia); }
+details.sensitive[open] summary { margin-bottom: 0.4rem; }
 details.diplomatic summary { cursor: pointer; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sepia); }
 details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
 
