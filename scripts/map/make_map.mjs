@@ -19,13 +19,13 @@ const mpath = d3.geoPath(mainClip);
 
 // Places (lon, lat), with sources noted in research/sources.md
 const places = [
-  { id: "benhet", name: "Ben Het", lon: 107.66111, lat: 14.68861, n: "1", note: "Siege, May–July 1969; A Battery, 3/6th Artillery", letters: "Letters 005, 008, 023, 025, 026", dx: -6, dy: -64, anchor: "start" },
-  { id: "dakto", name: "Dak To", lon: 107.794, lat: 14.653, n: "2", note: "“We’re up here in Dak To right now”", letters: "Letters 005, 018, 026", dx: 14, dy: -14, anchor: "start" },
+  { id: "benhet", name: "Ben Het", lon: 107.66111, lat: 14.68861, n: "1", note: "Siege, May–July 1969; A Battery, 3/6th Artillery", letters: "Letters 005, 008, 010, 018, 023, 025,", letters2: "026, 034, 041, 044, 047", dx: -6, dy: -82, anchor: "start" },
+  { id: "dakto", name: "Dak To", lon: 107.794, lat: 14.653, n: "2", note: "“We’re up here in Dak To right now”", letters: "Letters 005, 010, 018, 026, 034, 044, 047", dx: 14, dy: -14, anchor: "start" },
   { id: "kontum", name: "Kon Tum", lon: 108.00833, lat: 14.36167, n: "3", note: "MARS radio station for the call home", letters: "Letters 008, 025", dx: 14, dy: -4, anchor: "start" },
   { id: "blackhawk", name: "Black Hawk", lon: 108.2544, lat: 14.0371, n: "4", note: "Fire base; escorted a 155 gun out", letters: "Letter 033", dx: -20, dy: -50, anchor: "middle", approx: true },
-  { id: "pleiku", name: "Pleiku", lon: 108.000, lat: 13.983, n: "5", note: "Home base of the 3/6th Artillery", letters: "Letters 001, 004, 007, 008, 010, 018, 031", dx: 14, dy: 28, anchor: "start" },
+  { id: "pleiku", name: "Pleiku", lon: 108.000, lat: 13.983, n: "5", note: "Home base of the 3/6th Artillery", letters: "Letters 001, 007, 008, 010, 018, 031,", letters2: "034, 036, 047", dx: 14, dy: 28, anchor: "start" },
   { id: "ankhe", name: "An Khe", lon: 108.65694, lat: 13.95306, n: "6", note: "“Ive been there quite a few times”", letters: "Letters 008, 033", dx: 0, dy: -46, anchor: "middle" },
-  { id: "oasis", name: "LZ Oasis", lon: 107.872, lat: 13.805, n: "7", note: "Attacked 10–11 May 1969", letters: "Letters 002, 003, 032", dx: -14, dy: 4, anchor: "end" },
+  { id: "oasis", name: "LZ Oasis", lon: 107.872, lat: 13.805, n: "7", note: "Attacked 10–11 May 1969", letters: "Letters 002, 003,", letters2: "032, 037, 039", dx: -14, dy: 4, anchor: "end" },
 ];
 
 const km = (a, b) => d3.geoDistance([a.lon, a.lat], [b.lon, b.lat]) * 6371;
@@ -90,7 +90,8 @@ for (const p of places) {
   svg.push(`<g class="map-place${p.approx ? " map-approx" : ""}"><circle cx="${x}" cy="${y}" r="11"/><text class="map-num" x="${x}" y="${y + 4.5}" text-anchor="middle">${p.n}</text>
 <text class="map-name" x="${lx}" y="${ly}" text-anchor="${p.anchor}">${p.name}</text>
 <text class="map-note" x="${lx}" y="${ly + 18}" text-anchor="${p.anchor}">${p.note}</text>
-<text class="map-letters" x="${lx}" y="${ly + 34}" text-anchor="${p.anchor}">${p.letters}</text></g>`);
+<text class="map-letters" x="${lx}" y="${ly + 34}" text-anchor="${p.anchor}">${p.letters}</text>${p.letters2 ? `
+<text class="map-letters" x="${lx}" y="${ly + 49}" text-anchor="${p.anchor}">${p.letters2}</text>` : ""}</g>`);
 }
 // scale bar (20 km)
 const sb0 = proj([108.02, 13.70]); const sb1 = proj([108.02 + 20 / (111.32 * Math.cos(13.7 * Math.PI / 180)), 13.70]);
