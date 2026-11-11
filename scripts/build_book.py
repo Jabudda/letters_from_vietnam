@@ -99,12 +99,23 @@ def clean_family(text):
     return text.replace('\\"', '"')
 
 
-def letter_html(rec, photos_after):
+def envelope_image(rec):
+    files = (rec.get("source") or {}).get("files") or []
+    for f in files:
+        if f.get("role") == "envelope-front":
+            p = SITE / "scans" / rec["id"] / f"{Path(f['file']).stem}.jpg"
+            if p.exists():
+                return p
+    return None
+
+
+def letter_html(rec, photos_after, suggested):
     lid = rec["id"]
     det = rec.get("details") or {}
     title = rec.get("title")
     title = title.split(" #")[0].strip() if isinstance(title, str) else None
-    date = nice_date(det.get("date_written"), short=True)
+    title = title or suggested.get(lid)
+    date = nice_date(det.get("date_written"), short=True) or "Undated"
     to = nice_date(det.get("recipient"), short=True)
     place = nice_date(det.get("place"), short=True) or None
     head = [f'<p class="letter-no">Letter {lid}</p>']
@@ -118,6 +129,9 @@ def letter_html(rec, photos_after):
     if place:
         meta.append(f"<span>From {html.escape(place)}</span>")
     head.append(f'<p class="letter-meta">{" · ".join(meta)}</p>')
+    env = envelope_image(rec)
+    if env:
+        head.append(f'<figure class="envelope"><img src="{env.as_uri()}" alt=""></figure>')
     body = md(clean_reading(rec["_reading"]))
     fam = section(rec["_notes"], "Family notes for the chapter")
     fam_html = ""
@@ -137,7 +151,7 @@ def letter_html(rec, photos_after):
         extra += (f'<figure class="photo"><img src="{(PHOTOS / p["file"]).as_uri()}" alt="">'
                   f'<figcaption>{html.escape(p["caption"])}</figcaption></figure>')
     return (f'<section class="letter" id="letter-{lid}">{"".join(head)}'
-            f'<div class="reading">{body}</div>{fam_html}{fac}{extra}</section>')
+            f'<div class="reading">{body}</div><p class="ornament">✦</p>{fam_html}{fac}{extra}</section>')
 
 
 def notes_html(letters):
@@ -211,11 +225,12 @@ def text(name):
 def main():
     cfg = yaml.safe_load((BOOK / "book.yml").read_text())
     letters = load(cfg)
+    suggested = {str(k): v for k, v in (cfg.get("suggested_titles") or {}).items()}
     photos_after = {}
     for p in cfg.get("photos_after_letters") or []:
         photos_after.setdefault(str(p["letter"]), []).append(p)
 
-    css = (BOOK / "book.css").read_text().replace("{{FONTS}}", FONTS.as_uri())
+    css = (BOOK / "book.css").read_text().replace("{{FONTS}}", FONTS.as_uri()).replace("{{BOOK}}", BOOK.as_uri())
     title = cfg["title"]
     today = dt.date.today().isoformat()
     parts_cfg = cfg["parts"]
@@ -223,9 +238,9 @@ def main():
     doc = [f"<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><title>{html.escape(title)}</title>"
            f"<style>{css}</style></head><body>"]
     cover = PHOTOS / cfg["cover_photo"]
-    doc.append(f'<section class="cover"><div class="cover-inner"><p class="kicker">{html.escape(cfg["kicker"])}</p>'
+    doc.append(f'<section class="cover"><div class="airmail"><div class="cover-inner"><p class="band">{html.escape(cfg.get("cover_band", ""))}</p><p class="kicker">{html.escape(cfg["kicker"])}</p>'
                f'<h1>{html.escape(title)}</h1><p class="subtitle">{html.escape(cfg["subtitle"])}</p>'
-               f'<img src="{cover.as_uri()}" alt=""><p class="byline">{html.escape(cfg["byline"])}</p></div></section>')
+               f'<img src="{cover.as_uri()}" alt=""><p class="byline">{html.escape(cfg["byline"])}</p></div></div></section>')
     ifc = BOOK / cfg["inside_front_cover"]["file"]
     doc.append(f'<section class="inside-cover"><figure><img src="{ifc.as_uri()}" alt="">'
                f'<figcaption><span class="name">{html.escape(cfg["inside_front_cover"]["caption"])}</span>'
@@ -273,9 +288,11 @@ def main():
         start, end = part["from"], part["to"]
         members = [r for r in letters if start <= r["_key"] <= end]
         doc.append(f'<section class="part-title" id="part-{part["id"]}"><p class="part-no">{html.escape(part["label"])}</p>'
-                   f'<h1>{html.escape(part["title"])}</h1><p class="part-dates">{html.escape(part["dates"])}</p></section>')
+                   f'<h1>{html.escape(part["title"])}</h1><p class="part-dates">{html.escape(part["dates"])}</p>'
+                   + (f'<blockquote class="epigraph"><p>“{html.escape(part["epigraph"])}”</p><cite>{html.escape(part["epigraph_from"])}</cite></blockquote>' if part.get("epigraph") else "")
+                   + '</section>')
         for r in members:
-            doc.append(letter_html(r, photos_after))
+            doc.append(letter_html(r, photos_after, suggested))
     placed = {r["id"] for part in parts_cfg for r in letters if part["from"] <= r["_key"] <= part["to"]}
     missing = [r["id"] for r in letters if r["id"] not in placed]
     if missing:

@@ -1,7 +1,8 @@
 # Book settings. Built by scripts/build_book.py. Edit freely; nothing here is final until the family approves it.
 title: "Letters From Vietnam"
 kicker: "Vietnam · Letters home · A family remembers"
-subtitle: "Dad’s letters home, 1968–1969"
+cover_band: "VIA AIR MAIL · PAR AVION"
+subtitle: "Dad’s letters home"
 byline: "Letters by Tom Jafuta · Preserved by Andy & family"
 pdf_name: letters-from-vietnam-draft.pdf
 cover_photo: P006-dad-beach-3.jpg            # draft choice: "The First Days Over Here"
@@ -44,11 +45,60 @@ sort_dates:
 
 # The four parts (titles are a draft; the family may rename them).
 parts:
-  - {id: 1, label: "Part One", title: "Back for a Second Tour", dates: "October – December 1968", from: 1968-10-01, to: 1968-12-31}
-  - {id: 2, label: "Part Two", title: "Winter and Spring", dates: "January – April 1969", from: 1969-01-01, to: 1969-04-30}
-  - {id: 3, label: "Part Three", title: "Ben Het and Dak To", dates: "May – June 1969", from: 1969-05-01, to: 1969-06-30}
-  - {id: 4, label: "Part Four", title: "Going Home", dates: "July – August 1969", from: 1969-07-01, to: 1969-08-31}
+  - {id: 1, label: "Part One", title: "Back for a Second Tour", dates: "October – December 1968", from: 1968-10-01, to: 1968-12-31,
+     epigraph: "At least this is the last one I’ll miss.", epigraph_from: "Letter 022, November 1968"}
+  - {id: 2, label: "Part Two", title: "Winter and Spring", dates: "January – April 1969", from: 1969-01-01, to: 1969-04-30,
+     epigraph: "Who knows what tomorrow will bring hay?", epigraph_from: "Letter 029, Easter 1969"}
+  - {id: 3, label: "Part Three", title: "Ben Het and Dak To", dates: "May – June 1969", from: 1969-05-01, to: 1969-06-30,
+     epigraph: "I thought I seen very bad times before but up in Ben Het its terrible and unbelievable at times.", epigraph_from: "Letter 047, to his father, June 1969"}
+  - {id: 4, label: "Part Four", title: "Going Home", dates: "July – August 1969", from: 1969-07-01, to: 1969-08-31,
+     epigraph: "It’ll feel alot better this time getting off that plane and stepping on American ground.", epigraph_from: "Letter 038, July 1969"}
 
 # Family photographs placed after a letter.
 photos_after_letters:
   - {letter: "002", file: P002-dad-and-snoopy.jpg, caption: "Dad with Snoopy (left), his dog in Vietnam. Family photograph, restored."}
+
+# Suggested chapter titles (Claude, 2026-11-10, at Andy's request: "use your judgement... with titles"). Each is Dad's own words from that letter.
+# Titles chosen by Andy in letter.yml (001-005) always win. Accept, change or replace any of these.
+suggested_titles:
+  "008": "A Bit Past Kontum"
+  "006": "He Sure Is a Good Ol’ Listener"
+  "007": "Live and Learn"
+  "009": "Beat Cutting Grass at a Cemetary!"
+  "010": "My Day Is Coming"
+  "011": "Life Is Just Too Short"
+  "012": "I Could Put Up with Anything"
+  "013": "12 Days at the Most"
+  "015": "Home for Your Wedding"
+  "016": "But Here We Are Again"
+  "017": "My Good Ol’ Family Pulled Through!"
+  "018": "I Have Seen Better Days"
+  "019": "I Still Like to Ride “Shotgun”"
+  "020": "Things Always Work Out for the Best"
+  "021": "“What Is Happiness”"
+  "022": "The Greatest Feeling in My Life"
+  "023": "Kicked Out of Saigon"
+  "024": "If Your a Good Boy!"
+  "025": "13 Thousand Miles from Home"
+  "026": "3 Dogs, 1 Monkey & a Wounded Cat"
+  "027": "Snoopy Just Came In All Full of Mud"
+  "028": "Then I’ll Be Out of This Place"
+  "029": "Swimming Down by the Ocean"
+  "030": "A Real Live One Too!"
+  "031": "Snoopy Sure Was Happy to See Me"
+  "032": "Did I See a Big Snake"
+  "033": "Nothing Like Home Cooked Meals"
+  "034": "We’re Still Up in Ben Het Yet"
+  "035": "Where Am I Going to Sleep When I Get Home?"
+  "036": "I Raised My Right Hand"
+  "037": "Nothing Like a Good Ol’ Fish Fry"
+  "038": "That Day Is Coming"
+  "039": "As Good as Ever"
+  "040": "The Honest to God Truth"
+  "041": "We Ought to Name It “Fritz”"
+  "042": "The Last Letter I’ll Be Writing"
+  "043": "I Have Alot to Be Thankful For"
+  "044": "More to It Then Meets the Eye"
+  "045": "Ol’ Snoopy Didn’t Care for It"
+  "046": "Mr. Tom"
+  "047": "Up in Ben Het Its Terrible"

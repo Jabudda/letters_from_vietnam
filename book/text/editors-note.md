@@ -1,6 +1,6 @@
 # A note on this book
 
-**What is here.** Dad’s letters home, kept by his family, are printed here in the order he wrote them. They come from his second tour in Vietnam, from October 1968 to August 1969. A few are undated; where we have placed them, the date is marked as our best reading.
+**What is here.** Dad’s letters home, kept by his family, are printed here in the order he wrote them. They come from both of his tours in Vietnam. Many are dated only by day and month; where the year is our best reading rather than his, the notes at the back say so, and some letters may belong to a different tour than the one we have placed them in.
 
 **His words, as he wrote them.** Each letter appears in a *reading edition*. It follows the page word for word. The only changes are paragraph breaks, joining words split at the end of a line, and putting in their place the words he wrote above the line. His spelling, grammar, slang and humor are kept exactly: *hay*, *alot*, *nite*, *Im*, *HA*. Where a word can’t be read with certainty it is marked, for example *[unclear]* or *[possible reading: …]*. Nothing has been guessed silently.
 
