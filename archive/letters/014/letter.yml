@@ -4,7 +4,7 @@ folder_label: "Traveling Religious Service"   # words in the master folder name,
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
@@ -12,22 +12,22 @@ details:
   author: Tom Jafuta
   recipient: null
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: null   # exactly as he wrote it
+  place: null   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 11 - 19/Letter 14 Traveling Religious Service"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0071_a.jpg"
-      role: null
-      order: null
+      role: enclosure
+      order: 1
       bytes: 45957338
       sha256: fbe7e83502ff9002d2277fab2a4a0968a9ed7f1f89692858566194f79766f64c
     - file: "Dads_Vietnam_Letters_0071_b.jpg"
-      role: null
-      order: null
+      role: enclosure
+      order: 2
       bytes: 39602548
       sha256: a0bde0fe5d3301effed34a1f03b25bd1abfd88687c90422db8c2a5a602e1e1f0
 
@@ -37,4 +37,6 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "Not a letter: a printed folding card with the order of the Catholic Mass in English (imprimatur Milwaukee, Oct. 7, 1964). No handwriting. The master folder is labelled \"Traveling Religious Service\"."
+  - "Scan 0071_a is the outside of the folded card (first panel on the right, last panel on the left); 0071_b is the inside."

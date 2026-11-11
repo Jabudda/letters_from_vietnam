@@ -4,45 +4,45 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "June 13 or so"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 11 - 19/Letter 12"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0061_a.jpg"
-      role: null
-      order: null
+      role: envelope-back
+      order: 2
       bytes: 22119428
       sha256: 14cd2c3303ca8bef1218e5c279c85023997d3e453aa1b7cfe8c15e5a6dd56427
     - file: "Dads_Vietnam_Letters_0061_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 17323428
       sha256: f792a9c6b922ebc47409261237b240ad9e344efd5790977b4356f73bf547d337
     - file: "Dads_Vietnam_Letters_0062_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 43309000
       sha256: b271e8f0150be80d56ec00e2feec8dc368b71511d1c7cff10cdd34b20e74c5b4
     - file: "Dads_Vietnam_Letters_0063_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 37474925
       sha256: 6ec2da6ee43919d156180ce2b39ca29486d38ab52f0be6b358fbea85b21573cb
     - file: "Dads_Vietnam_Letters_0064_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 36156339
       sha256: 48f832a67f6285382fbe4d6bff6cd870ddec09ac1166acc6c6b15848fa826cd2
 
@@ -50,6 +50,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0061_b.jpg", box: [2600, 3000, 5850, 3560], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0061_b.jpg", box: [5300, 3780, 6450, 4210], reason: home ZIP code}
 
-notes: []
+notes:
+  - "\"About 64 days or so\" on \"June 13 or so\", and an ETS date moved up to August 21st, fit Letters 005, 010 and 011, so the year is very likely 1969 (interpretation). Envelope marked \"6/13\"."
