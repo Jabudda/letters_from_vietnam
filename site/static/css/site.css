@@ -400,6 +400,7 @@ details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
 .map-north path { fill: var(--ink); }
 .map-inset-label { font: 11px var(--mono); fill: var(--ink); }
 .map-inset-country { font: 9px var(--mono); letter-spacing: .2em; fill: #8a8170; }
+.map-inset-small { font-size: 10px; }
 .map-inset-dmz { font: 9px var(--mono); fill: var(--air-red); }
 .map-figure figcaption { margin-top: 1rem; color: var(--ink-soft); max-width: var(--wide); }
 .map-sources { font-size: .9rem; }
