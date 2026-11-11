@@ -4,14 +4,14 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved for publication by Andy, 2026-11-10 ("Publish everything, no censorship." / "Publish Please"); none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
   recipient: "Dad, Mom & Kids"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: "June 3 or 4, 1969"
   date_as_written: "June 3rd (or 4th)"   # exactly as he wrote it
   place: null   # as written
   unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
@@ -54,7 +54,7 @@ source:
 prior_draft: null
 
 privacy:
-  reviewed: false
+  reviewed: true   # envelope addresses and ZIP codes redacted; passages and names cleared by Andy, 2026-11-10 ("Publish everything, no censorship." / "Publish Please")
   redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
     - {file: "Dads_Vietnam_Letters_0141_b.jpg", box: [2950, 2850, 7200, 3400], reason: home street address}
     - {file: "Dads_Vietnam_Letters_0141_b.jpg", box: [6050, 3750, 7400, 4200], reason: home ZIP code}
