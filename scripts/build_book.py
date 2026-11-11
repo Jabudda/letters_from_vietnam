@@ -254,7 +254,7 @@ def main():
                f'</figure><p>{ded["text"]}</p><p class="by">{html.escape(ded["by"])}</p></section>')
     # contents
     toc = ['<section class="toc"><h1>Contents</h1><ul>']
-    for anchor, label in [("why", "Why we keep them"), ("note", "A note on this book"),
+    for anchor, label in [("grandma", "You will figure it out"), ("why", "Why we keep them"), ("note", "A note on this book"),
                           ("overview", "Where he was, and what was happening"), ("map", "Map"),
                           ("stories", "Stories Dad told")]:
         toc.append(f'<li><a href="#{anchor}">{label}</a></li>')
@@ -266,6 +266,7 @@ def main():
         toc.append(f'<li><a href="#{anchor}">{label}</a></li>')
     toc.append("</ul></section>")
     doc.append("".join(toc))
+    doc.append(f'<section class="front grandma" id="grandma">{text("grandma.md")}</section>')
     doc.append(f'<section class="front" id="why">{text("why.md")}</section>')
     doc.append(f'<section class="front" id="note">{text("editors-note.md")}</section>')
     doc.append(f'<section class="front" id="overview">{text("historical-overview.md")}</section>')

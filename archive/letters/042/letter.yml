@@ -1,7 +1,7 @@
 # Letter 042: archival record. See docs/workflow.md. Edit by hand, then run scripts/build_inventory.py.
 id: "042"
 folder_label: null   # words in the master folder name, if any
-title: null                  # short descriptive title, set once transcribed
+title: "The Last Letter I’ll Be Writing"   # in Dad's own words from this letter; suggested by Claude, approved by Andy, 2026-11-10 ("Please incorporate all the suggestions")
 
 status:
   transcription: verified   # approved for publication by Andy, 2026-11-10 ("Publish everything, no censorship." / "Please publish the remaining letters."); none | prior-draft | in-progress | needs-family-review | verified
