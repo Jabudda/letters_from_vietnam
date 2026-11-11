@@ -4,45 +4,45 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom, & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "Jan 17th, 1969 (of course)"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 30 - 35/Letter 32"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0165_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 15671204
       sha256: 8a46b974b5eb4ab55d01052ffbcd5912216f2deb0dda8a9ccdc2cf210359c482
     - file: "Dads_Vietnam_Letters_0166_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 95915603
       sha256: 2b7f542be10db79da70f08437d749c557fefd27f11e75f61b363f733c0d858c5
     - file: "Dads_Vietnam_Letters_0166_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 68293048
       sha256: ff2d294dc1b1a0bb617ddd861b697df5be10e632403462fe624721c4b64187b0
     - file: "Dads_Vietnam_Letters_0167_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 102394359
       sha256: bffa28fd284796a07ae62aeba35b16c30eb947e4d3967f0e6ed893149e6368a0
     - file: "Dads_Vietnam_Letters_0167_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 77567831
       sha256: 4f9f786d6f2fd577d2b0194897251f0eae23940bea615e1f544e9b2a5dee75d7
 
@@ -50,6 +50,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0165_b.jpg", box: [2650, 2780, 5700, 3250], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0165_b.jpg", box: [4700, 3400, 5900, 3850], reason: home ZIP code}
 
-notes: []
+notes:
+  - "Dated in full by Dad: Jan 17th, 1969. 'That one letter' in a depressed mood = very likely Letter 004 (15 Jan 1969)."
