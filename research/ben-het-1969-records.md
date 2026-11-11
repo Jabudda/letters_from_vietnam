@@ -59,8 +59,15 @@ What the Army's own award files say about Operation Dan Quyen (the fight around 
 ## How this lines up with the letters
 
 - **Verified fact (letters):** Dad's return address in early 1969 was "HHB 3/6 ARTY" (Letters 004, 033). He wrote "We're still up in Ben Het yet" on 18 June (034). In 047 he wrote "up in Ben Het its terrible", that "A baty almost got over run", and that "(Acoff) died".
-- **Interpretation:** "A baty almost got over run" very likely refers to the sapper attack on Battery A's perimeter early on 23 June 1969. That is the same day Eddie Duane Acuff died (Virtual Wall). The records do not name the man killed in the bunker, so it is **unknown** whether that was Eddie.
+- **Interpretation:** In 047 (about 28 June) Dad wrote that Battery A "almost got over run 2 days ago again". The records describe two matches.
+  - On 23 June sappers broke into Battery A's perimeter. That is the same day Eddie Duane Acuff died (Virtual Wall).
+  - NVA ground forces stayed close around Ben Het until 27 June, when bombing near the perimeter and massed artillery drove them off.
+
+  Dad's "2 days ago" points to about 26 June, and "again" suggests the attack of 23 June came before it. Which night he means is **unknown**. The records do not name the man killed in the bunker on 23 June, so whether it was Eddie is also **unknown**.
 - **Interpretation:** The records say men of Headquarters Battery went forward to Ben Het and Dak To and ran the convoys. That fits Dad being "up in Ben Het" while his battalion's headquarters was officially on Artillery Hill. It does **not** show what he did there, and he is not one of the men the narrative describes.
 - **Verified fact (family):** Andy remembers Dad saying the NVA around Ben Het numbered roughly 3,000 to 6,000. The Army's estimate of about 5,100 falls within that range.
-- **Not established:** The Valorous Unit Award names Battery A only. Whether Dad was ever on Battery A's roll is unknown. His personnel file (OMPF) would show his assignments and any awards.
+- **Not established:** The Valorous Unit Award names Battery A only. Whether Dad was on Battery A's roll in May–June 1969 is unknown.
+  - Dad's own words point that way: "air lift ammo & food to our baty" and "Even our BC from A baty" (047), and ammunition "air lifted to Ben Het to our Battery" (025).
+  - His return address in early 1969, though, was HHB 3/6 (interpretation).
+  - His personnel file (OMPF) would show his assignments, and whether he was credited with the unit award.
 - **Interpretation:** Letter 002 ("out here at the Oasis", January 1969) and Letter 037 ("LZ Oasis") match the battalion's forward post at LZ Oasis described in the 1968 recommendation.
