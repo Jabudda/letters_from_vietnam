@@ -4,14 +4,14 @@ folder_label: "June 20, Da Nang, Mom"   # words in the master folder name, if an
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved for publication by Andy, 2026-11-10 ("Publish everything, no censorship." / "Please publish the remaining letters."); none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
   recipient: "Mom"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: "about June 30, 1969 (interpretation)"
   date_as_written: null   # exactly as he wrote it
   place: "Dak To area (\"7 mile WEST from Dak To here\")"   # as written
   unit: null   # as written (e.g. from the envelope)
@@ -70,7 +70,7 @@ prior_draft:
   notes: "Replies to a letter dated June 20. Check \"Especially since we live up in [unclear]\"."
 
 privacy:
-  reviewed: false
+  reviewed: true   # envelope addresses and ZIP codes redacted where present; passages and names cleared by Andy, 2026-11-10 ("Publish everything, no censorship." / "Please publish the remaining letters.")
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
 notes:

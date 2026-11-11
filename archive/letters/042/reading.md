@@ -1,0 +1,22 @@
+Dear Mom,
+
+Hi there, Well today is Aug. 8th [possible reading: 9th] and all is pretty well. Sorry for not writing sooner but we been working some long hours lately. Also I been running around getting my eyes checked out too. Guess I'm leaving this unit at a good time too. We've been pulling guard every other nite too so for the most part we stay tired and beat. Soon I'll be home and then can catch up on some much needed sleep. Thats about all that keeps me going over here is thinking of home. I feel sorry for the guys who have a long time left. But what can ya do hay Mom? I just can't wait. 5 days and a wake up left in good?? ol' 3/6 and about 8 days left in the army. Sounds good hay. But not good enough.
+
+Its been getting pretty active "again" lately around here. I got a feeling its going to be a bit worse then usual lately mainly cause of that 6 week quiet spell we had. They got something up their sleeve, I bet. Oh well, not many more days to sweat out hay Mom? It sure is hard to believe but its true.
+
+Ya know Mom, this is going to be the last time I'll be "talking" to you in a letter. In a way it sounds good to say and in a way it makes me feel kinda different. I guess cause its the sudden change and also I find it hard to believe its true. I mean I'm happy and all but I'm so used to writing that to stop all of the sudden makes me feel different. Know what I mean. Hope so - cause I don't know how to explain it myself. When I hear your voice on the phone though I'll be the happiest guy in the world. I hope I don't cry though. I hate too but at times can't help myself. I know it sounds crazy for me but you know me. Many people think that 2 yrs. over here has really hardened me but I guess they don't know the real me. I don't know the real me at times either. This place has changed me in ways I don't know how to describe but it hasn't hardened me. You know what I mean. I just want to go home and be with all of you.
+
+We sure have talked alot in letters in the past 34 or so months hay Mom. I'm glad though cause letters mean so much to all of us over here, especially me. Mainly cause I get so damn depressed at times. We all do. I seen a picture in the paper on a mother and father who heard that their son, a POW was released. The parents were just beaming with joy - you could see it in the picture. It made me happy just looking at it. Then again theres others who have died here. I just can't and don't want to "picture" their faces at first hearing the news. How did we get on this subject?
+
+Did you tell Petey that soon I'll be home. Boy I can't wait to see how he's grown. The first time I came home he was sorta shy at first - remember? This time I doubt if he will be - do you. I'm kinda mad at myself for forgetting his birthday but there's been so much on my mind lately. Oh well, I'll make up for it hay.
+
+It still worries me a bit about going back to school Mom. All these sudden changes there'll be. I hope it doesn't take long for me to get the hang of things. Do you think it will? There I go again, asking stupid questions. Probably cause I learned to depend on you and the rest of the family so much.
+
+Its hard to believe that this is the last letter I'll be writing [possible reading: if] things go as planned. In the army nothing is for sure. Thats why you shouldn't get worried if I don't call on the date we planned. There's a 99% chance I will but as I said nothing is for sure. Right?
+
+Boy, its going to be nice to talk to you in person Mom. Your really a good person to talk too and I enjoy every minute of it. So is Dad, and I know we'll get along alot better then before I came in the army. This sure does change people alot hay. I still got so much to learn though. I guess we all do. Thats what makes life such a challenge hay. Enuf of the many things anyways. I'll be home for the big wedding anniversary this year hay. That makes about 24 yrs. of marriage for you hay Mom. Boy that a long time. I sure am a lucky son to have the parents as I have. Does it seem like you been married that long???
+
+Well Mom, guess I'll close and get ready for guard. So I'll close this last letter to you with a feeling that words can't describe. A good feeling and a mixed up one too. Take good care of yourself and be seeing you in the very near future. Always remember Mom, that I love you and the rest of the family in such a wonderful way no words could ever, ever describe. God bless you.
+
+Your ol' tired mixed up - but HAPPY son,
+Tom

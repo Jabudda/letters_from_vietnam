@@ -1,0 +1,26 @@
+Dear Dad, Mom & Kids,
+
+Hi there! So how's things going for all of you? Real good I hope. How's the weather and all. Its lousy over here but not too much longer to go hay. Lets see - today is July 25th so that leaves only 6 days left in this month. Not too bad but not too good. I guess I'm just never satisfied until "THE DAY."
+
+We haven't been doing much lately except for pulling guard and junk like that. Thats the way I hope it stays till I get out. But thats just wishful thinking.
+
+Hope I got a letter or two today. Haven't gotten any for awhile now. Such is life - Well I went to the Doctor about my eyes. But he couldn't do any good or figure it out. So guess I'll just have to wait around and try to go to an eye doctor. I sure would like to know what's the matter with them. Oh well, "maybe tomorrow" (my ol' saying)
+
+I hear that they landed on the moon safe and also got back to earth. Boy that sure is something. You would think that if they could accomplish something that hard they would be able to settle this mess over here in no time. Oh well, guess their way of thinking is different or something - hay? Or maybe they just don't care. Who knows.
+
+I just can't wait to get home for good. That day is coming but feels like a long way off. It'll get here one of these days though won't it. I'll leave my unit the 20th of Aug. so that leaves 26 days left in ol' 3/6. And after Aug 20 it'll just leave a couple days left in the army at the most. It'll feel alot better this time getting off that plane and stepping on American ground. I can still remember how happy & thankful I was last time knowing that I would probably come back over before I got out of the army. But after this time - well, its the last for me, thank God. It sure would be hard to stay here one day past my ETS.
+
+I got your pictures. Tell Petey that sure was a "big??" fish he caught. Bet he was proud of it hay? Ask him if he's going to go fishing with Dad, Mick & I come next month. By the way could you get some new line for my reel and oil it up a bit? Sure would hate to have it break when I teach Dad how to catch muskies. Right Dad. So if you want to learn - could you fix it up. Just kidding about the learning part but sure would appreciate it.
+
+What's the story on a good ol' hunting dog?????? Or are you trying to discourage it. You know who that "you" is don't you Mom? But of course the best Mother around wouldn't do that would you Mom? Boy, I've been thinking alot of how much our family has grown up. I can remember when I first came in the army how small Petey was. And now look at him. All the rest of us kids have grown up too in one way or another. Petey sure was (and still is, of course) like a great gift from God. I find it so hard to picture our family without him or any one else in our whole family. We all had so many good times together - and some bad ones - but they never lasted long. There's many more to come too - good times that is. Maybe more so for me. Cause I never realized the love and respect I had for my family until I came here. The family always did mean the world to me but now more so then ever. Its hard to explain in words or even a letter but I'm sure you know what I mean. Never again could I take all of you for granted cause now I know how it feels to be with*out* - physically that is.
+
+I just wish that all those who have died over here could be back home. I guess I'm just one of the lucky ones - Shouldn't "count my chickens befor their hatched" but I'll make it home if God wants it that way. Thats another thing being over here has showed me. To have so much more trust and faith in God. Without being able to talk with Him when I need help or bad times come along I'd probably be in a nut house by now, no lie. So many times I felt like just giving up and so tensed up and ready to crack up that I didn't know what to do but pray and always calmed down. Except for when I was home that one time. Thats what I mean. If I would have talked to one of you or Him, nothing may not have ever happened. I just wanted to give up that day. Live & learn. It'll never happen again when I get home as long as I got you to talk too. Ya know, talking and praying are about the best remedies around aren't they? I'm glad I found that out cause I used to keep so much to myself. Thats no good. Is it?
+
+Thinking about going back to school is kinda making me nervous already. Like using books and all. Its going to be pretty hard I think. Meeting people too - not so much that but how to act. I know that sounds stupid for me. I guess its cause over here we're more or less just existing and hoping that someday we'll be home. It must be the sudden change of life that make me think all of this - I guess. Soon I'll be home and how happy I'll be. When I was a civilian I was like down in a valley facing a great mountain. When I get out I'll be about half way up that mountain. The day I reach the top is when I'll have my own family.
+
+Well gang, guess I better sign off for now. Just got elected to go walk down on the perimeter. So until we write again - take care & God bless all of you from your ol' son & brother who loves & misses all of you so much. But the gap is finally closing a little bit, thank God. By, by for now
+
+Your ol' son & brother,
+Tom
+
+Oh say "hi" to all - thanks

@@ -4,14 +4,14 @@ folder_label: "1968, Central Highlands, Dad, 54 Days Left"   # words in the mast
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved for publication by Andy, 2026-11-10 ("Publish everything, no censorship." / "Please publish the remaining letters."); none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
   recipient: "Dad"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: "about June 28, 1969 (second part about June 30; interpretation)"
   date_as_written: null   # exactly as he wrote it
   place: "Dak To (\"still in Dak To helping to air lift ammo & food to our baty\")"   # as written
   unit: null   # as written (e.g. from the envelope)
@@ -55,7 +55,7 @@ prior_draft:
   notes: "Check \"Just can't warm up there\", \"75's\", \"my one used to be in '66\"."
 
 privacy:
-  reviewed: false
+  reviewed: true   # envelope addresses and ZIP codes redacted where present; passages and names cleared by Andy, 2026-11-10 ("Publish everything, no censorship." / "Please publish the remaining letters.")
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
 notes:
