@@ -31,3 +31,17 @@ Dated events from the letters (marked *Letter*) alongside sourced historical eve
 | 1969-08-04 | Letter | Letter 011, "Aug. 4": port call "Aug. 17"; "16 days" to go; Jim "too thinks we made a mistake coming back". Year by interpretation. | 011 |
 | 1969-08-06 | Letter | Letter 013 to Dad, "Aug 6": "12 DAYS AT THE MOST". Year checked off by Andy. | 013 |
 | 1969-08-21 | Letter | ETS date he gives in Letter 012 ("my new ETS date is moved up to August 21st"). When he actually left the army is not yet confirmed. | 012 |
+| 1968-11-28 | Letter | Letter 043, Thanksgiving Day (very likely 1968): R&R to Hawaii "next month on the 13th" and home from there for "about 4 days". Year by interpretation. | 043 |
+| 1968-11-29 | Letter | Letter 045, "the day after good ol' Thanksgiving": took Snoopy to "the Doc"; first time driving a 2½ ton truck. Year by interpretation. | 045 |
+| early 1969 | Letter | Letter 046, to Mom: asks for a school letter for a 90-day early out, to "June 25th"; "It was business law wasn't it?" Date by interpretation. | 046 |
+| 1969-03-25 | Letter | Letter 036, "March 25, 1969, Pleiku, Viet Nam": 30 months since he "raised my right hand"; hopes to be in Australia "in a few more days". | 036 |
+| 1969-05-13 | Letter | Letter 039, "May 13th": at the Oasis saw Steve Dott "as good as ever"; a '52 Harley 1200cc from New York; Snoopy on the cot. Year by interpretation. | 039 |
+| 1969-05-17 | Letter | Letter 037, "May 17th", "still out at the Oasis": Steve on patrol; St. Christopher news. Year by interpretation. | 037 |
+| 1969-06-01 | Letter | Letter 040, "June 1st": the Buddha's Birthday cease-fire; John leaves for another unit "Monday (tomorrow)"; early out approved, to 29 August. | 040 |
+| 1969-06-18 | Letter | Letter 034, "June 18th": "We're still up in Ben Het yet"; with Deacon in "this old French bunker"; water "rationed a helmet full a day". Year by interpretation. | 034 |
+| 1969-06-28 | Letter | Letter 047, to Dad, "54 days (Aug. 21st)": "up in Ben Het its terrible"; A Battery "almost got over run"; "(Acoff) died". Second part two days later: NBC filmed the ammunition airlift. Date by interpretation. | 047 |
+| 1969-06-30 | Letter | Letter 044, to Mom: "you asked where Ben Het is… 7 mile WEST from Dak To"; NBC newsmen; "more to it then meets the eye". Date by interpretation. | 044 |
+| 1969-07-19 | Letter | Letter 041, "the 19th" (envelope 7/19): at the airport at Cam Ranh after Phan Thiet; wallet destroyed "when we were in Ben Het"; a dog to be named "Fritz". Year by interpretation. | 041 |
+| 1969-07-25 | Letter | Letter 038, "July 25th": "they landed on the moon safe and also got back to earth"; leaves his unit 20 August. | 038 |
+| 1969-07-29 | Letter | Letter 035, "July 29th": might go home 18 August on another man's port call. Year by interpretation. | 035 |
+| 1969-08-08 | Letter | Letter 042, to Mom, "Aug. 8th": "the last letter I'll be writing"; the released POW in the paper. Year by interpretation. | 042 |

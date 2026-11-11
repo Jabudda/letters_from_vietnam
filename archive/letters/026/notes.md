@@ -53,6 +53,7 @@ The plain envelope, marked with dark smudged rings, is addressed in his hand to 
 - **Historical context:** A platoon of A Battery, 3/6 Artillery, was at Ben Het in 1969, and Ben Het was surrounded by North Vietnamese regiments from mid-June (see Letter 005 notes and sources). Cpl Harold F. Hawkins of A Battery was wounded on 13 June 1969 (Letter 005 notes). Nothing in this letter places Dad in any particular engagement.
 - **Historical context:** An AP story from Ben Het three weeks later (Lancaster *Daily Intelligencer Journal*, 27 June 1969) reported that A Battery, 3rd Battalion, 6th Artillery, on "North Hill" with six self-propelled 105 mm guns, had passed 100 casualties in two weeks and was at times at only half strength (see Letter 025 notes, "News reports at home"). Nothing here says how long Dad was with A Battery.
 - **Unknown:** Where he was when he wrote (not at Ben Het; he was to go "up around Dak To again tomorrow").
+- **Cross-reference (from later letters):** Letter 034 (18 June 1969) has Dad at Ben Het with Deacon ("We're still up in Ben Het yet"); Letter 047 (about 28 June) has him at Dak To airlifting ammunition to A Battery, which "almost got over run". John left for another unit on 2 June (Letter 040).
 
 ## Family notes for the chapter
 

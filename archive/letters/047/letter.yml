@@ -4,45 +4,45 @@ folder_label: "1968, Central Highlands, Dad, 54 Days Left"   # words in the mast
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: null   # exactly as he wrote it
+  place: "Dak To (\"still in Dak To helping to air lift ammo & food to our baty\")"   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 43 - 47/Letter_047_1968_Central Highlands_Dad_54 Days Left"
   capture: phone photo
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Letter_005_Page_01.HEIC"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 2647401
       sha256: f77fa6e8cf9a7e3e71bc54f2efcc174dad56c0b4d7b92be5cd4558dc0f0a319c
     - file: "Letter_005_Page_02.HEIC"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 2629367
       sha256: 37f084651cb5ad7898e68959cd97ca400bfe928e0fb2a6fd03a27c8396fa73a0
     - file: "Letter_005_Page_03.HEIC"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 2742879
       sha256: b88ba3ccaf5d21f4f70afa7676198d0301449e935ec907f0ae92802809694e10
     - file: "Letter_005_Page_04.HEIC"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 2611586
       sha256: cbbee14cb844b6fef671c76db9d0ec16accf774795f819d9817a3cb97380d759
     - file: "Letter_005_Page_05.HEIC"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 2628587
       sha256: 2b6aba99b1441bbe05f7fcaed91dba00bdf295cf0fd714d2428e4a0ba56a3078
 

@@ -55,6 +55,7 @@ At the top of page 1, in pencil and in another hand (block capitals), someone wr
 - **Interpretation:** "Brunner" and "Kruse" in the letter are very likely these two men: same battery, and 29 March 1968 is about a week before Easter 1968 (14 April), when Dad says he was home on leave. **Unknown:** "Wolf" (no soldier of that name in HHB 3/6 Artillery was found in a first search) and "Del".
 - **Historical context:** The Tet Offensive began at the end of January 1968 ("Tet of last year"). (General knowledge.)
 - **Unknown:** Where "the hill" was.
+- **Cross-reference (from a later-numbered letter):** On 25 March 1969, at Pleiku, Dad wrote "In a few more days I hope to be in Australia but that all depends on if I get my money orders in time" (Letter 036). This letter is how that plan turned out.
 
 ## Family notes for the chapter
 

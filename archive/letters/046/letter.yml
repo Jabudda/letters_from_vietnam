@@ -4,30 +4,31 @@ folder_label: "Early Out Request"   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: prior-draft   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Mom"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: null   # exactly as he wrote it
+  place: null   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 43 - 47/Letter_046_Early_Out_Request"
   capture: phone photo
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Letter_004_Page_01.HEIC"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 2703942
       sha256: 362b13139ff45bdeb39e1ce1f10e23038a8c9af159c47a2d2b82d1b86d610298
     - file: "Letter_004_Page_02.HEIC"
-      role: null
-      order: null
+      role: page
+      rotate: 270   # stored sideways or upside down; web copy is turned upright
+      order: 2
       bytes: 2421457
       sha256: 5fc2cdad6774138d6aa6a2a3f7d37e28ae0671985af2518190aaba69b490f097
 

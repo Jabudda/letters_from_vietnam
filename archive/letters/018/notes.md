@@ -67,6 +67,7 @@ The family letter's reading order is 0090_b, 0091_b (2), 0092_b (3, the number c
 - **Historical context:** Ben Het was surrounded by North Vietnamese regiments from mid-June 1969, and the siege lifted in early July (see Letter 005 notes and sources). That fits "our operation in the Dak To - Ben Het area is over with for the time being".
 - **Verified fact (from the letter):** "I'll hate leaving all my friends behind... Just because I'll be home doesn't mean that the war (conflict?) will be over. For me - yes - but not for all those who remain here."
 - **Unknown:** The exact date of the letter to Petey (before August, since he expected to miss Petey's August birthday), and Petey's age at the time (the family knows).
+- **Cross-reference (from later letters):** About 28 June 1969 Dad wrote to Grandpa from Dak To, "A good friend of mine (Acoff) died along with others who got all messed up" (Letter 047).
 
 ## Family notes for the chapter
 

@@ -47,6 +47,7 @@ Two sheets of lined notebook paper written on one side in blue ink, four pages. 
 - **Historical context:** Harley-Davidson's 74-cubic-inch big twin, sold as the "1200", powered the FL Electra Glide. From 1966 it used the new "Shovelhead" engine of about 1,208 cc. *Sources:* [RM Sotheby's, 1973 Harley-Davidson FLH 1200 Electra Glide (lot history)](https://rmsothebys.com/auctions/hf23/lots/r0091-1973-harleydavidson-flh-1200-electra-glide); [Harley-Davidson Shovelhead engine (Wikipedia mirror)](https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.dweb.link/wiki/Shovelhead_engine.html).
 - **Interpretation:** "A Harley 1200 c.c." very likely means one of these 74-cubic-inch big twins. The model is unknown.
 - **Unknown:** Where he was when he wrote this; the letter names no place or unit.
+- **Cross-reference (from later letters):** The Harley story runs on. On 13 May 1969 Dad had given a friend $180 for "a '52, Harley 1200cc." from the friend's brother, to come to Milwaukee by freight train (Letter 039); by about 21 June he had "cancelled the deal on that cycle" (Letter 025); and on 19 July he asked about the $180 check and reminded the family of "our deal… using the money for a good ol' dog instead of a cycle" (Letter 041).
 
 ## Family notes for the chapter
 

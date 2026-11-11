@@ -45,6 +45,7 @@ The scans are numbered 0159, 0160, 0163 and 0164 (0161 is the last page of Lette
 - **Interpretation:** The attack fits his "Had guard last nite… Pleiku Airbase (about 1/2 mi from us)" exactly, and puts his unit about half a mile from the air base. The 3/6th Artillery was based at Camp Saint Barbara (Artillery Hill) outside Pleiku (see Letter 004 notes and sources).
 - **Historical context:** The allies had declared short Christmas cease-fires in earlier years; in 1967 it was a 24-hour pause from 18:00 on 24 December, during which many violations were reported. *Sources:* [CIA reading room, "The Situation in Vietnam – 25 December 1967"](https://cia.gov/readingroom/document/06752216); [Vietnam Helicopter Pilots Association, Army Reporter on Christmas truce violations, 1967](https://www.vhpa.org/KIA/panel/battle/67122530.HTM). Dad thought another truce a mistake: "If they have that Xmas truce this year - they're crazy." (His opinion as written. Whether and how a truce was held at Christmas 1968 is not checked here.)
 - **Unknown:** Why he was able to go home in December 1968.
+- **Cross-reference (from a later-numbered letter):** The four days at home were planned. On Thanksgiving (very likely 28 November 1968) Dad wrote that he was "taking my R&R to Hawaii next month on the 13th. And I plan on making it home from there… It will only be for about 4 days" (Letter 043).
 
 ## Family notes for the chapter
 

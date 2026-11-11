@@ -56,6 +56,7 @@ The envelope is the printed "UNITED STATES ARMED FORCES - VIETNAM" kind, with a 
 - **Verified fact (from the letter):** "The rains are starting to break up a bit... the mud gets to me after awhile."
 - **Historical context:** Pleiku and the Central Highlands have a rainy season from about May to October, wettest around July and August, under the summer monsoon. *Sources:* [Climates to Travel, "Pleiku climate"](https://climatestotravel.com/climate/vietnam/pleiku); [VnExpress International, "A travel guide to Vietnam's Central Highlands"](https://e.vnexpress.net/news/travel/travel-guide/a-travel-guide-to-vietnam-s-central-highlands-4852001.html). (Present-day climate descriptions; the 1969 weather itself is from his letter.)
 - **Verified fact (from the letter):** He planned to stop writing "in 4 more days" because he "should be home" seven days after that, about 17 August by his count. That agrees with the "Aug. 17" port call in Letter 011.
+- **Cross-reference (from later-numbered letters):** Letter 042 (8 or 9 August 1969), to Grandma, calls itself "the last letter I'll be writing". This letter (6 August) is two days earlier.
 
 ## Family notes for the chapter
 

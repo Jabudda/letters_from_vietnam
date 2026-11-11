@@ -45,6 +45,7 @@ The airmail envelope is addressed in his hand to the "Jafuta Family" in West All
 - **Interpretation:** His count of days in Letters 005, 010, 011 and this letter all point to the same few days in mid to late August 1969: a port call on 17 August and an ETS date of 21 August.
 - **Historical context:** Ben Het was surrounded by North Vietnamese regiments from mid-June 1969 (see Letter 005 notes and sources). This letter, written about 13 June, does not mention Ben Het or any action, and nothing here places him at any event.
 - **Verified fact (from the letter):** "I guess the mail system is a bit mixed up... Late letters are a hell of alot better then no letters." Letter 010 also complains of mail not going out or coming in.
+- **Cross-reference (from later letters):** The letter in which he first gave the new ETS of 21 August is very likely Letter 026 (7 June 1969). His early out for school had been approved by 1 June 1969 (Letter 040), and Letter 046 is his request to Grandma for the school letter (interpretation).
 
 ## Family notes for the chapter
 

@@ -57,6 +57,7 @@ The envelope is printed "AFTER 5 DAYS RETURN TO … ZIP CODE" and is torn open a
 - **Historical context:** "Riding shotgun" means riding in the front passenger seat, originally as an armed guard. (General usage.)
 - **Verified fact (from the letter):** "I've seen quite a few guys cry for their families when something bad happened since I've been in the army."
 - **Unknown:** Where he was when he wrote ("I'm in such a place where I can't see my C.O. all the time").
+- **Cross-reference (family, 2026-11-10):** Andy: "I think Stevie was Stevie Collins." He is very likely not the army friend Steve Dott of Letters 003, 037 and 039, whom Andy remembers as being from Tennessee (interpretation).
 
 ## Family notes for the chapter
 

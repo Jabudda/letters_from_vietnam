@@ -88,6 +88,7 @@ The transcription is approved (Andy, 2026-11-10). These questions can be answere
 - **Interpretation:** If the uncertain "704th" reading is right, his mention of that unit being "out there" fits the veterans' accounts above. It does not by itself tell us his own unit.
 - **Verified fact (family):** The "2½ truck" he was driving was a two-and-a-half-ton truck (Andy, 2026-11-10).
 - **Unknown:** His unit, which pay raise he means, and what happened to Steve.
+- **Cross-reference (from later letters):** Steve was all right. On 12 May 1969 Dad "saw Steve Dott and he is as good as ever" (Letter 039, where the surname is written clearly), and on 17 May he saw him again on a morning patrol at the Oasis (Letter 037). Andy (2026-11-10): "I think Steve Dott was from Tennessee and a good looking guy."
 
 ## Family notes for the chapter
 
