@@ -42,12 +42,12 @@ The plain envelope has a faint printed block at the top (unreadable) and a rust-
 7. **"You all liked [possible reading: Snoppy]."** Did Dad send home pictures of Snoopy? (Andy: Dad's Vietnam dog was Snoopy.)
 8. **"The guy… from 35th and Capitol."** A Milwaukee corner (35th Street and Capitol Drive). Did Dad keep in touch with him?
 9. **The camera.** "Just take some money out of my check and get the kind I asked for." (See Letter 032 on "one of those little 35mm cameras".)
-10. **Readings to check:** "[possible reading: Kulinski]" and "[possible reading: Danbeck]" (page 1); "Jack's"; "D.Q."; "Blackhawk"; "[possible reading: Snoppy]"; the order of pages.
+10. **Readings to check:** "[possible reading: Kulinski]" and "[possible reading: Danbeck]" (page 1); "Jack's"; "D.Q."; "[possible reading: Snoppy]"; the order of pages.
 
 ## Historical notes
 
 - **Verified fact (from the letter):** "We went out to Blackhawk yesterday to escort a 'low boy' with a 155 gun in… Yesterday when we came back from Black hawk (near An Khe) we stopped at a village to watch a Buddist ceremony - the out door type." A "low boy" is a low-bed trailer for hauling heavy equipment; a 155 is a 155 mm artillery piece (general knowledge).
-- **Unknown:** The exact place he calls "Blackhawk" ("near An Khe"), to be checked against sources.
+- **Historical context:** "Fire Support Base Black Hawk, 26KM east of Pleiku" appears in the 1st Battalion, 92nd Artillery operational report for November 1968 – January 1969, which places a battery of 175 mm guns (A Battery, 5th Battalion, 22nd Artillery) there. A place 26 km east of Pleiku, on the side towards An Khe (which Dad placed between Pleiku and Qui Nhon in Letter 008), fits "near An Khe" (interpretation). *Source:* [1/92nd Artillery, Operational Report, Nov 1968 – Jan 1969](https://www.bravecannons.org/History/ORLL/h_nov_jan_69.html).
 - **Verified fact (from the letter):** "Our B.C. got mad at us cause we broke the window on the jeep… the 60 turned over and broke the window." (B.C. = battery commander; the 60 = the M60 machine gun.)
 - **Verified fact (from the letter):** "I'm sorry about some of my letters but I write how I feel and when depressed I write bad letters. But one thing I'd like to stress is that I don't ever feel sorry for myself." (Compare Letters 004 and 032.)
 
@@ -57,4 +57,4 @@ The plain envelope has a faint printed block at the top (unreadable) and a rust-
 
 ## Privacy review
 
-Scans checked 2026-11-10. **The envelope shows the family's home street address and ZIP code.** Both are withheld in the transcription and covered in the web image (redaction boxes in `letter.yml`). City and state are kept, per `docs/privacy.md`. People named: Tom and John (surnames uncertain), Tim, Petey, Chuck and Chuckie, Mary, a soldier from 35th and Capitol (unnamed). **Page 2 mentions a young relative's probation**; the family decides whether it is published. No phone or ID numbers.
+Scans checked 2026-11-10. **The envelope shows the family's home street address and ZIP code.** Both are withheld in the transcription and covered in the web image (redaction boxes in `letter.yml`). City and state are kept, per `docs/privacy.md`. People named: Tom and John (surnames uncertain), Tim, Petey, Chuck and Chuckie, Mary, a soldier from 35th and Capitol (unnamed). Page 2 mentions a young relative's probation; Andy approved publishing it as written (2026-11-10). No phone or ID numbers.
