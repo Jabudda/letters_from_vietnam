@@ -1,0 +1,139 @@
+@font-face { font-family: "EB Garamond"; src: url("{{FONTS}}/eb-garamond-latin-400-normal.woff2"); font-weight: 400; }
+@font-face { font-family: "EB Garamond"; src: url("{{FONTS}}/eb-garamond-latin-400-italic.woff2"); font-style: italic; }
+@font-face { font-family: "EB Garamond"; src: url("{{FONTS}}/eb-garamond-latin-500-normal.woff2"); font-weight: 500; }
+@font-face { font-family: "EB Garamond"; src: url("{{FONTS}}/eb-garamond-latin-600-normal.woff2"); font-weight: 600; }
+@font-face { font-family: "Plex Mono"; src: url("{{FONTS}}/ibm-plex-mono-latin-400-normal.woff2"); }
+
+@page { size: 6in 9in; margin: 0.8in 0.7in 0.85in 0.75in;
+  @bottom-center { content: counter(page); font: 9pt "EB Garamond"; color: #6b6158; } }
+@page :left { margin-left: 0.7in; margin-right: 0.75in; }
+@page plain { @bottom-center { content: none; } }
+@page full { margin: 0; @bottom-center { content: none; } }
+
+html { font-family: "EB Garamond", Georgia, serif; font-size: 11pt; line-height: 1.42; color: #2b2925; }
+body { margin: 0; }
+h1, h2, h3 { font-weight: 500; line-height: 1.15; }
+h1 { font-size: 22pt; margin: 0 0 0.35in; }
+p { margin: 0 0 0.6em; text-align: justify; hyphens: auto; orphans: 2; widows: 2; }
+a { color: inherit; text-decoration: none; }
+em { font-style: italic; }
+figure { margin: 0; }
+img { max-width: 100%; }
+
+/* cover and front pages */
+.cover { page: full; height: 9in; background: #f4efe4; page-break-after: always; display: block; }
+.cover-inner { padding: 0.8in 0.6in 0.5in; text-align: center; }
+.cover .kicker, .title-page .kicker { font: 7.5pt "Plex Mono"; letter-spacing: 0.12em; text-transform: uppercase; color: #8a5a3c; margin-bottom: 0.25in; }
+.cover h1 { font-size: 34pt; margin: 0 0 0.08in; }
+.cover .subtitle { font-style: italic; font-size: 13pt; text-align: center; margin-bottom: 0.3in; }
+.cover img { max-height: 4.9in; box-shadow: 0 3px 10px rgba(0,0,0,0.3); border: 6px solid #fcfaf5; }
+.cover .byline { margin-top: 0.3in; font-size: 10.5pt; text-align: center; color: #5a524a; }
+
+.inside-cover { page: plain; page-break-after: always; text-align: center; padding-top: 1.0in; }
+.inside-cover img { width: 2in; height: 3.5in; border: 0.09in solid #fcfaf5; box-shadow: 2px 4px 9px rgba(60,50,40,0.4); }
+.inside-cover figcaption { margin-top: 0.3in; }
+.inside-cover .name { display: block; font-style: italic; font-size: 15pt; }
+.inside-cover .full { display: block; font-size: 11pt; color: #6b6158; }
+
+.title-page { page: plain; page-break-after: always; text-align: center; padding-top: 2in; }
+.title-page h1 { font-size: 30pt; margin: 0 0 0.1in; }
+.title-page .subtitle { font-style: italic; font-size: 13pt; text-align: center; }
+.title-page .byline { margin-top: 2.2in; text-align: center; color: #5a524a; }
+
+.copyright { page: plain; page-break-after: always; padding-top: 5.6in; font-size: 9pt; color: #5a524a; }
+.copyright p { text-align: left; }
+.draft-note { font-family: "Plex Mono"; font-size: 7pt; letter-spacing: 0.04em; color: #9a4a2c; }
+
+.dedication { page: plain; page-break-after: always; text-align: center; padding-top: 0.9in; }
+.dedication img { width: 3.6in; border: 5px solid #fcfaf5; box-shadow: 0 2px 8px rgba(0,0,0,0.25); }
+.dedication p { text-align: center; font-style: italic; font-size: 17pt; margin-top: 0.4in; line-height: 1.3; }
+.dedication .by { font-size: 11pt; font-style: normal; color: #6b6158; margin-top: 0; }
+
+.toc { page: plain; page-break-after: always; }
+.toc ul { list-style: none; padding: 0; margin: 0; }
+.toc li { margin: 0 0 0.35em; }
+.toc li a::after { content: leader('.') target-counter(attr(href), page); }
+.toc li.part { margin-top: 0.7em; font-weight: 600; }
+
+.front { page-break-before: always; }
+.front h1 { margin-top: 0.4in; }
+.front h2 { font-size: 14pt; margin: 0.35in 0 0.05in; }
+.stories h2 + p em { color: #6b6158; }
+.photo-half { width: 48%; display: inline-block; vertical-align: top; margin-right: 1%; }
+.stories p img { width: 47%; margin: 0.15in 2% 0 0; vertical-align: top; }
+.map img { width: 100%; height: auto; border: 0.5pt solid #d6c9ae; }
+.map img.rotated { width: auto; height: 6.3in; display: block; margin: 0 auto; }
+.map h1 { margin-top: 0; margin-bottom: 0.15in; }
+.map-caption { font-size: 8.5pt; font-style: italic; color: #6b6158; margin-top: 0.1in; }
+
+/* parts */
+.part-title { page: plain; page-break-before: right; page-break-after: always; text-align: center; padding-top: 2.4in; }
+.part-no { font: 8pt "Plex Mono"; letter-spacing: 0.14em; text-transform: uppercase; color: #8a5a3c; text-align: center; }
+.part-title h1 { font-size: 26pt; margin: 0.1in 0; }
+.part-dates { font-style: italic; text-align: center; color: #6b6158; }
+
+/* letters */
+.letter { page-break-before: always; }
+.letter-no { font: 7.5pt "Plex Mono"; letter-spacing: 0.14em; text-transform: uppercase; color: #8a5a3c; margin: 0.45in 0 0.05in; text-align: left; }
+.letter-title { font-size: 19pt; margin: 0 0 0.06in; }
+.letter-title.placeholder { color: #b3a89c; font-style: italic; font-size: 14pt; }
+.letter-meta { font-style: italic; color: #6b6158; text-align: left; margin-bottom: 0.3in; }
+.letter-meta span + span::before { content: ""; }
+.reading p { text-indent: 1.2em; margin: 0; }
+.reading p:first-child, .reading h3 + p, .reading p strong:only-child { text-indent: 0; }
+.reading p:last-child, .reading p:nth-last-child(2) { margin-top: 0.4em; text-indent: 0; text-align: left; }
+.reading h3, .reading p > strong:only-child { display: block; margin-top: 0.8em; }
+.reading em { font-style: italic; }
+.family { margin: 0.35in 0 0.2in; padding: 0.12in 0 0.12in 0.18in; border-left: 2px solid #c9a27e; font-size: 10pt; }
+.family h3 { font: 7.5pt "Plex Mono"; letter-spacing: 0.14em; text-transform: uppercase; color: #8a5a3c; margin: 0 0 0.08in; }
+.family ul { padding-left: 1em; margin: 0; }
+.family li { margin-bottom: 0.35em; }
+.sidebar { margin: 0.3in 0 0.15in; padding: 0.14in 0.18in; background: #f4efe4; font-size: 9.5pt; page-break-inside: auto; }
+.sidebar h3 { font-size: 12pt; margin: 0 0 0.08in; }
+.sidebar p, .sidebar li { text-align: left; }
+.sidebar ul { padding-left: 1em; margin: 0; }
+.facsimile, .photo { margin: 0.35in auto 0; text-align: center; page-break-inside: avoid; }
+.facsimile img { max-height: 4.2in; max-width: 3.4in; box-shadow: 0 1px 6px rgba(0,0,0,0.25); }
+.photo img { max-height: 4.6in; max-width: 4.2in; }
+figcaption { font-size: 8.5pt; font-style: italic; color: #6b6158; margin-top: 0.08in; text-align: center; }
+
+/* back matter */
+.backmatter { page-break-before: always; font-size: 9.5pt; }
+.backmatter h1 { font-size: 20pt; }
+.backmatter h2 { font-size: 12.5pt; margin: 0.3in 0 0.06in; page-break-after: avoid; }
+.backmatter h2 .date { font-style: italic; font-weight: 400; color: #6b6158; font-size: 10pt; margin-left: 0.5em; }
+.backmatter p, .backmatter li { text-align: left; }
+.backmatter ul { padding-left: 1.1em; }
+.backmatter li { margin-bottom: 0.3em; }
+.backmatter .intro { font-style: italic; }
+table { border-collapse: collapse; width: 100%; font-size: 8pt; line-height: 1.3; margin-bottom: 0.2in; }
+th, td { border-bottom: 0.5pt solid #d8cfc3; padding: 3pt 4pt; vertical-align: top; text-align: left; }
+th { font-weight: 600; }
+tr { page-break-inside: avoid; }
+
+/* map (from the website) */
+.letters-map { display: block; width: 100%; height: auto; border: 1px solid #d6c9ae; background: #efe7d6; }
+.letters-map text { paint-order: stroke; stroke: #f7f1e5; stroke-width: 4px; stroke-linejoin: round; }
+.letters-map .map-num { stroke: none; }
+.letters-map .map-inset text { stroke-width: 2.5px; }
+.map-country { font: 600 15px "Plex Mono", monospace; letter-spacing: .3em; fill: #8a8170; }
+.map-vn { fill: #4f5638; }
+.map-trail { font: italic 15px "EB Garamond", serif; fill: #8b5a32; }
+.map-tri path { fill: #5a554b; }
+.map-tri text { font: 13px "Plex Mono", monospace; fill: #5a554b; }
+.map-dist line { stroke: #8b5a32; stroke-width: 1.3; stroke-dasharray: 4 4; }
+.map-dist text { font: italic 15px "EB Garamond", serif; fill: #8b5a32; }
+.map-place circle { fill: #b03a2e; stroke: #f7f1e5; stroke-width: 2.5; }
+.map-num { font: 700 13px "Plex Mono", monospace; fill: #fff; }
+.map-name { font: 600 22px "EB Garamond", serif; fill: #2b2925; }
+.map-note { font: italic 15px "EB Garamond", serif; fill: #5a554b; }
+.map-letters { font: 12px "Plex Mono", monospace; fill: #8b5a32; letter-spacing: .04em; }
+.map-town circle { fill: #f7f1e5; stroke: #2b2925; stroke-width: 1.5; }
+.map-town text { font: 16px "EB Garamond", serif; fill: #5a554b; }
+.map-scale line { stroke: #2b2925; stroke-width: 1.5; }
+.map-scale text, .map-north text { font: 12px "Plex Mono", monospace; fill: #2b2925; }
+.map-north path { fill: #2b2925; }
+.map-inset-label { font: 11px "Plex Mono", monospace; fill: #2b2925; }
+.map-inset-country { font: 9px "Plex Mono", monospace; letter-spacing: .2em; fill: #8a8170; }
+.map-inset-small { font-size: 10px; }
+.map-inset-dmz { font: 9px "Plex Mono", monospace; fill: #b03a2e; }

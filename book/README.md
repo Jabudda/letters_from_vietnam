@@ -11,3 +11,19 @@ Planned structure (from the project brief):
 Nothing about the writer's life after service, or reflections attributed to relatives, is written without family contributions.
 
 Outputs planned: print-ready PDF, digital PDF, EPUB and an editable master manuscript.
+
+## Building the draft
+
+```
+python3 scripts/build_book.py
+```
+
+writes `book/_build/book.html` and `book/_build/letters-from-vietnam-draft.pdf` (6 × 9 in). Needs WeasyPrint and `rsvg-convert` (for the map).
+
+| File | What it holds |
+| --- | --- |
+| `book/book.yml` | Title, cover, dedication, the four parts, sort dates for letters without an exact date, photos placed after letters. |
+| `book/book.css` | Page size, type and layout. |
+| `book/text/*.md` | Front and back matter: why we keep them, a note on this book, historical overview, stories Dad told, epilogue and acknowledgments (placeholders for the family), and an invitation to keep family letters. |
+
+Each letter's chapter is its `reading.md`, then its notes' "Family notes for the chapter" (any `###` subsections become boxed sidebars), then the first page of the scan. Each letter's "Historical notes" go in *Notes on the letters* at the back. Chapter titles come from `title` in `letter.yml`; untitled letters show a marked placeholder until the family chooses titles.

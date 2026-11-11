@@ -1,0 +1,54 @@
+# Book settings. Built by scripts/build_book.py. Edit freely; nothing here is final until the family approves it.
+title: "Letters From Vietnam"
+kicker: "Vietnam · Letters home · A family remembers"
+subtitle: "Dad’s letters home, 1968–1969"
+byline: "Letters by Tom Jafuta · Preserved by Andy & family"
+pdf_name: letters-from-vietnam-draft.pdf
+cover_photo: P006-dad-beach-3.jpg            # draft choice: "The First Days Over Here"
+inside_front_cover:
+  file: images/P009-dad-print-2x3.5in-300dpi.jpg   # Andy, 2026-11-10; printed 2 x 3.5 in
+  caption: "Tom"
+  subcaption: "Thomas P. Jafuta"
+dedication:
+  photo: P001-dad.jpg
+  text: "My inspiration. My mentor.<br>My father."
+  by: "Andy"
+copyright: |
+  Letters, scans and photographs © the family. Shared freely for remembrance; please ask before reusing.
+
+  This book is free and is not for sale.
+
+# Letters left out of the book (Item 014 is a printed church card, not a letter; Andy, 2026-11-10).
+exclude: ["014"]
+
+# Where a letter's date is not exact, the date used only to place it in order (each from its notes and research/timeline.md).
+sort_dates:
+  "005": 1969-06-19   # "June 19th or 20th"
+  "006": 1969-07-02   # undated; late June to early July 1969 by his day count
+  "007": 1969-01-14   # "Sunday, the 14th"; mid-January 1969
+  "008": 1969-05-10   # "May 10" (he wrote 1966)
+  "012": 1969-06-13   # "June 13 or so"
+  "015": 1969-07-03   # undated, to Kathy; "the next 50 some days"
+  "016": 1969-03-04   # "March 4th or 5th"
+  "017": 1969-04-15   # undated; spring 1969
+  "018": 1969-07-09   # "July 9th" (the family letter; the Petey letter is undated)
+  "021": 1969-05-20   # "May 20 or so"
+  "022": 1968-11-18   # mid-November 1968; postmarked 20 November
+  "024": 1969-07-04   # to Petey, June or July 1969, before his August birthday
+  "025": 1969-06-21   # about 21 June; envelope 6/21
+  "027": 1969-06-03   # "June 3 or 4"
+  "033": 1969-02-20   # February or March 1969
+  "044": 1969-06-30   # about 30 June, the same evening as the second part of 047
+  "046": 1969-02-15   # early 1969, before the early out was approved
+  "047": 1969-06-28   # about 28 June, second part about 30 June
+
+# The four parts (titles are a draft; the family may rename them).
+parts:
+  - {id: 1, label: "Part One", title: "Back for a Second Tour", dates: "October – December 1968", from: 1968-10-01, to: 1968-12-31}
+  - {id: 2, label: "Part Two", title: "Winter and Spring", dates: "January – April 1969", from: 1969-01-01, to: 1969-04-30}
+  - {id: 3, label: "Part Three", title: "Ben Het and Dak To", dates: "May – June 1969", from: 1969-05-01, to: 1969-06-30}
+  - {id: 4, label: "Part Four", title: "Going Home", dates: "July – August 1969", from: 1969-07-01, to: 1969-08-31}
+
+# Family photographs placed after a letter.
+photos_after_letters:
+  - {letter: "002", file: P002-dad-and-snoopy.jpg, caption: "Dad with Snoopy (left), his dog in Vietnam. Family photograph, restored."}
