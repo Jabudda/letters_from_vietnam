@@ -4,65 +4,65 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Mom (envelope: June Jafuta)"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "Aug. 8th [possible reading: 9th]"   # exactly as he wrote it
+  place: null   # as written
+  unit: "3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 36 - 42/Letter 42"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0221_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 19643513
       sha256: f1fb14c02dfc49b5dfa399e3c801414cea2a1bb2ce790ddbca7fd534b1a021ca
     - file: "Dads_Vietnam_Letters_0222_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 39563224
       sha256: 56cf4ca307590108944cebeebcf06bb843648abe7d1532f3dfe8369c901ae921
     - file: "Dads_Vietnam_Letters_0223_a.jpg"
-      role: null
-      order: null
+      role: duplicate
+      order: 9
       bytes: 66424461
       sha256: ce17ba5db02ac31ad4a93a99384f4bf3dfd3b00f8aa85cc388041186d3988230
     - file: "Dads_Vietnam_Letters_0223_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 40333465
       sha256: a970f40e1178dbdb8db70dc6e8d45e0d203291fccccc88ac94aebcb4a4a00f6d
     - file: "Dads_Vietnam_Letters_0224_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 39739077
       sha256: 56227ad5a87ed4fef23936b6b8a465571f9fc890da906325f3fe013980e0eed3
     - file: "Dads_Vietnam_Letters_0225_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 39650759
       sha256: 190a8746d957718a5934c8a44662017563fed739bd77b573fc2e6d894bbbfb84
     - file: "Dads_Vietnam_Letters_0226_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 40457916
       sha256: 43616dd61c3efe403837b5eaa2f517bb6628ed10e35b2397ac42eb25a75dbd8d
     - file: "Dads_Vietnam_Letters_0227_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 7
       bytes: 39725509
       sha256: f3f3ce5317aa51d1c4016be0343c774b7e7c31e5edffbad10165e26452505e03
     - file: "Dads_Vietnam_Letters_0228_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 8
       bytes: 38195575
       sha256: da79055bd1dcfe5953c4081fd35f9971d3277b38269ebf72a37c4914211ef590
 
@@ -70,6 +70,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0221_b.jpg", box: [3600, 2650, 7100, 3080], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0221_b.jpg", box: [5900, 3390, 7050, 3680], reason: home ZIP code}
 
-notes: []
+notes:
+  - "8 (or 9) August 1969, to Mom: 'the last letter I'll be writing'. Reading order: 0222, 0224 (2), 0223_b (3), 0226 (4), 0225 (5), 0227 (6), 0228. 0223_a = blank back of 0223_b (show-through)."

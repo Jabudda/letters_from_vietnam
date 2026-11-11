@@ -4,55 +4,55 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "May 13th"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 36 - 42/Letter 39"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0203_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 17354421
       sha256: 0e0dc4fe84908af404115dda5def99bcab4d202730cd770979b78b9ef51bc4c8
     - file: "Dads_Vietnam_Letters_0204_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 44264315
       sha256: fdcefe5f5bb27bd0e3092343087310a26c1726e0959d72486b87c88545bf43b9
     - file: "Dads_Vietnam_Letters_0205_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 39427211
       sha256: 22edf512cead762af41ab9a79ce101213c6c7b6a49301d7fc35eb71a9317401a
     - file: "Dads_Vietnam_Letters_0206_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 38450017
       sha256: 55aaebeda655198e48fe8b21ab59923586e17aecc87a3873da933c202d04b9cd
     - file: "Dads_Vietnam_Letters_0207_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 39277439
       sha256: eb5e738b53b790690d4481ffdfc985b6954354f836247a0a7323008c2b3ab761
     - file: "Dads_Vietnam_Letters_0208_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 44966171
       sha256: e5f3e772d1027bc4edfe612df895f148facc5bec7e09f990d6b1a76f5075bb5a
     - file: "Dads_Vietnam_Letters_0209_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 7
       bytes: 37771654
       sha256: d8e4c0b72c283e0359ff81a9bc4907d1a206428177f0da5e4f9ce2b519cf3f5c
 
@@ -60,6 +60,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0203_b.jpg", box: [3300, 2450, 7450, 3030], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0203_b.jpg", box: [5650, 3380, 7250, 3850], reason: home ZIP code}
 
-notes: []
+notes:
+  - "13 May 1969. Reading order by the text: 0204, 0208 (2), 0205 (3), 0206 (4), 0207, 0209. Steve Dott OK (answers 003); '52 Harley (009 -> 025)."

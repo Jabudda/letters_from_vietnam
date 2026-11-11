@@ -4,50 +4,50 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "June 1st"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 36 - 42/Letter 40"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0210_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 17846401
       sha256: 728d6df2a23721ed2527388fdf2264bc48326c23ad8ebccdd56a28b407c3321e
     - file: "Dads_Vietnam_Letters_0211_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 40296198
       sha256: 83c3850855c26fd62ad739a5cea98433621cc97c400084b0140ccefa3f481c9d
     - file: "Dads_Vietnam_Letters_0212_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 39566673
       sha256: 0a32444adf3cd8ccad3d2e2b53c1ece3432594f43a6be26089a645cf74ffff59
     - file: "Dads_Vietnam_Letters_0213_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 39673142
       sha256: 46e0bdda204d1085c569d45cb0ed4bceb4180d50c36914f5b1ddd7b3054e3d2b
     - file: "Dads_Vietnam_Letters_0214_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 39461092
       sha256: f1c20b86cca4ee0449161d7a886749a69f7f58e25216e1ebb9f3e4be2aa44cf3
     - file: "Dads_Vietnam_Letters_0215_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 39219063
       sha256: fe5a30450e57d6d2e5466d56aa46eff3f65ceea705e2802b909de77ad97d83d3
 
@@ -55,6 +55,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0210_b.jpg", box: [2700, 2700, 6300, 3350], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0210_b.jpg", box: [5550, 3620, 7000, 4150], reason: home ZIP code}
 
-notes: []
+notes:
+  - "1 June 1969 (Sunday; 'Monday (tomorrow)'). Buddha's Birthday cease-fire (30 May 1969). John leaves; Jim's address; early out approved."
