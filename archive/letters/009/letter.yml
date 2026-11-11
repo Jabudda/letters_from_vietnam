@@ -4,40 +4,40 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "May 5th"   # exactly as he wrote it
+  place: null   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 1 - 10/Letter 9"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0046_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 39329198
       sha256: afeb05bc671a28c3902253e3d0391e1ee6ea7f8f6894f956eae8a583018c4b5e
     - file: "Dads_Vietnam_Letters_0047_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 43598908
       sha256: 7a0d0bc58a8001789f7740ae00739b23eb6d2a1c2cc44d0f4474718f7d5deb41
     - file: "Dads_Vietnam_Letters_0048_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 38787450
       sha256: 03b69ade0b43c26edcf0425dcfbc6dabbc6f37003868e3b636740a00b1b0db29
     - file: "Dads_Vietnam_Letters_0049_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 37438113
       sha256: 034e1354d25e517b3885558fd26a5d84cee0a7057fef8e5474d13a1212ddc492
 
@@ -47,4 +47,5 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "No year is written. He writes of \"finally getting out\" and of a \"school out\", which ties this letter to Letter 008 (\"About M.T.C.\")."
