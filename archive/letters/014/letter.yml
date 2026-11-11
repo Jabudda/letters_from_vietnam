@@ -38,5 +38,6 @@ privacy:
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
 notes:
+  - "Per Andy (2026-11-10), this card was tossed in with the letters by someone; it is not one of Dad's letters."
   - "Not a letter: a printed folding card with the order of the Catholic Mass in English (imprimatur Milwaukee, Oct. 7, 1964). No handwriting. The master folder is labelled \"Traveling Religious Service\"."
   - "Scan 0071_a is the outside of the folded card (first panel on the right, last panel on the left); 0071_b is the inside."
