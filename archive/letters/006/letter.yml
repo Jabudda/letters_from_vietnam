@@ -4,50 +4,51 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom + Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
+  date_as_written: null       # the letter is not dated; see notes.md (interpretation: about early July 1969)
   place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  unit: "HHB 3/6 ARTY"        # as written on the envelope return address
 
 source:
   master_folder: "Letter 1 - 10/Letter 6"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0029_a.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      rotate: 270   # scanned sideways; web copy is turned upright
+      order: 1
       bytes: 22420140
       sha256: b7ab861b6fc786a2b4ee3cd3334c97b5b168e072041b47afb3cbbe0e5897f853
     - file: "Dads_Vietnam_Letters_0029_b.jpg"
-      role: null
-      order: null
+      role: envelope-back
+      order: 2
       bytes: 18171029
       sha256: 8ef2f36de137b843398a14d67c13bd68270e6802864a4e765254ba837c810fb8
     - file: "Dads_Vietnam_Letters_0030_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 45262615
       sha256: 4cdd5a655932a3f71abe949cf274ce07ba6f7bf9fa3eed5484120af2e4766466
     - file: "Dads_Vietnam_Letters_0031_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 39694604
       sha256: 630ef32d0f4976bc5411c9b84d5592da53c088367a1d625c64a9c445b5935d22
     - file: "Dads_Vietnam_Letters_0032_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 39222072
       sha256: a07db45e11a334e56e3086db0c68c7c11b64b241a5b3fb1f69e19e92d1912c3a
     - file: "Dads_Vietnam_Letters_0033_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 38073462
       sha256: fe2518770514afd75c95d7f4af5d6a8309eb52801c332155850bd4971ee4988a
 
@@ -55,6 +56,16 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0029_a.jpg", box: [3086, 2939, 3624, 4898], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0029_a.jpg", box: [3306, 1127, 3722, 3037], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0029_a.jpg", box: [4016, 1420, 4359, 2302], reason: home ZIP code}
+    - {file: "Dads_Vietnam_Letters_0029_b.jpg", box: [1459, 4279, 1969, 4760], reason: service number}
+    - {file: "Dads_Vietnam_Letters_0029_b.jpg", box: [1945, 4449, 2334, 4911], reason: service number}
+    - {file: "Dads_Vietnam_Letters_0029_b.jpg", box: [2407, 4740, 2771, 5178], reason: service number}
+    - {file: "Dads_Vietnam_Letters_0029_b.jpg", box: [2796, 5008, 3233, 5494], reason: service number}
+    - {file: "Dads_Vietnam_Letters_0029_b.jpg", box: [3209, 5240, 3744, 5737], reason: service number}
 
-notes: []
+notes:
+  - "Envelope front (0029_a) is stored sideways and carries the family's home address; the back (0029_b) carries Sgt J. A. Theilke's military address with his service number. Address, ZIP and service number are covered in the web images and withheld in the transcription."
+  - "A fold in page 1 (0030_b) hides most of one line; a rescan with the crease flattened may recover it."

@@ -4,50 +4,50 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "May 10, 1966"   # exactly as he wrote it
+  place: "Viet Nam"   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 1 - 10/Letter 8"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0040_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 40429766
       sha256: 46234d7b80b60b1c3cb6feb72d48fda3360fa5f43db1957dd836bc19e1c5a536
     - file: "Dads_Vietnam_Letters_0041_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 39880874
       sha256: 3703580d4acf843330af10183bd3fc757e67610034b9387157426078dcf7fc5f
     - file: "Dads_Vietnam_Letters_0042_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 39429117
       sha256: 90a9dc56f5da175b2c08f6a2b5533641e5c8e2f2aefa431f84de6902e9290ddc
     - file: "Dads_Vietnam_Letters_0043_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 39221402
       sha256: 6cab57c298b45fb5ed984daee5cfb5cad26bf6b5aeeb8cf67777ad845d4c81bc
     - file: "Dads_Vietnam_Letters_0044_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 39498311
       sha256: cdf866133c40f8cdba84f7ad6762a660718a72a077b04aea84933fcc580ad87b
     - file: "Dads_Vietnam_Letters_0045_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 38996870
       sha256: f2f4e609c97bb00553fc2e160a847a8f3dc8bd09d3ba4575974676e60686604f
 
@@ -57,4 +57,5 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "Dated \"May 10, 1966\" in his hand, but the letter says he arrived in Vietnam in '67, so the year as written cannot be right; the true year is for the family to confirm."

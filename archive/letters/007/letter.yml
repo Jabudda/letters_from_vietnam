@@ -4,45 +4,46 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Mom"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "Sunday, the 14th"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 1 - 10/Letter 7"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0034_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      rotate: 90   # stored sideways or upside down; web copy is turned upright
+      order: 1
       bytes: 15855808
       sha256: a218c236c5eeabc505ab870282580fca546a8e34f62a5e6b6c3a2b4de1ae49d7
     - file: "Dads_Vietnam_Letters_0035_a1.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 84661138
       sha256: ccad127281a65264265054ec15e81e792777ca16df08e9111e1de0ef44191cca
     - file: "Dads_Vietnam_Letters_0035_a2.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 87190318
       sha256: b3d4fc88d5ba7474649b16b9c4c4e48fee5b5d3a409ce33d9fa5d2d17975f284
     - file: "Dads_Vietnam_Letters_0036.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 59601441
       sha256: d28b3fa8e9f1ff14ba3f0b9388ec5d59be725166c43dca36d2c9a2af536399bb
     - file: "Dads_Vietnam_Letters_0037.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 84247019
       sha256: bd1ea219938f5701db7bc320c393cc1d221cedcfac00a21ba18cdc38ef2cde6e
 
@@ -50,7 +51,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0034_b.jpg", box: [1096, 2082, 1643, 5853], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0034_b.jpg", box: [382, 4528, 637, 5496], reason: home ZIP code}
 
 notes:
   - "Scan numbers 0038 and 0039 are missing from the sequence (between Letters 7 and 8)."
