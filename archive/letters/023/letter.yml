@@ -4,45 +4,45 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "July 16th"   # exactly as he wrote it
+  place: "Phan Thiet"   # as written
+  unit: "HAB [HHB] 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 20 - 29/Letter 23"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0118_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 29656213
       sha256: fd4f37d8f29eff090157d9cfb62ad850c2226a80bf949c9e1df118847b885965
     - file: "Dads_Vietnam_Letters_0119_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 38289301
       sha256: de179b428ca4ff8ffb2259190456e623cc2f31b668ea82d77e702bcb0fd132d3
     - file: "Dads_Vietnam_Letters_0120_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 38030697
       sha256: 216bf34411b7e258d9168e51ebf6456a380bee1c129c77de288e3c41d3da8077
     - file: "Dads_Vietnam_Letters_0121_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 38359668
       sha256: ccaa025d2d650780f2caa23b76fee54eb7e9d993dde2287c51d8740a66257e29
     - file: "Dads_Vietnam_Letters_0122_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 37827343
       sha256: 8616fcf252f4d85d5967425362206c4892749eed46dad70879e08ad9683dc2e7
 
@@ -50,6 +50,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0118_b.jpg", box: [3400, 4350, 6950, 5000], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0118_b.jpg", box: [5900, 5250, 7350, 5850], reason: home ZIP code}
 
-notes: []
+notes:
+  - "'7/16' in blue ink on the envelope in another hand. '35 DAYS' circled at the end of the letter."

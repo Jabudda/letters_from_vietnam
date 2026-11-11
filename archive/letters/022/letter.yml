@@ -4,50 +4,50 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Mom (envelope: Mrs. June Jafuta)"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: null   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 20 - 29/Letter 22"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0112_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 18997521
       sha256: ac9c8b1b39cb9ce3531f2900d092b2be9e8b84db84571c87b9240619ae5ceb71
     - file: "Dads_Vietnam_Letters_0113_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 40203376
       sha256: d3db4cb129f6e6a62134b0990c9f80cd8b1bd6df80cd63c3c43cf5cfc87098f9
     - file: "Dads_Vietnam_Letters_0114_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 39911565
       sha256: 997c037b1e976008d997c2a035e7e69ffa91a0bfb901ad5c0989228870e82a76
     - file: "Dads_Vietnam_Letters_0115_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 42755432
       sha256: 016b600ee06fc7c8616614e0ca6aa373192a604221010558120345cb1dcb750a
     - file: "Dads_Vietnam_Letters_0116_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 38353604
       sha256: eef6a358478ec24442a8f0453ab52661ab658e0baa3f9a08a0396d11bbf2479a
     - file: "Dads_Vietnam_Letters_0117_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 39421854
       sha256: 08e1ca9e91f69d5c151c6e928f973696396213e44910c9768b298f7f76b875e0
 
@@ -55,6 +55,10 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0112_b.jpg", box: [2150, 3000, 5700, 3600], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0112_b.jpg", box: [5100, 3750, 6250, 4180], reason: home ZIP code}
 
-notes: []
+notes:
+  - "Postmarked ARMY & AIR FORCE POSTAL SERVICE, APO 96318, NOV 20 1968. Verified: written on or before 20 November 1968."
+  - "Reading order by the text: 0113_b, 0116_b ('2' over a blot), 0114_b (also '2'), 0115_b (3), 0117_b (4)."

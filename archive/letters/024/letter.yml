@@ -4,35 +4,35 @@ folder_label: "Petey"   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Petey (envelope: Petey Jafuta (Jr.))"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: null   # exactly as he wrote it
+  place: null   # as written
+  unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 20 - 29/Letter 24_Petey"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0123_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 15682905
       sha256: 14dc6777760dd8684a77a30bf8adb5a022051e5aab21b4d0c22d1c6fecfe0bcc
     - file: "Dads_Vietnam_Letters_0124_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 39529009
       sha256: f0c01737aaf9045070cd0fd2631c8c60bbfb9dceb99256d6c84ee961df86d950
     - file: "Dads_Vietnam_Letters_0125_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 37161489
       sha256: 798b792e91dcf8fddd186a320e39f3fa2b79e83efd76ed048816dfeae9aed055
 
@@ -40,6 +40,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0123_b.jpg", box: [2150, 2620, 6150, 3200], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0123_b.jpg", box: [5200, 3500, 6700, 4050], reason: home ZIP code}
 
-notes: []
+notes:
+  - "Letter to his little brother Petey, written before Petey's August birthday; note to parents at the foot of page 2."

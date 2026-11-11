@@ -4,60 +4,60 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "the day after I heard your wonderful voices (envelope: 6/21)"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HAB [HHB] 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 20 - 29/Letter 25"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0126_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 16860473
       sha256: 66421d4051592830bd007072cf236d4dce5ea8427fc2f65e8698986e4fa29650
     - file: "Dads_Vietnam_Letters_0127_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 29507889
       sha256: 3dd303b2b19f8588b92e87d372eeb6ce8f98900ab4bc92a7ff09ca4383efc5c2
     - file: "Dads_Vietnam_Letters_0128_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 29832311
       sha256: 0fb09436e8a314105b086d8adf01a3f79da614100f241e299827317fb41e837e
     - file: "Dads_Vietnam_Letters_0129_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 29659609
       sha256: fc91ed0dbd4ff97b430295a73e9a77c1ddd3146f796f557963150825ff0deeb6
     - file: "Dads_Vietnam_Letters_0130_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 33806153
       sha256: 0c248deb71ed49011efd1b9f27154e3d6f3336896d75e85c67673dae22b0b5bd
     - file: "Dads_Vietnam_Letters_0131_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 33552906
       sha256: c1e4d9ca2c68d8b0732bdec8433ea14b3fd2a653e0f898c56d1a9fc736d9b619
     - file: "Dads_Vietnam_Letters_0132_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 7
       bytes: 29224617
       sha256: efd4b28428f6cff8fa5b456b6993325d9201bb3a5d47182d794c5276b6b9f6ca
     - file: "Dads_Vietnam_Letters_0133_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 8
       bytes: 27950387
       sha256: 4f2ccbb1082d40bf5a57b8b35c5ba98b12cca2586467d8f32a1d57fd7de4633a
 
@@ -65,6 +65,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0126_b.jpg", box: [2250, 2950, 5500, 3550], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0126_b.jpg", box: [4100, 3700, 5200, 4150], reason: home ZIP code}
 
-notes: []
+notes:
+  - "'6/21' on the envelope in another hand. The MARS phone-patch call from Ben Het/Kontum."

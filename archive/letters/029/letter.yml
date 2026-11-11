@@ -4,60 +4,60 @@ folder_label: "USO Letterhead"   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "Today is Easter (pencil, another hand: EASTER APRIL 6, 1969)"   # exactly as he wrote it
+  place: "Cam Rhan Bay"   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 20 - 29/Letter 29_USO_Letterhead"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0151_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 34428427
       sha256: 94ee541ca33a3c74eddb590bb925bcfad036c41b002b96a0981685ba482c38c7
     - file: "Dads_Vietnam_Letters_0152_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 34317412
       sha256: b4d939b82557bb6faa08a7e39b333cabb786d7b9e3e3a88584d838af5bbcd339
     - file: "Dads_Vietnam_Letters_0153_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 34480868
       sha256: 6a94d89717f00566223cd245c29cb02d1dd018ff3d5a10720a58465c60bd8894
     - file: "Dads_Vietnam_Letters_0154_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 34103035
       sha256: 5aaf15e095c634a9454df2088ba776bfbc223908d1cae2729415038e425d304b
     - file: "Dads_Vietnam_Letters_0155_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 39770380
       sha256: 2c39d1157d585b9bfd7deb93ed5ff8cdc7bf04bfd87db7616f652e64519c8b66
     - file: "Dads_Vietnam_Letters_0155_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 34704410
       sha256: 91851a7d581f4e7ccc31f480cab655e4025b187906ec771129c350140a7a2ddb
     - file: "Dads_Vietnam_Letters_0156_a.jpg"
-      role: null
-      order: null
+      role: page
+      order: 8
       bytes: 43812942
       sha256: 7658c9f8e1a939c9f7f5a30ada5be7cd1c8af1d447beddea94872d0f852b3bc2
     - file: "Dads_Vietnam_Letters_0156_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 7
       bytes: 39400583
       sha256: b72a24e0bb82b6b59b97ce4bd4596e670ab5644c925dd4d017b1582f451cb69c
 
@@ -67,4 +67,5 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "USO letterhead. Easter Sunday 6 April 1969 at Cam Ranh Bay, after waiting since 31 March for R&R to Australia. Names killed soldiers (Brunner, Kruse, Wolf, Del): family approval needed before publishing."
