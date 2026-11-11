@@ -12,7 +12,21 @@ supplied_on: 2026-11-10
 source_file: "received_682193809702153.jpeg, 607 x 1024, sent by Andy in chat (a digital copy; the name suggests it came by Messenger). Where the original print is is unknown."
 publish: approved     # Andy, 2026-11-10: "would be good for the inside front cover of the book"
 use: book, inside front cover
-book_copy: book/images/P009-dad-inside-front-cover.jpg   # as supplied, metadata stripped; not retouched
+book_copy: book/images/P009-dad-inside-front-cover.jpg   # gently color-corrected (see restoration), metadata stripped
+book_copy_original: book/images/P009-dad-original.jpg   # as supplied, metadata stripped
+print_file: book/images/P009-dad-print-2x3.5in-300dpi.jpg   # 600 x 1050 px = 2 x 3.5 in at 300 dpi; trimmed evenly at the sides to that shape
+layout_preview: book/images/inside-front-cover-preview.png   # 6 x 9 in page mock-up; trim size not yet chosen
+layout: >-
+  Andy, 2026-11-10: "We can stick with a 2x3 1/2 picture and use your best judgement for artistic
+  impact." Proposed: the print centered a little above the middle of the inside front cover, with a
+  narrow white border like a snapshot and a soft shadow, and beneath it "Tom" in italic with
+  "Thomas P. Jafuta" below (EB Garamond, as on the website). Caption wording open to change.
+restoration:
+  requested_by: Andy (2026-11-10, "Please gently correct the pictures")
+  done_by: Claude (AI-assisted), 2026-11-10
+  steps:
+    - "Per-channel levels; the pink/magenta cast of the faded print partly neutralized, leaving it slightly warm; a quarter of the original blended back to keep the print's character."
+  not_done: "Nothing was redrawn, added or removed, and no generative AI was used."
 print_note: >-
-  At 607 x 1024 pixels the copy prints sharply only at about 2 x 3.4 inches (300 dpi). A full-page
-  inside cover needs a scan of the original print (600 dpi or more) or the largest copy available.
+  Settled at 2 x 3.5 in (Andy, 2026-11-10), which the copy supports. At 607 x 1024 pixels the copy prints sharply only at about 2 x 3.4 inches (300 dpi). A full-page
+  print would need a scan of the original print (600 dpi or more) or the largest copy available.

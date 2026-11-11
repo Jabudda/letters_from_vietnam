@@ -17,5 +17,12 @@ supplied_by: Andy
 supplied_on: 2026-11-10
 source_file: "received_1908696919312725.jpeg, 2497 x 2048, sent by Andy in chat. Where the original print is is unknown."
 publish: approved     # Andy, 2026-11-10: sent as the award-acceptance picture to go with the clipping (P008)
-web_copy: site/static/photos/P010-award-presentation-1976.jpg   # reduced to 1400 x 1148, metadata stripped, not retouched
+web_copy: site/static/photos/P010-award-presentation-1976.jpg   # gently corrected (see restoration), 1400 x 1148, metadata stripped
+web_copy_original: site/static/photos/P010-award-presentation-1976-original.jpg   # reduced only
+restoration:
+  requested_by: Andy (2026-11-10, "Please gently correct the pictures")
+  done_by: Claude (AI-assisted), 2026-11-10
+  steps:
+    - "Tonal range evened (levels), keeping the print's sepia tone; about half of the original blended back."
+  not_done: "Nothing was redrawn, added or removed, and no generative AI was used."
 related: [P008]
