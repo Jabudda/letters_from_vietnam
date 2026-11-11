@@ -67,7 +67,7 @@ What the Army's own award files say about Operation Dan Quyen (the fight around 
 - **Interpretation:** The records say men of Headquarters Battery went forward to Ben Het and Dak To and ran the convoys. That fits Dad being "up in Ben Het" while his battalion's headquarters was officially on Artillery Hill. It does **not** show what he did there, and he is not one of the men the narrative describes.
 - **Verified fact (family):** Andy remembers Dad saying the NVA around Ben Het numbered roughly 3,000 to 6,000. The Army's estimate of about 5,100 falls within that range.
 - **Not established:** The Valorous Unit Award names Battery A only. Whether Dad was on Battery A's roll in May–June 1969 is unknown.
-  - Dad's own words point that way: "air lift ammo & food to our baty" and "Even our BC from A baty" (047), and ammunition "air lifted to Ben Het to our Battery" (025).
+  - Dad's own words point that way: "air lift ammo & food to our baty" and "Even our BC from A baty" (047), ammunition "air lifted to Ben Het to our Battery" (025), and going "near Ben Het to help our 'A' baty out" (026).
   - His return address in early 1969, though, was HHB 3/6 (interpretation).
   - His personnel file (OMPF) would show his assignments, and whether he was credited with the unit award.
 - **Interpretation:** Letter 002 ("out here at the Oasis", January 1969) and Letter 037 ("LZ Oasis") match the battalion's forward post at LZ Oasis described in the 1968 recommendation.
