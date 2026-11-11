@@ -153,4 +153,4 @@ tr { page-break-inside: avoid; }
 /* Grandma's page */
 .grandma { page: plain; padding-top: 2.2in; text-align: center; }
 .grandma h1 { font-style: italic; font-size: 20pt; margin-bottom: 0.45in; }
-.grandma p { text-align: center; font-size: 13pt; line-height: 1.5; margin: 0 0.25in 0.5em; }
+.grandma p { text-align: center; font-size: 13pt; line-height: 1.5; margin: 0 0.25in 0.5em; hyphens: manual; }
