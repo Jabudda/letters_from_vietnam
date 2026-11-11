@@ -68,6 +68,7 @@ The envelope is addressed in his hand to the Jafuta Family in West Allis, Wiscon
 - **Verified fact (from the letter):** They had "been getting hit with gas lately"; he calls it tear gas, "not harmful but sure the heck irritating".
 - **Verified fact (from the letter):** "about 1,440 hours to go until THE DAY", which is 60 days, and "next month I'll be home". He expected to leave Vietnam around August 1969. Dad served two tours in Vietnam (family); this letter looks ahead to going home.
 - **Verified fact (from the letter):** "Dad knows what I mean cause he was in the same 'boat' many years ago." His father, Peter F. Jafuta, served in the US Army in World War II (VA record; see Letter 004).
+- **Historical context (NARA, 2026-11-10):** Battery A, 3d Battalion, 6th Artillery was at Ben Het (Fire Support Base 12, the North Hill) from 1 May 1969, and from 10 June was under the 6th Battalion, 14th Artillery. See `research/ben-het-1969-records.md`.
 
 ## Family notes for the chapter
 

@@ -31,6 +31,7 @@ The family letter's reading order is 0090_b, 0091_b (2), 0092_b (3, the number c
 | 2026-11-10 | Andy (family), in chat | **Approved:** Eddie's name may be published. Andy: "Dad frequently spoke of Eddie Duane Acoff because Eddie's tagline was 'Give a shit, give a shit, care, care, care.'" Dad's spelling "Acoff" stays in the transcription; the Memorial records spell it "Acuff". |
 | 2026-11-10 | Andy (family), review checklist | Checked off: present the letter to Petey and the July 9th family letter as two separate letters in the book. |
 | 2026-11-10 | Andy (family), in chat | "Petey's Birthday is in August." Applies to "I'll miss your birthday Petey" in the letter to Petey; see question 2. |
+| 2026-11-10 | Andy (family), in chat | "I think Dad refrained from mentioning specifics and mentioned it in one of his letters and joked that the Vietcong likely could not read his handwriting anyway." Specifics meant "pertaining to battles" and "troop movement, etc". The joke matches page 4 of this letter. Recorded as a family note; no change to the transcription. |
 
 ### Reading edition: changes from the diplomatic text
 
@@ -68,11 +69,13 @@ The family letter's reading order is 0090_b, 0091_b (2), 0092_b (3, the number c
 - **Verified fact (from the letter):** "I'll hate leaving all my friends behind... Just because I'll be home doesn't mean that the war (conflict?) will be over. For me - yes - but not for all those who remain here."
 - **Unknown:** The exact date of the letter to Petey (before August, since he expected to miss Petey's August birthday), and Petey's age at the time (the family knows).
 - **Cross-reference (from later letters):** About 28 June 1969 Dad wrote to Grandpa from Dak To, "A good friend of mine (Acoff) died along with others who got all messed up" (Letter 047).
+- **Historical context (NARA, 2026-11-10):** "Back in Pleiku" fits the records: the 3d Battalion, 6th Artillery's headquarters was on Artillery Hill, Pleiku, and men of its Headquarters Battery went forward to Dak To and Ben Het during Operation Dan Quyen (4 May – 28 June 1969). See `research/ben-het-1969-records.md`.
 
 ## Family notes for the chapter
 
 - Andy (2026-11-10): "Dad frequently spoke of Eddie Duane Acoff because Eddie's tagline was 'Give a shit, give a shit, care, care, care.'"
 - Andy (2026-11-10): "Dad saw the horrors of war and never wanted anyone else to endure what he did."
+- Andy (2026-11-10): "I think Dad refrained from mentioning specifics and mentioned it in one of his letters and joked that the Vietcong likely could not read his handwriting anyway." By specifics he meant those "pertaining to battles" and "troop movement, etc". The joke is on page 4 of this letter: "the [VC] NVA will never be able to read this mess anyways. And if they can - big deal hay? Maybe they'll return 'em. HA." (He wrote "VC" above the line, over "NVA".)
 
 ## Privacy review
 

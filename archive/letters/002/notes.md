@@ -118,6 +118,7 @@ The transcription is approved (Andy, 2026-11-10). These questions can be answere
 - **Verified fact (family):** Grandpa's birthday was 13 January, and he turned 49 in January 1969 (family records, supplied by Andy).
 - **Interpretation (year):** Three things point to **1969** rather than 1970. (1) Grandpa turned 49 in January 1969 (family records), and Tom writes "another 49 (or 50) years", leading with 49. (2) Letter 001, dated 21 July 1969, has Tom counting down to leaving his unit in mid to late August 1969; a January 1970 letter would need him back in Vietnam after that, which nothing so far suggests. (3) Letter 001 mentions "last year before I left", and this letter speaks of having been home and come back, which fits a home visit before January 1969. Andy confirmed 22 January 1969 on 2026-11-10.
 - **Unknown:** Nothing in the letter ties it to a particular operation or event, and it should not be linked to any event at the base without other evidence.
+- **Historical context (NARA, 2026-11-10):** The battalion's 1968 award recommendation records that 3/6 Arty ran a forward tactical command post at LZ Oasis, west of Pleiku, and moved its command post there on 8 July 1968. See `research/ben-het-1969-records.md` (source 2).
 
 ## Family notes for the chapter
 
