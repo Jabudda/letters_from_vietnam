@@ -4,7 +4,7 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved for publication by Andy, 2026-11-10 ("Please publish letters 06 - 20"); none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
@@ -55,7 +55,7 @@ source:
 prior_draft: null
 
 privacy:
-  reviewed: false
+  reviewed: true   # envelope addresses and ZIP codes redacted; passages and names cleared by Andy, 2026-11-10 ("Please publish letters 06 - 20"; most people named have passed away)
   redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
     - {file: "Dads_Vietnam_Letters_0029_a.jpg", box: [3086, 2939, 3624, 4898], reason: home street address}
     - {file: "Dads_Vietnam_Letters_0029_a.jpg", box: [3306, 1127, 3722, 3037], reason: home street address}

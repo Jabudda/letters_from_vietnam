@@ -1,0 +1,115 @@
+<!-- Letter 007: diplomatic transcription. Line breaks follow the page. Spelling, punctuation and capitalization as written.
+     Transcribed from the master scans 0034_b (envelope) and 0035_a1, 0035_a2, 0036, 0037 (pages), 2026-11-10.
+     Lined notebook paper, black ink. Status: needs family review. -->
+
+[envelope front; the scan is stored sideways; the back was not scanned]
+T. Jafuta
+HHB 3/6 ARTY
+APO San Francisco
+        96318
+                                        Free
+            Mrs. Peter Jafuta
+            [withheld for privacy]
+            West Allis. Wisconsin
+                [withheld for privacy]
+
+[page 1, numbered "1" in a circle]
+Hi Mom,
+    Just a little note to say "hi" to you.
+Got some time on my hands so decided
+to write some letters today (Sunday, the 14th
+Boy, it sure is hot out today. So how you
+been lately? Real good I hope. Its 11:13 (at
+night) and Im not even tired. Something
+unusual for me. I got a "lead" tonight. On
+how to get a hold of an education place in
+Pleiku somewhere. So the first chance I get
+Ill get in contact with with them. Im
+even kinda excited about it.
+    It sure seems funny that Im 21 now.
+Somebody asked me how old I was today it
+it seemed funny saying I was 21. Guess that
+must be a magic number or something.
+In those 21 years, I feel I sure went through
+alot. Many, many, good times and some bad ones
+such as over here. At times I get [possible reading: so mixed up I]
+don't know what to do, such as what happened
+to me when I was back home. For some
+reason my mind just snapped for awhile. It
+even surprised the heck out of me. I hope it never
+happens again for as long as I live. It
+
+[page 2, numbered "2" in a circle]
+time I feel like Im gonna crack up but then
+I just change my pattern of thinking - real
+fast. I guess its just natural - I think.
+I do some crazy stuff once in awhile and then
+later on wonder why I did it.
+    I sure am glad you are such a great mother.
+You seem to understand me and the rest of us
+kids. If you were like some other mothers
+I know of I don't know how I would be. No
+lie Mom, you [crossed out: t] know the two best mothers
+I ever met were you an [possible reading: Cil]. I just thank
+God I got you for my own mother and
+the wonderful family I have. Im so
+proud of all of you. I know of many guys who
+are ashamed to bring friends to their house.
+Not me though - Im a proud guy when I
+bring someone home and too my family.
+I often think of when death will strike my
+family. It sure makes me sad cause I just
+can't see one of you gone. Ive seen death
+many times but I just can't believe it will
+ever happen to our family. But thats one
+thing that none of us can evade. Thats
+
+[page 3, numbered "3" in a circle]
+why it makes me kinda sad when you write
+that nothing will happen to me cause you
+pray so hard. How would you feel if something
+happens to me. Would you accept it a [possible reading: or] loose
+faith in God. It really worries me that
+you put so much faith in God. Sure its good
+but it worries me on how you would react.
+I think you would face it but it would
+ruin you for a long time. Thats why I never
+want to let nothing happen to me cause
+I love you so. I never did want to let you
+all know I was coming back over here but
+of course you found out. It sure was a
+[crossed out: illegible] shock to me when I read that letter
+you wrote to me down in Oakland. I just
+felt like breaking down and cry. I did when
+I talked to you all on the phone before I
+came here. In so many ways Im too sensitive.
+I don't want to show it but it usually
+comes out. When I first came back from over here
+I wanted to cry (for happiness) so bad but held
+it back. Thats one of my problems. I hold
+things back and let things build up until
+it "explodes". I reason with myself and don't
+
+[page 4, numbered "4" in a circle]
+seek help or advice from others. I have learnt
+ever since that one day when all that tension
+just "exploded" in me while I was at home. Live
+and learn as the old saying goes hay Mom? I
+sure learnt alot in my 21 years, the hard way
+most of the time.
+    Well, Mom, guess Ill close for now and
+write Dad a letter too. Just wanted to say
+thanks again for being so wonderful and under-
+standing with me and everyone + everything else.
+God bless you Mom, and take care of yourself
+for me and the rest of the family. You sure
+are a wonderful Mother and I can't wait
+to see you and the rest of the family again.
+But this time it will be for good hay?
+Thank God. Once again God bless you and
+always remember I love you so much - no [crossed out: t]
+[crossed out: what] matter what ever happens. Bye for
+now.
+                    Your ol' son
+                        Tommy
+                          [a decorative flourish below the signature]

@@ -4,14 +4,14 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: verified   # approved for publication by Andy, 2026-11-10 ("Please publish letters 06 - 20"); none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
   recipient: "Dad, Mom & Kids"
-  date_written: null          # YYYY-MM-DD once established
+  date_written: 1969-08-04    # "Aug. 4"; year 1969 by interpretation (port call Aug 17, ETS 21 Aug 1969; see notes.md)
   date_as_written: "Aug. 4"   # exactly as he wrote it
   place: null   # as written
   unit: "HHB 3/6 ARTY"   # as written (e.g. from the envelope)
@@ -49,11 +49,13 @@ source:
 prior_draft: null
 
 privacy:
-  reviewed: false
+  reviewed: true   # envelope addresses and ZIP codes redacted; passages and names cleared by Andy, 2026-11-10 ("Please publish letters 06 - 20"; most people named have passed away)
   redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
     - {file: "Dads_Vietnam_Letters_0057_b.jpg", box: [2200, 3950, 4950, 4560], reason: home street address}
     - {file: "Dads_Vietnam_Letters_0057_b.jpg", box: [4050, 4760, 5300, 5230], reason: home ZIP code}
     - {file: "Dads_Vietnam_Letters_0057_a.jpg", box: [1990, 330, 2620, 2620], reason: phone number (pencil note on envelope back)}
+    - {file: "Dads_Vietnam_Letters_0057_a.jpg", box: [3250, 1150, 4150, 2150], reason: unexplained number (part 1), withheld until the family knows what it is}
+    - {file: "Dads_Vietnam_Letters_0057_a.jpg", box: [4250, 450, 5200, 1350], reason: unexplained number (part 2), withheld until the family knows what it is}
 
 notes:
   - "_b is the envelope front and _a the envelope back (checked). The envelope back has a later handwritten phone number: redact before publishing."
