@@ -1,0 +1,18 @@
+id: P009
+subject: "Dad (Andy, 2026-11-10)"
+description: >-
+  Color print, faded toward magenta. A man with collar-length hair, a mustache and tinted
+  wire-rimmed glasses, in a dark long-sleeved shirt, sits smiling on a sofa with a dark
+  floral pattern. His arms rest on a small folding table holding a glass.
+date: null            # not established
+place: null           # unknown
+photographer: null    # unknown
+supplied_by: Andy
+supplied_on: 2026-11-10
+source_file: "received_682193809702153.jpeg, 607 x 1024, sent by Andy in chat (a digital copy; the name suggests it came by Messenger). Where the original print is is unknown."
+publish: approved     # Andy, 2026-11-10: "would be good for the inside front cover of the book"
+use: book, inside front cover
+book_copy: book/images/P009-dad-inside-front-cover.jpg   # as supplied, metadata stripped; not retouched
+print_note: >-
+  At 607 x 1024 pixels the copy prints sharply only at about 2 x 3.4 inches (300 dpi). A full-page
+  inside cover needs a scan of the original print (600 dpi or more) or the largest copy available.
