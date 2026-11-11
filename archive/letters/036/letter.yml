@@ -4,50 +4,50 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "March 25, 1969"   # exactly as he wrote it
+  place: "Pleiku, Viet Nam"   # as written
+  unit: null   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 36 - 42/Letter 36"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0186_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 1
       bytes: 39145924
       sha256: 0a404fe52d3474e6012702049935a1a93185e4f6e6a92788bc5368a9fa67006c
     - file: "Dads_Vietnam_Letters_0187_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 38824950
       sha256: f7e87fd117aff78034e1046915ae61365100f02dd2023c76d6a25b1612d8f095
     - file: "Dads_Vietnam_Letters_0188_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 38938018
       sha256: 47605d2f6fc8e1697ad2c1b69841db81355f2a9818140b766541761edb768dec
     - file: "Dads_Vietnam_Letters_0189_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 4
       bytes: 38011348
       sha256: ac0b88f7f8858a2faa30654f149d33cf58eceb9317c73a8fee6b35c68644f243
     - file: "Dads_Vietnam_Letters_0190_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 5
       bytes: 38927011
       sha256: 7bd67457c8e97caa2136d4ec7738fd3afdb6111564c26fa11a1cca73643405c9
     - file: "Dads_Vietnam_Letters_0191_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 6
       bytes: 41478654
       sha256: 6032256ee340b9b9cfb721879788ff5e1dba2a861ecee6dc99ab74b33bc904ec
 
@@ -57,4 +57,5 @@ privacy:
   reviewed: false
   redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
 
-notes: []
+notes:
+  - "Dated in full: March 25, 1969, Pleiku. Red ink. No envelope."

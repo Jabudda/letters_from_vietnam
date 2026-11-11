@@ -4,35 +4,35 @@ folder_label: null   # words in the master folder name, if any
 title: null                  # short descriptive title, set once transcribed
 
 status:
-  transcription: none   # none | prior-draft | in-progress | needs-family-review | verified
+  transcription: needs-family-review   # none | prior-draft | in-progress | needs-family-review | verified
   chapter: not-started        # not-started | drafted | approved
 
 # Facts established from this letter. Leave null until confirmed against the scans.
 details:
   author: Tom Jafuta
-  recipient: null
+  recipient: "Dad, Mom & Kids"
   date_written: null          # YYYY-MM-DD once established
-  date_as_written: null       # exactly as he wrote it
-  place: null                 # as written
-  unit: null                  # as written (e.g. from the envelope)
+  date_as_written: "July 29th"   # exactly as he wrote it
+  place: null   # as written
+  unit: "HAB [HHB] 3/6 ARTY"   # as written (e.g. from the envelope)
 
 source:
   master_folder: "Letter 30 - 35/Letter 35"
   capture: flatbed scan, 1200 dpi
   files:   # role: page | envelope-front | envelope-back | enclosure; order: reading order
     - file: "Dads_Vietnam_Letters_0183_b.jpg"
-      role: null
-      order: null
+      role: envelope-front
+      order: 1
       bytes: 18252336
       sha256: b09e6ca6c82f135c65e2d37e7703b23cb56a98eeab0f4d2d937b6dba75722690
     - file: "Dads_Vietnam_Letters_0184_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 2
       bytes: 39316000
       sha256: 77834cd089ef5681046810c573ccf492893ab1339b0e8db52bfcb2e2c0c8605c
     - file: "Dads_Vietnam_Letters_0185_b.jpg"
-      role: null
-      order: null
+      role: page
+      order: 3
       bytes: 39283699
       sha256: 6bf903ec08922d2a7696f3bae4a4b18cb130eaa361a84e758ef4b63e8641d969
 
@@ -40,6 +40,9 @@ prior_draft: null
 
 privacy:
   reviewed: false
-  redact: []   # e.g. {file: ..., box: [x0, y0, x1, y1], reason: home address}  (pixels of the full-size scan, shown upright)
+  redact:   # boxes in pixels of the full-size scan as stored (upright per EXIF, before rotate)
+    - {file: "Dads_Vietnam_Letters_0183_b.jpg", box: [2300, 2700, 5600, 3080], reason: home street address}
+    - {file: "Dads_Vietnam_Letters_0183_b.jpg", box: [4500, 3460, 5700, 3880], reason: home ZIP code}
 
-notes: []
+notes:
+  - "29 July 1969: might go home 18 Aug instead of 21 Aug. '20 DAYS or 23 days.' in another hand at the foot."
