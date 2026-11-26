@@ -1,0 +1,24 @@
+id: P012
+subject: "Typed citation for the Army Commendation Medal awarded to Specialist Four Thomas P. Jafuta (Dad) for meritorious service, September 1968 – August 1969"
+description: >-
+  One typed page headed "The Army Commendation Medal is awarded to Specialist Four Thomas P. Jafuta,
+  [number withheld], United States Army, for meritorious service: Citation". It names him senior field
+  wireman with Headquarters and Headquarters Battery, 3d Battalion, 6th Artillery, and credits him
+  with the wiring of the battalion base camp area, wiring a new tactical operations center at Landing
+  Zone Oasis, and instructing replacement personnel in the communications section. Handwritten at
+  right: "Original copy. Please return."
+date: null            # the citation itself is undated; it covers September 1968 – August 1969
+place: null
+photographer: null
+document: true        # an Army document, not a photograph
+supplied_by: Andy
+supplied_on: 2026-11-25
+source_file: "Screenshot_20261125_205709_Messenger.jpg (1201 x 2576 phone screenshot of a photo of the citation), sent by Andy in chat. The original is with the family; a full scan is still to be made."
+redaction: "Dad's Social Security number, after his name, was blacked out by Andy before the copy was shared (2026-11-25). Any new scan must cover the same spot."
+handwriting: "Dad's (Andy, 2026-11-25). Why he wrote it is kept in private/family.md."
+transcription_status: "Read from the screenshot by Claude (2026-11-25), for family check."
+publish: approved     # Andy, 2026-11-25: "We can add both to the book and website"
+web_copy: site/static/photos/P012-army-commendation-citation.jpg   # cropped from the screenshot, 1125 x 1404, metadata stripped
+research: research/army-commendation-medal.md
+notes:
+  - "Answers the open question in Letter 004's notes: his job was senior field wireman."

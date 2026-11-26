@@ -1,0 +1,25 @@
+id: P011
+subject: "Army Commendation Medal certificate awarded to Specialist Four Thomas Jafuta (Dad), dated 30 August 1969"
+description: >-
+  Printed Department of the Army certificate with a green ribbon and bronze medal at the top,
+  filled in by typewriter: "Specialist Four Thomas Jafuta, [number withheld], United States Army",
+  "for meritorious achievement in the Republic of Vietnam during the period June 1969 to July 1969",
+  "given under my hand in the city of Washington this thirtieth day of August 1969". Signed by
+  Winant Sidle, Brigadier General, USA, and Stanley R. Resor, Secretary of the Army, with the War
+  Office seal between. Handwritten at top right: "Please return to me. Thank you." (cut off at the
+  right edge in the copy).
+date: 1969-08-30      # as printed on the certificate
+place: null
+photographer: null
+document: true        # an Army document, not a photograph
+supplied_by: Andy
+supplied_on: 2026-11-25
+source_file: "Screenshot_20261125_205702_Messenger.jpg (1201 x 2576 phone screenshot of a photo of the certificate), sent by Andy in chat. The original is with the family; a full scan is still to be made."
+redaction: "Dad's Social Security number, after his name, was blacked out by Andy before the copy was shared (2026-11-25). Any new scan must cover the same spot."
+handwriting: "Dad's (Andy, 2026-11-25). Why he wrote it is kept in private/family.md."
+publish: approved     # Andy, 2026-11-25: "We can add both to the book and website"
+web_copy: site/static/photos/P011-army-commendation-certificate.jpg   # cropped from the screenshot, 1125 x 824, metadata stripped
+research: research/army-commendation-medal.md
+notes:
+  - "The family says Dad received the Army Commendation Medal twice (Andy, 2026-11-25). This certificate (achievement, June–July 1969) and the citation P012 (service, September 1968 – August 1969) may belong to the two different awards. Not established."
+  - "Nothing on the certificate links it to Ben Het or any action. Do not imply one."

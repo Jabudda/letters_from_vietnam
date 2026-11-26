@@ -410,3 +410,8 @@ details.diplomatic .letter-text { margin-top: 1rem; white-space: pre-wrap; }
   .letters-map { min-width: 760px; }
   .map-hint { display: block; }
 }
+
+/* transcript of a typed document, under "His journey" */
+details.transcript { margin-top: 0.6rem; }
+details.transcript summary { cursor: pointer; color: var(--sepia); font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; }
+details.transcript p { font-family: var(--mono); font-size: 0.72rem; line-height: 1.6; letter-spacing: 0.02em; margin: 0.5rem 0 0; }

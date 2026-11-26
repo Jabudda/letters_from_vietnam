@@ -260,7 +260,7 @@ def main():
         toc.append(f'<li><a href="#{anchor}">{label}</a></li>')
     for part in parts_cfg:
         toc.append(f'<li class="part"><a href="#part-{part["id"]}">{html.escape(part["title"])}</a></li>')
-    for anchor, label in [("epilogue", "Epilogue"), ("notes", "Notes on the letters"), ("timeline", "Timeline"),
+    for anchor, label in [("epilogue", "Epilogue"), ("service", "His Army papers"), ("notes", "Notes on the letters"), ("timeline", "Timeline"),
                           ("glossary", "Glossary"), ("people", "People and places"), ("sources", "Sources"),
                           ("ack", "Acknowledgments"), ("invite", "Keep your own family’s letters")]:
         toc.append(f'<li><a href="#{anchor}">{label}</a></li>')
@@ -300,6 +300,9 @@ def main():
         sys.exit(f"Letters outside every part's dates: {missing}")
 
     doc.append(f'<section class="backmatter" id="epilogue">{text("epilogue.md")}</section>')
+    service = (BOOK / "text" / "service.md").read_text()
+    service = re.sub(r"\]\(\.\./\.\./site/static/photos/([^)]+)\)", lambda m: f"]({(PHOTOS / m.group(1)).as_uri()})", service)
+    doc.append(f'<section class="backmatter service" id="service">{md(service)}</section>')
     doc.append(f'<div id="notes">{notes_html(letters)}</div>')
     doc.append(f'<div id="timeline">{timeline_html()}</div>')
     doc.append(f'<div id="glossary">{research_html("glossary.md", "Glossary", drop_cols=("Source",))}</div>')
