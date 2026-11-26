@@ -29,6 +29,7 @@ Published with Andy's approval (2026-11-25: "We can add both to the book and web
 - **Unit.** Verified fact: HHB, 3rd Battalion, 6th Artillery. This matches his return address and the family's confirmation.
 - **The Oasis.** Verified fact: he wired a new TOC at LZ Oasis. This fits Letters 002 ("out here at the Oasis"), 032 and 037 ("LZ Oasis"). Historical context: the battalion ran a forward command post at LZ Oasis from July 1968 (`research/ben-het-1969-records.md`, source 2).
 - **The dates of this tour.** Verified fact: the citation covers September 1968 through August 1969 in Vietnam.
+- **Eddie Acuff.** Verified fact (family): Andy recalls that Eddie Acuff ("Acoff" in the letters) and Dad were in the same unit (2026-11-25). The records agree. Dad's citation puts him in Headquarters and Headquarters Battery, 3d Battalion, 6th Artillery, September 1968 – August 1969, and the Virtual Wall gives SP4 Eddie Duane Acuff's unit as "HHB, 3RD BN, 6TH ARTILLERY, 52ND ARTY GROUP, I FIELD FORCE, USARV" (https://www.virtualwall.org/da/AcuffED01a.htm), killed on 23 June 1969. So they were in the same battery when Eddie died. Nothing here says where Dad was that day, or places him with Eddie when he was killed.
 - **A second award.** Verified fact (family): Dad received a second Army Commendation Medal (Andy, 2026-11-25). Its certificate or citation has not been found yet; Andy is still searching.
 
 ## Cross-check against Army records (2026-11-25)
@@ -67,4 +68,5 @@ Sources: DTIC AD0505158 (https://apps.dtic.mil/sti/tr/pdf/AD0505158.pdf); NARA N
 | 2026-11-25 | Andy | The handwriting on both documents is Dad's, written when he sent them in for a claim (details private). |
 | 2026-11-25 | Andy | The blacked-out number is Dad's Social Security number, redacted by Andy; it must be covered in any web image of the originals. |
 | 2026-11-25 | Andy | Both documents approved for the book and website. |
+| 2026-11-25 | Andy | Eddie Acuff and Dad were in the same unit; the citation and the Virtual Wall both give HHB 3/6 Artillery. |
 | 2026-11-25 | Claude (for family review) | Cross-checked against Army records: signers, unit and LZ Oasis match; the new TOC's date and the award order not found online. |
