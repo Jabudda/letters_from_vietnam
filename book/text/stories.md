@@ -20,9 +20,11 @@ He was burned by his own flare while making a hasty advance towards the rear und
 
 ## Good Citizens
 
-*Milwaukee, 1976*
+*Milwaukee, January 1976*
 
 Back home in Milwaukee, two men chose the wrong car to steal gas from: Dad’s. He and his friend Ronnie “detained” them until the police arrived. The newspaper put it more formally: they “helped capture two thieves who were charged with battery and auto theft.” The details are best left to the imagination. The Milwaukee Police Department honored both with citizen awards of merit. Neither came to collect. Dad and Ronnie were at work, “committed to their jobs and paying the bills,” so Mom (Laura) and Bonnie, Ronnie’s wife, accepted the honors for them. Good citizenship, it seems, did not come with paid time off.
 
 ![The newspaper clipping, kept by the family (excerpt).](../../site/static/photos/P008-citizen-award-1976.jpg){.photo-half}
-![The awards being presented: Mom (Laura) and Bonnie accept for Dad and Ronnie.](../../site/static/photos/P010-award-presentation-1976.jpg){.photo-half}
+![The awards being presented: Mom (Laura) and Bonnie accept for Dad and Ronnie, 27 January 1976.](../../site/static/photos/P010-award-presentation-1976.jpg){.photo-half}
+
+![The Milwaukee Police Department’s letter of 30 January 1976, which sent the family the photograph (street address blacked out).](../../site/static/photos/P013-police-chief-letter-1976.jpg){.photo-half}

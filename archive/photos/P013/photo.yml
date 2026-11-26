@@ -1,0 +1,25 @@
+id: P013
+subject: "Letter from the Milwaukee Police Department to Mr. and Mrs. Thomas P. Jafuta (Dad and Mom), 30 January 1976, sending the photograph taken at the Citizens Award of Merit presentation"
+description: >-
+  Typed letter on City of Milwaukee, Department of Police letterhead (
+  Police Administration Building; "Harold A. Breier, Chief of Police"; Bicentennial seals at the
+  foot). Dated January 30, 1976, addressed to "Mr. and Mrs. Thomas P. Jafuta", East Troy,
+  Wisconsin: "Enclosed is the photograph which was taken at the Citizens Award of Merit
+  presentation in the office of Chief of Police Harold A. Breier on January 27, 1976. Thank you
+  again for your cooperation in this matter." Signed for the Chief by Andrew J. Busalacchi,
+  Captain of Police, Personnel Bureau. "AJB:nf", "Enclosure".
+date: 1976-01-30      # as typed on the letter
+place: Milwaukee, Wisconsin
+photographer: null
+document: true        # a letter, not a photograph
+supplied_by: Andy
+supplied_on: 2026-11-25
+source_file: "Screenshot_20261125_205836_Messenger.jpg (1201 x 2576 phone screenshot of a photo of the letter), sent by Andy in chat. The original is with the family."
+redaction: "The family's 1976 street address and ZIP code are covered in the web copy (docs/privacy.md); city and state are kept."
+publish: approved     # Andy, 2026-11-25: "Please add this to the website and book."
+web_copy: site/static/photos/P013-police-chief-letter-1976.jpg   # cropped from the screenshot, 1104 x 1452, street address and ZIP blacked out, metadata stripped
+related: [P008, P010]
+notes:
+  - "Verified fact: the Citizens Award of Merit presentation was on 27 January 1976, in Chief Breier's office. This dates the clipping P008 (its handwritten month was read as Jan. or June) to January 1976."
+  - "Verified fact (family): P010 (the awards being presented) is the photograph this letter enclosed (Andy, 2026-11-25: \"The photo is confirmed.\")."
+  - "The letter says the presentation was in the Chief's office; it does not say who handed over the awards."

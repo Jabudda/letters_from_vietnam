@@ -5,8 +5,8 @@ description: >-
   behind, reads from a sheet of paper to two women in fur-trimmed winter coats, each holding a
   framed award. Several people sit in the foreground with their backs to the camera; a child
   looks out from behind them.
-date: "1976 (from the clipping, P008; month uncertain)"
-place: Milwaukee (from the clipping; the room is not identified)
+date: 1976-01-27     # the presentation date, from the police letter P013 (Andy, 2026-11-25)
+place: "The office of Chief of Police Harold A. Breier, Milwaukee (P013; this is the photograph that letter enclosed, Andy, 2026-11-25)"
 photographer: null    # unknown
 people: >-
   Andy: "Mom/Laura and Bonnie, Ronnie's wife accepting their awards because Dad and Ronnie were
@@ -25,4 +25,4 @@ restoration:
   steps:
     - "Tonal range evened (levels), keeping the print's sepia tone; about half of the original blended back."
   not_done: "Nothing was redrawn, added or removed, and no generative AI was used."
-related: [P008]
+related: [P008, P013]   # P013: the police letter that enclosed this photograph (confirmed by Andy, 2026-11-25)
