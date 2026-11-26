@@ -21,6 +21,7 @@ The plain envelope, marked with dark smudged rings, is addressed in his hand to 
 | Date | Who | Change |
 | --- | --- | --- |
 | 2026-11-10 | Claude (AI-assisted, for family review) | First transcription, made line by line from the master scans. No earlier draft exists for this letter. |
+| 2026-11-25 | Andy (family), in chat | "There was someone they called Decon and his real name was Terry I believe." Recorded as a family recollection (uncertain: "I believe"). Dad's spelling "Deacon" is unchanged. |
 
 ### Reading edition: changes from the diplomatic text
 
@@ -36,7 +37,7 @@ The plain envelope, marked with dark smudged rings, is addressed in his hand to 
 3. **The PX catalog pages.** "I'm sending a few pages out of this PX catalog… send the money order out of my money and that will be my present to you on your anniversary in Sept." Letter 010 (24 June) asks whether they got "the PX catalog pages", and Letter 008 mentions the Super 8 movie camera. Did the pages survive? What did Grandma and Grandpa choose for their anniversary?
 4. **Grandma and Grandpa's anniversary.** He says it is "in Sept." (Letter 015 had suggested it fell "in or near October".) Can the family confirm the date? (Only if wanted in the book.)
 5. **"Help our 'A' baty out."** "We have to go up around Dak To again tomorrow near Ben Het to help our 'A' baty out. They got 22 men in the hospital since yesterday morning so need replacements." Does the family know whether he went, and for how long? (His next letters, 005 and 025, have him back from Ben Het by 19–20 June.)
-6. **Deacon, Joker, Harry and Den.** "At least we'll get to see Deacon out there"; "I wonder how Joker is doing now. Getting shorter"; "ol' Harry just took the dumb monkey"; "Bet [possible reading: Den] will get drafted pretty soon". Who were they? Deacon, Joker and Harry sound like army friends or nicknames; Den may be someone at home (Dennis, of "Pat & Dennis" in Letter 019?).
+6. **Deacon, Joker, Harry and Den.** "At least we'll get to see Deacon out there"; "I wonder how Joker is doing now. Getting shorter"; "ol' Harry just took the dumb monkey"; "Bet [possible reading: Den] will get drafted pretty soon". Who were they? Deacon, Joker and Harry sound like army friends or nicknames. **Deacon (Andy, 2026-11-25):** "his real name was Terry I believe" (see Letter 034). Den may be someone at home (Dennis, of "Pat & Dennis" in Letter 019?).
 7. **The pets in the hooch.** "3 dogs, 1 monkey & a wounded cat." Was Snoopy one of the three dogs (Letters 002, 006, 008, 016)?
 8. **Readings to check:**
    - "tied by my [possible reading: cot]" (page 1);
@@ -57,7 +58,7 @@ The plain envelope, marked with dark smudged rings, is addressed in his hand to 
 
 ## Family notes for the chapter
 
-(None yet.)
+- Andy (2026-11-25): "There was someone they called Decon and his real name was Terry I believe." (Family recollection; the surname is not known.)
 
 ## Privacy review
 

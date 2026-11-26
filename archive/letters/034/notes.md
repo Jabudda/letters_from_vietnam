@@ -25,6 +25,7 @@ The envelope is the printed "UNITED STATES ARMED FORCES - VIETNAM" kind with a m
 | 2026-11-10 | Andy (family), in chat | "I can confirm he was because he had to burn bodies that had been decomposing." "He was also burned by his own flare while making a hasty advance towards the rear under enemy fire." And the "nibble on this" story. Added to the family notes. |
 | 2026-11-10 | Andy (family), in chat; Claude | Andy's memory that Dad spoke of being surrounded by 3,000–6,000 NVA; Andy's link to the 1/92nd Artillery history. Enemy strength added to the historical notes with sources. |
 | 2026-11-10 | Andy (family), in chat | "Please publish the remaining letters." Transcription approved and published (with "Publish everything, no censorship."). |
+| 2026-11-25 | Andy (family), in chat | "There was someone they called Decon and his real name was Terry I believe." Recorded as a family recollection (uncertain: "I believe"). Dad's spelling "Deacon" is unchanged. |
 
 ### Reading edition: changes from the diplomatic text
 
@@ -37,7 +38,7 @@ The envelope is the printed "UNITED STATES ARMED FORCES - VIETNAM" kind with a m
 
 1. **The date.** "Today is June 18th", "Today is [possible reading: 63] days left in the army at the mostest. … Actually 62 days left". 18 June plus 63 days is 20 August, which fits his ETS of 21 August (Letter 026). So this is **18 June 1969** (interpretation, a strong one). "6/18" on the envelope agrees.
 2. **"We're still up in Ben Het yet."** This is Dad, in his own words, at Ben Het on 18 June 1969, during the siege. Andy (2026-11-10): "I can confirm he was."
-3. **Deacon.** "Deacon and I are living in this old French bunker down near the perimeter." In Letter 026 (7 June) Dad, about to go "up around Dak To again tomorrow near Ben Het to help our 'A' baty out", wrote "At least we'll get to see Deacon out there." Who was Deacon? Does anyone know his real name?
+3. **Deacon.** "Deacon and I are living in this old French bunker down near the perimeter." In Letter 026 (7 June) Dad, about to go "up around Dak To again tomorrow near Ben Het to help our 'A' baty out", wrote "At least we'll get to see Deacon out there." Who was Deacon? **Answered in part (Andy, 2026-11-25):** "There was someone they called Decon and his real name was Terry I believe." His surname is not known.
 4. **"The word is … we're suppose to move to Dak To for a couple week and then back to Pleiku."** Letter 005 (19 or 20 June 1969) has him "up here in Dak To", and Letter 025 (about 21 June) speaks of the men "that came from Ben Het". So the move very likely happened within a day or two (interpretation).
 5. **Vacation in "sunny Wisconsin".** Where did the family go on vacation in summer 1969?
 6. **"Thats what you once said hay Mom?"** Grandma's saying that "time has a way of passing". Does the family remember it?
@@ -59,6 +60,7 @@ The envelope is the printed "UNITED STATES ARMED FORCES - VIETNAM" kind with a m
 - Andy (2026-11-10), on Dad being at Ben Het: "I can confirm he was because he had to burn bodies that had been decomposing."
 - Andy (2026-11-10): "He was also burned by his own flare while making a hasty advance towards the rear under enemy fire." (When and where this happened is not known.)
 - Andy (2026-11-10): "Which led to one of the new guys NFG, complaining about being hungry, Dad lifted up his arm where he received the flare burn, likely 3rd degree, and said \"nibble on this\"." (NFG: soldiers' slang for a newly arrived man.)
+- Andy (2026-11-25): "There was someone they called Decon and his real name was Terry I believe." (Family recollection; the surname is not known.)
 
 ## Privacy review
 

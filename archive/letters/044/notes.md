@@ -22,6 +22,7 @@ Thin airmail paper folded in a block, written in dark blue ink on one side, six 
 | --- | --- | --- |
 | 2026-11-10 | Claude (AI-assisted, for family review) | First transcription from the family's phone photographs, line by line. The earlier typed draft was checked as a second reader only; it differs in many places, and the photographs are followed. |
 | 2026-11-10 | Andy (family), in chat | "Please publish the remaining letters." Transcription approved and published (with "Publish everything, no censorship."). |
+| 2026-11-25 | Andy (family), in chat | "There was someone they called Decon and his real name was Terry I believe." Recorded as a family recollection (uncertain: "I believe"). Dad's spelling "Deacon" is unchanged. |
 
 ### Where this transcription differs from the earlier draft
 
@@ -54,7 +55,7 @@ The earlier draft paraphrases and misreads several key words. The most important
 
 ## Family notes for the chapter
 
-(None yet.)
+- Andy (2026-11-25): "There was someone they called Decon and his real name was Terry I believe." (Family recollection; the surname is not known.)
 
 ## Privacy review
 
